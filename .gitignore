@@ -13,3 +13,9 @@ sc_fractal_field/
 seed_corpus/
 uploads/
 models/
+
+# model artifacts (do not commit)
+*.pt
+*.pth
+*.safetensors
+*.bin
