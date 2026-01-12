@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse, json, os, time, random, subprocess
+from pathlib import Path
+from typing import Dict, List, Any, Iterable, Set
+
+from openai import OpenAI
+
+QDRANT = "http://127.0.0.1:6333"
+COLL = "sc_fractal_field_facts_v1"
+EMB_MODEL = "text-embedding-3-large"
+
+
+
+# Optional domain allowlist: set PASSX_DOMAIN_ALLOWLIST to a text file with one domain per line.
+# Lines starting with '#' are ignored.
+def _load_domain_allowlist() -> set[str] | None:
+    path = os.environ.get("PASSX_DOMAIN_ALLOWLIST", "").strip()
+    if not path:
+        return None
+    p = Path(path)
+    if not p.exists():
+        print(f"PASSX_DOMAIN_ALLOWLIST file not found: {p} (ignoring)")
+        return None
+    allowed: set[str] = set()
+    for ln in p.read_text(encoding="utf-8", errors="replace").splitlines():
+        ln = ln.strip()
+        if not ln or ln.startswith("#"):
+            continue
+        allowed.add(ln)
+    print(f"PASSX_DOMAIN_ALLOWLIST loaded n={len(allowed)} path={p}")
+    return allowed
+
+def _load_allowlist(path: str) -> set[str]:
+    p = Path(path)
+    if not p.exists():
+        raise SystemExit(f"RFF_DOMAIN_ALLOWLIST_FILE missing: {p}")
+    out: set[str] = set()
+    for ln in p.read_text(encoding="utf-8", errors="replace").splitlines():
+        ln = ln.strip()
+        if ln and not ln.startswith("#"):
+            out.add(ln)
+    return out
+
+
+# Optional coverage ledger (only used if RFF_LEDGER_DB is set)
+# Load by file path so it works regardless of how this script is invoked.
+import importlib.util as _importlib_util
+
+def _load_ledger_module():
+    led_path = Path(__file__).resolve().with_name("rff_coverage_sqlite_v0.py")
+    if not led_path.exists():
+        return None
+    spec = _importlib_util.spec_from_file_location("rff_coverage_sqlite_v0", str(led_path))
+    if not spec or not spec.loader:
+        return None
+    mod = _importlib_util.module_from_spec(spec)
+    spec.loader.exec_module(mod)  # type: ignore[attr-defined]
+    return mod
+
+led = _load_ledger_module()
+def iter_jsonl(path: Path) -> Iterable[dict]:
+    with path.open("r", encoding="utf-8") as f:
+        for ln in f:
+            ln = ln.strip()
+            if ln:
+                yield json.loads(ln)
+
+
+def write_jsonl_append(path: Path, obj: dict):
+    with path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
+
+def qdrant_search(vec: List[float], domain: str, limit: int) -> List[dict]:
+    body = {
+        "vector": vec,
+        "limit": limit,
+        "with_payload": True,
+        "with_vector": False,
+        "filter": {"must": [{"key": "domain", "match": {"value": domain}}]},
+    }
+    out = subprocess.check_output(
+        [
+            "curl", "-sS", "-X", "POST",
+            f"{QDRANT}/collections/{COLL}/points/search",
+            "-H", "Content-Type: application/json",
+            "-d", json.dumps(body),
+        ],
+        text=True,
+    )
+    data = json.loads(out)
+    return (data.get("result") or [])
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--field_dir", required=True, help="PassM′ output dir (passMprime_v0_...)")
+    ap.add_argument("--out_root", default="/home/ubuntu/resse-core/fm_teacher/runs")
+    ap.add_argument("--n_concepts", type=int, default=100)
+    ap.add_argument("--queries_per_concept", type=int, default=3)
+    ap.add_argument("--hits_per_query", type=int, default=15)
+    ap.add_argument("--max_members", type=int, default=30)
+    ap.add_argument("--seed", type=int, default=7)
+    args = ap.parse_args()
+
+    random.seed(args.seed)
+
+    # Optional domain allowlist (restrict sampling universe)
+    allowlist_file = os.environ.get("RFF_DOMAIN_ALLOWLIST_FILE", "").strip()
+    allow_doms = None
+    if allowlist_file:
+        allow_doms = _load_allowlist(allowlist_file)
+        print(f"RFF_DOMAIN_ALLOWLIST enabled file={allowlist_file} n={len(allow_doms)}")
+
+    # Optional coverage ledger (coverage-first sampling)
+    ledger_db = os.environ.get("RFF_LEDGER_DB", "").strip()
+    led_ok = (
+        led is not None
+        and all(hasattr(led, fn) for fn in ("open_db", "get_seen_set", "mark_expanded"))
+    )
+    use_ledger = bool(ledger_db) and led_ok
+
+    conn = None
+    seen: Set[str] = set()
+    if use_ledger:
+        # coverage+fairness: prefer lower n_expansions, then older last_seen_ts, then random tie-break
+        if conn is not None and led is not None and hasattr(led, 'get_expansion_stats'):
+            _stats = led.get_expansion_stats(conn)  # type: ignore[attr-defined]
+            exp_stats = {cid: (int(n), int(ts)) for cid, (n, ts) in _stats.items()}
+        else:
+            # fallback: treat anything in seen-set as visited once, last_seen=0
+            exp_stats = {cid: (1, 0) for cid in seen}
+
+        scored = []
+        for cid in cids_all:
+            n, ts = exp_stats.get(cid, (0, 0))
+            scored.append((n, ts, random.random(), cid))
+
+        scored.sort(key=lambda x: (x[0], x[1], x[2]))
+        cids = [cid for (_n, _ts, _r, cid) in scored[: args.n_concepts]]
+
+        unseen_used = sum(1 for cid in cids if exp_stats.get(cid, (0, 0))[0] == 0)
+        min_n = min((exp_stats.get(cid, (0, 0))[0] for cid in cids), default=0)
+        max_n = max((exp_stats.get(cid, (0, 0))[0] for cid in cids), default=0)
+        min_ts = min((exp_stats.get(cid, (0, 0))[1] for cid in cids), default=0)
+        max_ts = max((exp_stats.get(cid, (0, 0))[1] for cid in cids), default=0)
+        print(f"RFF_LEDGER sampling picked={len(cids)} unseen_used={unseen_used} min_n={min_n} max_n={max_n} min_ts={min_ts} max_ts={max_ts}")
+    ts = time.strftime("%Y%m%d_%H%M%S")
+    run_dir = Path(args.out_root) / f"passX_mini_v0_{ts}"
+    clusters_dir = run_dir / "clusters_by_domain_passX"
+    clusters_dir.mkdir(parents=True, exist_ok=True)
+
+    client = OpenAI(timeout=90.0)
+
+    made = 0
+    expanded_n = 0
+
+    for cid in cids:
+        dom = concept[cid]["domain"]
+        canon_text = concept[cid]["canonical_text"]
+        rq = (by_cid[cid].get("retrieval_queries") or [])[: args.queries_per_concept]
+        if not rq:
+            continue
+
+        emb_model = os.environ.get("PASSX_EMB_MODEL", EMB_MODEL)
+
+        def _embed(model_name: str):
+            return client.embeddings.create(model=model_name, input=rq)
+
+        # embed queries (resilient): do not kill the whole iteration on transient failures
+        try:
+            emb = _embed(emb_model)
+        except Exception as e:
+            code = getattr(e, "status_code", None)
+            msg = str(e).lower()
+
+            # If model access is denied (403), skip this concept (do NOT crash iter).
+            if code == 403 or "permission" in msg:
+                print(f"PASSX_EMB_403_SKIP concept_id={cid} domain={dom} model={emb_model}")
+                continue
+
+            transient = code in (429, 500, 502, 503, 504) or any(
+                s in msg for s in ("timeout", "timed out", "readtimeout", "overloaded", "rate limit", "connection")
+            )
+            if transient:
+                ok = False
+                for attempt in range(1, 7):
+                    time.sleep(min(30.0, (2 ** (attempt - 1)) + random.random()))
+                    try:
+                        emb = _embed(emb_model)
+                        ok = True
+                        break
+                    except Exception:
+                        continue
+                if not ok:
+                    print(f"PASSX_EMB_TRANSIENT_GIVEUP concept_id={cid} domain={dom} model={emb_model} rq_n={len(rq)}")
+                    continue
+            else:
+                raise
+
+        vecs = [d.embedding for d in emb.data]
+
+        # search each query, dedupe by fact_id
+        seen_fact = set()
+        members = []
+        for v in vecs:
+            hits = qdrant_search(v, dom, args.hits_per_query)
+            for h in hits:
+                payload = h.get("payload") or {}
+                fid = payload.get("fact_id") or h.get("id")
+                if not fid or fid in seen_fact:
+                    continue
+                seen_fact.add(fid)
+                txt = payload.get("text") or ""
+                if not txt:
+                    continue
+                members.append(
+                    {
+                        "text": txt,
+                        "fact_id": fid,
+                        "dup_group_id": payload.get("dup_group_id") or payload.get("fingerprint"),
+                    }
+                )
+                if len(members) >= args.max_members:
+                    break
+            if len(members) >= args.max_members:
+                break
+
+        # Mark ledger as "expanded" once we've actually attempted retrieval for this concept.
+        if use_ledger and conn is not None:
+            led.mark_expanded(conn, cid, dom, str(field_dir))  # type: ignore[attr-defined]
+            expanded_n += 1
+            if expanded_n % 200 == 0:
+                conn.commit()
+
+        # write cluster record into domain file
+        if members:
+            out_path = clusters_dir / f"{dom}.jsonl"
+            rec = {
+                "seed_fact_id": f"passx::{cid}",
+                "seed_payload": {"text": canon_text},
+                "members": members,
+                "meta": {
+                    "source_field_dir": str(field_dir),
+                    "concept_id": cid,
+                    "domain": dom,
+                    "retrieval_queries": rq,
+                },
+            }
+            write_jsonl_append(out_path, rec)
+            made += 1
+
+    if use_ledger and conn is not None:
+        conn.commit()
+        conn.close()
+
+    print("WROTE_RUN_DIR", str(run_dir))
+    print("CLUSTERS_DIR", str(clusters_dir))
+    print("clusters_written", made)
+    print("\nNext step (run PassC on expansion clusters):")
+    print(
+        f'python3 /home/ubuntu/resse-core/fm_teacher/scripts/eval_passC_prompt_v0.py --clusters_dir "{clusters_dir}" '
+        f'--domains "$(ls -1 {clusters_dir}/*.jsonl | sed \'s#.*/##; s#\\.jsonl$##\' | paste -sd, -)" '
+        f'--n_per_domain 999999 --system_prompt_file /home/ubuntu/resse-core/fm_teacher/prompts/passC_system_v0.txt '
+        f'--schema_file /home/ubuntu/resse-core/fm_teacher/schemas/passC_schema_v0.json'
+    )
+
+
+if __name__ == "__main__":
+    main()

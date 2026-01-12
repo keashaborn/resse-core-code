@@ -1,0 +1,347 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import importlib.util
+import json
+import time
+from pathlib import Path
+from typing import Any, Dict, List, Tuple
+
+from openai import OpenAI
+
+
+ROOT = Path(__file__).resolve().parents[1]  # .../fm_teacher
+
+
+def load_map(map_path: Path) -> Dict[str, Dict[str, Any]]:
+    out: Dict[str, Dict[str, Any]] = {}
+    with map_path.open("r", encoding="utf-8", errors="replace") as f:
+        for ln in f:
+            ln = ln.strip()
+            if not ln:
+                continue
+            rec = json.loads(ln)
+            cid = rec.get("custom_id")
+            if cid:
+                out[str(cid)] = rec
+    return out
+
+
+def import_passc_validator():
+    """
+    Load validate_obj() from scripts/eval_passC_prompt_v0.py without requiring package imports.
+    """
+    passc_path = ROOT / "scripts" / "eval_passC_prompt_v0.py"
+    spec = importlib.util.spec_from_file_location("pc", str(passc_path))
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Could not import validator from {passc_path}")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)  # type: ignore[attr-defined]
+    return mod
+
+
+def file_text(client: OpenAI, file_id: str) -> str:
+    """
+    Download a Files API object as text.
+    openai-python returns a BinaryResponseContent with .text; keep fallbacks to be safe.
+    """
+    content = client.files.content(file_id)
+    if hasattr(content, "text"):
+        return content.text  # type: ignore[attr-defined]
+    if hasattr(content, "read"):
+        b = content.read()  # type: ignore[attr-defined]
+        if isinstance(b, (bytes, bytearray)):
+            return b.decode("utf-8", errors="replace")
+    return str(content)
+
+
+def extract_response_output_text(resp_body: Any) -> str:
+    """
+    Extract assistant text from a Responses API response body.
+    Prefer output_text if present; otherwise walk output[] content[].
+    """
+    if not isinstance(resp_body, dict):
+        return ""
+
+    ot = resp_body.get("output_text")
+    if isinstance(ot, str) and ot.strip():
+        return ot.strip()
+
+    out = resp_body.get("output")
+    if not isinstance(out, list):
+        return ""
+
+    chunks: List[str] = []
+    for item in out:
+        if not isinstance(item, dict):
+            continue
+        content = item.get("content")
+        if not isinstance(content, list):
+            continue
+        for c in content:
+            if not isinstance(c, dict):
+                continue
+            t = c.get("text")
+            if isinstance(t, str) and t.strip():
+                chunks.append(t.strip())
+            elif isinstance(t, dict):
+                v = t.get("value")
+                if isinstance(v, str) and v.strip():
+                    chunks.append(v.strip())
+    return "\n".join(chunks).strip()
+
+
+def build_facts_context(meta: Dict[str, Any]) -> Tuple[str, str, int, Dict[int, str], List[int]]:
+    """
+    Returns: (domain, cluster_id, k, facts_by_i, presented_idx)
+    This is tolerant to slightly different map.jsonl schemas.
+    """
+    domain = str(meta.get("domain") or meta.get("dom") or "")
+    cluster_id = str(
+        meta.get("cluster_id")
+        or meta.get("cluster")
+        or meta.get("cluster_uuid")
+        or meta.get("id")
+        or ""
+    )
+
+    k_raw = meta.get("k", 6)
+    try:
+        k = int(k_raw)
+    except Exception:
+        k = 6
+
+    facts_by_i: Dict[int, str] = {}
+    presented_idx: List[int] = []
+
+    # Preferred: explicit mapping
+    ftbi = meta.get("facts_text_by_i")
+    if isinstance(ftbi, dict):
+        for kk, vv in ftbi.items():
+            try:
+                facts_by_i[int(kk)] = str(vv)
+            except Exception:
+                continue
+        presented_idx = sorted(facts_by_i.keys())
+        return domain, cluster_id, k, facts_by_i, presented_idx
+
+    # Common: list of {"i":..., "text":...}
+    facts = meta.get("facts")
+    if isinstance(facts, list) and facts:
+        if isinstance(facts[0], dict):
+            for f in facts:
+                if not isinstance(f, dict):
+                    continue
+                i = f.get("i")
+                txt = f.get("text") or f.get("fact") or f.get("value")
+                if i is None or txt is None:
+                    continue
+                try:
+                    facts_by_i[int(i)] = str(txt)
+                except Exception:
+                    continue
+            presented_idx = sorted(facts_by_i.keys())
+        elif isinstance(facts[0], str):
+            facts_by_i = {i: str(t) for i, t in enumerate(facts)}
+            presented_idx = list(facts_by_i.keys())
+
+    pi = meta.get("presented_idx") or meta.get("presented")
+    if not presented_idx and isinstance(pi, list):
+        try:
+            presented_idx = [int(x) for x in pi]
+        except Exception:
+            presented_idx = []
+
+    return domain, cluster_id, k, facts_by_i, presented_idx
+
+
+def parse_args():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--run_dir", required=True, help="batch run dir containing batch_id.txt and map.jsonl")
+    ap.add_argument("--batch_id", default="", help="override batch id (else read run_dir/batch_id.txt)")
+    ap.add_argument("--poll", action="store_true", help="poll until completed/failed")
+    ap.add_argument("--poll_s", type=int, default=30)
+    return ap.parse_args()
+
+
+def main():
+    a = parse_args()
+    run_dir = Path(a.run_dir)
+    if not run_dir.exists():
+        raise FileNotFoundError(str(run_dir))
+
+    batch_id = a.batch_id.strip()
+    if not batch_id:
+        batch_id = (run_dir / "batch_id.txt").read_text(encoding="utf-8").strip()
+
+    map_path = run_dir / "map.jsonl"
+    if not map_path.exists():
+        raise FileNotFoundError(str(map_path))
+
+    id_to_meta = load_map(map_path)
+    pc = import_passc_validator()
+    client = OpenAI()
+
+    status = None
+    output_file_id = None
+    error_file_id = None
+
+    while True:
+        b = client.batches.retrieve(batch_id)
+        status = getattr(b, "status", None)
+        output_file_id = getattr(b, "output_file_id", None)
+        error_file_id = getattr(b, "error_file_id", None)
+        batch_obj_id = getattr(b, "id", None)
+
+        print(
+            "batch_id", batch_obj_id,
+            "status", status,
+            "output_file_id", output_file_id,
+            "error_file_id", error_file_id,
+        )
+
+        if not a.poll:
+            break
+        if status in ("completed", "failed", "cancelled", "expired"):
+            break
+        time.sleep(a.poll_s)
+
+    out_dir = run_dir / "collected"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    if status != "completed":
+        print("NOT_COMPLETED; nothing to collect")
+        if error_file_id:
+            err_txt = file_text(client, str(error_file_id))
+            (out_dir / "error.jsonl").write_text(err_txt, encoding="utf-8")
+            print("wrote_error_file", str(out_dir / "error.jsonl"))
+        return
+
+    if not output_file_id:
+        print("MISSING output_file_id")
+        return
+
+    out_txt = file_text(client, str(output_file_id))
+    raw_out_path = out_dir / "output.jsonl"
+    raw_out_path.write_text(out_txt, encoding="utf-8")
+    print("wrote_raw_output", str(raw_out_path))
+
+    ok_path = out_dir / "ok.jsonl"
+    bad_path = out_dir / "bad.jsonl"
+
+    ok = 0
+    bad = 0
+
+    with ok_path.open("w", encoding="utf-8") as okf, bad_path.open("w", encoding="utf-8") as badf:
+        for ln_no, ln in enumerate(out_txt.splitlines(), 1):
+            ln = ln.strip()
+            if not ln:
+                continue
+
+            try:
+                env = json.loads(ln)
+            except Exception as e:
+                bad += 1
+                badf.write(json.dumps({
+                    "error": f"batch_envelope_json_parse_error:{type(e).__name__}",
+                    "line_no": ln_no,
+                    "raw_line_prefix": ln[:500],
+                }, ensure_ascii=False) + "\n")
+                continue
+
+            custom_id = str(env.get("custom_id") or "")
+            meta = id_to_meta.get(custom_id)
+            if not meta:
+                bad += 1
+                badf.write(json.dumps({
+                    "custom_id": custom_id,
+                    "error": "missing_custom_id_mapping",
+                }, ensure_ascii=False) + "\n")
+                continue
+
+            resp = env.get("response") or {}
+            status_code = resp.get("status_code")
+            body = resp.get("body") or {}
+            env_err = env.get("error")
+
+            domain, cluster_id, k, facts_by_i, presented_idx = build_facts_context(meta)
+
+            # Hard failure from Batch API
+            if env_err or status_code != 200:
+                bad += 1
+                badf.write(json.dumps({
+                    "domain": domain,
+                    "cluster_id": cluster_id,
+                    "custom_id": custom_id,
+                    "facts": meta.get("facts"),
+                    "raw": "",
+                    "obj": None,
+                    "validation_errors": [
+                        f"batch_status_code:{status_code}",
+                        f"batch_error:{env_err}",
+                    ],
+                }, ensure_ascii=False) + "\n")
+                continue
+
+            text = extract_response_output_text(body)
+
+            obj = None
+            parse_err = ""
+            if text:
+                try:
+                    obj = json.loads(text)
+                    if not isinstance(obj, dict):
+                        raise ValueError("model_output_not_object")
+                except Exception as e:
+                    obj = None
+                    parse_err = f"model_json_parse_error:{type(e).__name__}:{str(e)[:160]}"
+            else:
+                parse_err = "empty_model_output"
+
+            if obj is None:
+                bad += 1
+                badf.write(json.dumps({
+                    "domain": domain,
+                    "cluster_id": cluster_id,
+                    "custom_id": custom_id,
+                    "facts": meta.get("facts"),
+                    "raw": text,
+                    "obj": None,
+                    "validation_errors": [parse_err],
+                }, ensure_ascii=False) + "\n")
+                continue
+
+            # If the map lacks facts context, don't crash: record as bad with a clear error.
+            if not facts_by_i or not presented_idx:
+                errs = ["missing_facts_context_for_validation"]
+            else:
+                errs = pc.validate_obj(
+                    obj,
+                    k=int(k),
+                    presented_idx=presented_idx,
+                    facts_text_by_i=facts_by_i,
+                )
+
+            rec = {
+                "domain": domain,
+                "cluster_id": cluster_id,
+                "custom_id": custom_id,
+                "facts": meta.get("facts"),
+                "raw": text,
+                "obj": obj,
+                "validation_errors": errs,
+            }
+
+            if errs:
+                bad += 1
+                badf.write(json.dumps(rec, ensure_ascii=False) + "\n")
+            else:
+                ok += 1
+                okf.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+    print(f"COLLECT_DONE ok={ok} bad={bad} out_dir={out_dir}")
+
+
+if __name__ == "__main__":
+    main()

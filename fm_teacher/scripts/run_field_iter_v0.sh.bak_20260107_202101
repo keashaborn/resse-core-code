@@ -1,0 +1,418 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# One iteration orchestrator for Relational Fact Field (RFF)
+# Runs: PassX -> PassC -> salvage -> PassM(v1) -> PassM' -> PassX-link -> PassG merge -> update _current pointers
+
+ROOT="/home/ubuntu/resse-core/fm_teacher"
+VENV="/home/ubuntu/resse-core/venv/bin/activate"
+
+# Optional per-run overrides (lets us change PASSC_* without restarting loop tmux)
+OVERRIDE_ENV="$ROOT/.env/run_field_iter_override.sh"
+if [[ -f "$OVERRIDE_ENV" ]]; then
+  # shellcheck disable=SC1090
+  source "$OVERRIDE_ENV"
+fi
+
+PASSX_PY="$ROOT/scripts/passX_expand_mini_v0.py"
+# PassC implementation (override via env PASSC_PY)
+PASSC_PY="${PASSC_PY:-$ROOT/scripts/eval_passC_prompt_v0.py}"
+export PASSC_PY
+
+# Parallelism knobs (only used by v1_parallel script)
+PASSC_WORKERS="${PASSC_WORKERS:-1}"
+PASSC_PRINT_EVERY="${PASSC_PRINT_EVERY:-25}"
+PASSC_FLUSH_EVERY="${PASSC_FLUSH_EVERY:-10}"
+
+PASSM_PY="$ROOT/scripts/passM_materialize_v1.py"
+PASSMPRIME_PY="$ROOT/scripts/passMprime_normalize_v0.py"
+PASSXLINK_PY="$ROOT/scripts/passX_link_v0.py"
+PASSG_PY="$ROOT/scripts/passG_merge_v0.py"
+
+PASSC_PROMPT="$ROOT/prompts/passC_system_v0.txt"
+PASSC_SCHEMA="$ROOT/schemas/passC_schema_v0.json"
+
+# Defaults
+N_CONCEPTS=1000
+QUERIES_PER_CONCEPT=3
+HITS_PER_QUERY=15
+MAX_MEMBERS=30
+RUN_TAG="iter"
+KEEP_CROSS_SELF_LOOPS_DROPPED=true
+
+usage() {
+  cat <<EOF
+Usage: $0 [--n_concepts N] [--queries_per_concept N] [--hits_per_query N] [--max_members N] [--tag TAG]
+EOF
+}
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --n_concepts) N_CONCEPTS="$2"; shift 2;;
+    --queries_per_concept) QUERIES_PER_CONCEPT="$2"; shift 2;;
+    --hits_per_query) HITS_PER_QUERY="$2"; shift 2;;
+    --max_members) MAX_MEMBERS="$2"; shift 2;;
+    --tag) RUN_TAG="$2"; shift 2;;
+    -h|--help) usage; exit 0;;
+    *) echo "Unknown arg: $1"; usage; exit 2;;
+  esac
+done
+
+ts() { date +%Y%m%d_%H%M%S; }
+
+echo "=== RUN_FIELD_ITER_V0 START $(date -Is) ==="
+echo "n_concepts=$N_CONCEPTS queries_per_concept=$QUERIES_PER_CONCEPT hits_per_query=$HITS_PER_QUERY max_members=$MAX_MEMBERS tag=$RUN_TAG"
+
+source "$VENV"
+cd "$ROOT"
+
+# -------------------------
+# Global lock: prevent concurrent iterations
+# -------------------------
+LOCK_DIR="$ROOT/.locks"
+mkdir -p "$LOCK_DIR"
+LOCK_FILE="$LOCK_DIR/run_field_iter_v0.lock"
+exec 9>"$LOCK_FILE"
+if ! flock -n 9; then
+  echo "ERROR: run_field_iter_v0 already running (lock: $LOCK_FILE)" >&2
+  exit 11
+fi
+echo "LOCK_ACQUIRED $LOCK_FILE"
+
+
+BASE_DIR="$(readlink -f "$ROOT/field/_current/MERGED")"
+echo "BASE_DIR=$BASE_DIR"
+
+# -------------------------
+# PassX: build expansion clusters
+# -------------------------
+PASSX_LOG="/tmp/passX_${RUN_TAG}_$(ts).log"
+python3 -u "$PASSX_PY" \
+  --field_dir "$BASE_DIR" \
+  --n_concepts "$N_CONCEPTS" \
+  --queries_per_concept "$QUERIES_PER_CONCEPT" \
+  --hits_per_query "$HITS_PER_QUERY" \
+  --max_members "$MAX_MEMBERS" \
+  | tee "$PASSX_LOG"
+
+PASSX_RUN_DIR="$(awk '/^WROTE_RUN_DIR /{p=$2} END{print p}' "$PASSX_LOG")"
+CLUSTERS_DIR="$(awk '/^CLUSTERS_DIR /{p=$2} END{print p}' "$PASSX_LOG")"
+echo "PASSX_RUN_DIR=$PASSX_RUN_DIR"
+echo "CLUSTERS_DIR=$CLUSTERS_DIR"
+
+DOMS="$(ls -1 "$CLUSTERS_DIR"/*.jsonl | sed 's#.*/##; s#\.jsonl$##' | paste -sd, -)"
+echo "DOMS=$DOMS"
+
+# -------------------------
+# PassC: structure expansion clusters
+# -------------------------
+PASSC_LOG="/tmp/passC_${RUN_TAG}_$(ts).log"
+PASSC_ARGS=()
+if [[ "$PASSC_PY" == *"v1_parallel"* ]]; then
+  PASSC_ARGS+=(--workers "$PASSC_WORKERS" --print_every "$PASSC_PRINT_EVERY" --flush_every "$PASSC_FLUSH_EVERY")
+fi
+
+python3 -u "$PASSC_PY" \
+  --clusters_dir "$CLUSTERS_DIR" \
+  --domains "$DOMS" \
+  --n_per_domain 999999 \
+  --system_prompt_file "$PASSC_PROMPT" \
+  --schema_file "$PASSC_SCHEMA" \
+  "${PASSC_ARGS[@]}" \
+  | tee "$PASSC_LOG"
+
+PASSC_DIR="$(awk '/^WROTE /{p=$2} END{print p}' "$PASSC_LOG")"
+echo "PASSC_DIR=$PASSC_DIR"
+export PASSC_DIR
+
+# -------------------------
+# Salvage any remaining bad rows deterministically (no model calls)
+# - downgrade contradicts (non-explicit) -> refines
+# - fix support endpoints for edges
+# -------------------------
+python3 - <<'PY'
+import json, pathlib, re, importlib.util
+
+PASSC_DIR = pathlib.Path(__import__("os").environ.get("PASSC_DIR",""))
+SCRIPT = __import__("os").environ.get("PASSC_PY") or "/home/ubuntu/resse-core/fm_teacher/scripts/eval_passC_prompt_v0.py"
+if not PASSC_DIR.exists():
+    raise SystemExit(f"PASSC_DIR missing: {PASSC_DIR}")
+
+spec = importlib.util.spec_from_file_location("pc", SCRIPT)
+pc = importlib.util.module_from_spec(spec); spec.loader.exec_module(pc)
+
+NEG = re.compile(r"\b(not|no|never|cannot|can't|does not|do not|is not|isn't|aren't|without)\b", re.I)
+DEP_CUES = re.compile(r"\b(require|requires|required|depend|depends|need|needs|must|assume|assumes|only if)\b", re.I)
+
+ok_path = PASSC_DIR/"ok.jsonl"
+bad_path = PASSC_DIR/"bad.jsonl"
+
+bad_rows = [json.loads(ln) for ln in bad_path.read_text(encoding="utf-8").splitlines() if ln.strip()]
+if not bad_rows:
+    print("salvage_bad_rows=0 (nothing to do)")
+    raise SystemExit(0)
+
+def fix_support_endpoints(obj: dict) -> int:
+    edges = obj.get("edge_candidates") or []
+    if not isinstance(edges, list):
+        return 0
+    changed = 0
+    for e in edges:
+        if not isinstance(e, dict):
+            continue
+        si, di = e.get("src_i"), e.get("dst_i")
+        sup = e.get("support_i_list")
+        if not isinstance(sup, list):
+            continue
+        new = []
+        for x in sup:
+            if isinstance(x, int) and x not in new:
+                new.append(x)
+        if isinstance(si, int) and si not in new:
+            new.insert(0, si)
+        if isinstance(di, int) and di not in new:
+            new.insert(1 if (new and new[0]==si) else 0, di)
+        if len(new) > 3:
+            keep = []
+            for x in [si, di]:
+                if isinstance(x, int) and x in new and x not in keep:
+                    keep.append(x)
+            for x in new:
+                if x not in keep:
+                    keep.append(x)
+                if len(keep) >= 3:
+                    break
+            new = keep
+        if new != sup:
+            e["support_i_list"] = new
+            changed += 1
+    return changed
+
+def downgrade_contradicts(obj: dict, facts_text_by_i: dict[int,str]) -> int:
+    edges = obj.get("edge_candidates") or []
+    if not isinstance(edges, list):
+        return 0
+    changed = 0
+    for e in edges:
+        if not isinstance(e, dict):
+            continue
+        if e.get("rel_type") != "contradicts":
+            continue
+        si, di = e.get("src_i"), e.get("dst_i")
+        if not isinstance(si, int) or not isinstance(di, int):
+            continue
+        st = facts_text_by_i.get(si, "") or ""
+        dt = facts_text_by_i.get(di, "") or ""
+        if not (NEG.search(st) or NEG.search(dt)):
+            e["rel_type"] = "refines"
+            changed += 1
+    return changed
+
+
+def downgrade_depends_on(obj: dict, facts_text_by_i: dict[int,str]) -> int:
+    # downgrade depends_on to refines when dependency language is not explicit in dst
+    edges = obj.get("edge_candidates") or []
+    if not isinstance(edges, list):
+        return 0
+    changed = 0
+    for e in edges:
+        if not isinstance(e, dict):
+            continue
+        if e.get("rel_type") != "depends_on":
+            continue
+        di = e.get("dst_i")
+        if not isinstance(di, int):
+            continue
+        dst_txt = facts_text_by_i.get(di, "") or ""
+        # depends_on must be explicit in dst text; otherwise downgrade to refines
+        if not DEP_CUES.search(dst_txt):
+            e["rel_type"] = "refines"
+            changed += 1
+    return changed
+
+fixed = 0
+kept_bad = []
+with ok_path.open("a", encoding="utf-8") as okf:
+    for r in bad_rows:
+        obj = r.get("obj")
+        if not isinstance(obj, dict):
+            kept_bad.append(r); continue
+        facts_list = r.get("facts") or []
+        facts_by_i = {f["i"]: f["text"] for f in facts_list if isinstance(f, dict) and isinstance(f.get("i"), int)}
+        presented = list(facts_by_i.keys())
+
+        _ = fix_support_endpoints(obj)
+        _ = downgrade_contradicts(obj, facts_by_i)
+        _ = downgrade_depends_on(obj, facts_by_i)
+
+        errs_after = pc.validate_obj(obj, k=6, presented_idx=presented, facts_text_by_i=facts_by_i)
+        if not errs_after:
+            r["obj"] = obj
+            r["validation_errors"] = []
+            r["raw"] = json.dumps(obj, ensure_ascii=False, indent=2)
+            okf.write(json.dumps(r, ensure_ascii=False) + "\n")
+            fixed += 1
+        else:
+            r["validation_errors"] = errs_after
+            kept_bad.append(r)
+
+bad_path.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in kept_bad), encoding="utf-8")
+
+ok_lines = sum(1 for _ in ok_path.open("r", encoding="utf-8"))
+bad_lines = sum(1 for _ in bad_path.open("r", encoding="utf-8"))
+print(f"salvage_bad_rows_in={len(bad_rows)} fixed={fixed} remaining_bad={len(kept_bad)} ok_lines={ok_lines} bad_lines={bad_lines}")
+PY
+
+# -------------------------
+# PassM v1: materialize
+# -------------------------
+PASSM_LOG="/tmp/passM_${RUN_TAG}_$(ts).log"
+python3 "$PASSM_PY" \
+  --passc_eval_dir "$PASSC_DIR" \
+  --run_tag "passM_v1_${RUN_TAG}" \
+  | tee "$PASSM_LOG"
+
+PASSM_DIR="$(awk '/^WROTE /{p=$2} END{print p}' "$PASSM_LOG")"
+echo "PASSM_DIR=$PASSM_DIR"
+
+# -------------------------
+# PassM′: normalize
+# -------------------------
+PASSMPRIME_LOG="/tmp/passMprime_${RUN_TAG}_$(ts).log"
+python3 "$PASSMPRIME_PY" \
+  --in_dir "$PASSM_DIR" \
+  --run_tag "passMprime_${RUN_TAG}" \
+  | tee "$PASSMPRIME_LOG"
+
+PASSMPRIME_DIR="$(awk '/^WROTE /{p=$2} END{print p}' "$PASSMPRIME_LOG")"
+echo "PASSMPRIME_DIR=$PASSMPRIME_DIR"
+
+# -------------------------
+# PassX-link: connect src_concept_id -> dst_concept_id
+# -------------------------
+PASSXLINK_LOG="/tmp/passXlink_${RUN_TAG}_$(ts).log"
+python3 "$PASSXLINK_PY" \
+  --passx_run_dir "$PASSX_RUN_DIR" \
+  --exp_field_dir "$PASSMPRIME_DIR" \
+  --run_tag "passXlink_${RUN_TAG}" \
+  | tee "$PASSXLINK_LOG"
+
+LINK_DIR="$(awk '/^WROTE /{p=$2} END{print p}' "$PASSXLINK_LOG")"
+echo "LINK_DIR=$LINK_DIR"
+
+# -------------------------
+# PassX-link v1: score/filter cross-links
+# -------------------------
+SCORED_LOG="/tmp/passXlink_v1_${RUN_TAG}_$(ts).log"
+python3 /home/ubuntu/resse-core/fm_teacher/scripts/passX_link_v1.py \
+  --merged_field_dir "$BASE_DIR" \
+  --cross_in "$LINK_DIR/concept_edges_cross.jsonl" \
+  --run_tag "passXlink_v1_${RUN_TAG}" \
+  | tee "$SCORED_LOG"
+SCORED_DIR="$(awk '/^WROTE /{p=$2} END{print p}' "$SCORED_LOG")"
+echo "SCORED_DIR=$SCORED_DIR"
+
+# -------------------------
+# PassG merge: base + exp + cross-links
+# -------------------------
+PASSG_LOG="/tmp/passG_${RUN_TAG}_$(ts).log"
+python3 "$PASSG_PY" \
+  --base_dir "$BASE_DIR" \
+  --exp_dir "$PASSMPRIME_DIR" \
+  --cross_edges "$LINK_DIR/concept_edges_cross.jsonl" \
+  --cross_edges_scored "$SCORED_DIR/concept_edges_cross_scored.jsonl" \
+  --run_tag "passG_${RUN_TAG}" \
+  | tee "$PASSG_LOG"
+
+MERGED_DIR="$(awk '/^WROTE /{p=$2} END{print p}' "$PASSG_LOG")"
+echo "MERGED_DIR=$MERGED_DIR"
+
+# -------------------------
+# Quality gate BEFORE updating _current pointers
+# Prevents poisoning _current/MERGED if cross-linking degrades or goes empty.
+# -------------------------
+: "${MERGED_DIR:?MERGED_DIR not set}"
+: "${PASSC_DIR:?PASSC_DIR not set}"
+: "${LINK_DIR:?LINK_DIR not set}"
+: "${PASSMPRIME_DIR:?PASSMPRIME_DIR not set}"
+
+MAX_CROSS_FLAG_RATE="0.02"                 # target
+# require at least ~10% cross edges, but scale for small runs
+MIN_CROSS_EDGES=$(( N_CONCEPTS / 10 ))
+if [[ "$MIN_CROSS_EDGES" -lt 5 ]]; then MIN_CROSS_EDGES=5; fi
+if [[ "$MIN_CROSS_EDGES" -gt 50 ]]; then MIN_CROSS_EDGES=50; fi
+if [[ "$MIN_CROSS_EDGES" -gt "$N_CONCEPTS" ]]; then MIN_CROSS_EDGES="$N_CONCEPTS"; fi
+
+AUDIT_OUT="$(python3 "$ROOT/scripts/passXlink_audit_v0.py" \
+  --field_dir "$MERGED_DIR" \
+  --min_jacc 0.08 \
+  --show 0
+)"
+echo "$AUDIT_OUT"
+
+CROSS_TOTAL="$(echo "$AUDIT_OUT" | awk '/^total_cross_edges /{print $2}' | tail -n 1)"
+CROSS_FLAGGED="$(echo "$AUDIT_OUT" | awk '/^flagged_low_similarity /{print $2}' | tail -n 1)"
+CROSS_RATE="$(echo "$AUDIT_OUT" | awk '/^flag_rate /{print $2}' | tail -n 1)"
+
+python3 - <<PY
+import sys, math
+total = int("$CROSS_TOTAL" or 0)
+flagged = int("$CROSS_FLAGGED" or 0)
+rate = float("$CROSS_RATE" or 1.0)
+
+min_edges = int("$MIN_CROSS_EDGES")
+target_max = float("$MAX_CROSS_FLAG_RATE")
+
+# Soft gate:
+# - hard fail only if cross_edges is too low (signals broken linking)
+# - otherwise WARN on flag_rate exceedance, but do not abort iteration
+if total < min_edges:
+    print(f"QUALITY_GATE_FAIL: cross_edges={total} < min_required={min_edges}")
+    sys.exit(1)
+
+if rate > target_max:
+    # warn only
+    print(f"QUALITY_GATE_WARN: flag_rate={rate} > target={target_max} (flagged={flagged}, total={total})")
+    sys.exit(0)
+
+print(f"QUALITY_GATE_OK cross_edges={total} flagged={flagged} flag_rate={rate} (min_required={min_edges}, target={target_max})")
+sys.exit(0)
+PY
+
+
+# -------------------------
+# Update _current pointers
+# -------------------------
+mkdir -p "$ROOT/field/_current" "$ROOT/evals/_current"
+ln -sfn "../$(basename "$PASSC_DIR")"       "$ROOT/evals/_current/PASSC_LATEST"
+ln -sfn "../$(basename "$PASSMPRIME_DIR")"  "$ROOT/field/_current/EXP_LATEST"
+ln -sfn "../$(basename "$LINK_DIR")"        "$ROOT/field/_current/LINKS_LATEST"
+ln -sfn "../$(basename "$MERGED_DIR")"      "$ROOT/field/_current/MERGED"
+
+# Manifest
+MANIFEST="$MERGED_DIR/manifest.json"
+python3 - <<PY
+import json, pathlib
+m = {
+  "base_dir": "$BASE_DIR",
+  "passx_run_dir": "$PASSX_RUN_DIR",
+  "clusters_dir": "$CLUSTERS_DIR",
+  "passc_dir": "$PASSC_DIR",
+  "passm_dir": "$PASSM_DIR",
+  "passmprime_dir": "$PASSMPRIME_DIR",
+  "link_dir": "$LINK_DIR",
+  "merged_dir": "$MERGED_DIR",
+  "n_concepts": $N_CONCEPTS,
+  "queries_per_concept": $QUERIES_PER_CONCEPT,
+  "hits_per_query": $HITS_PER_QUERY,
+  "max_members": $MAX_MEMBERS,
+}
+pathlib.Path("$MANIFEST").write_text(json.dumps(m, indent=2), encoding="utf-8")
+print("WROTE_MANIFEST", "$MANIFEST")
+PY
+
+echo "=== RUN_FIELD_ITER_V0 DONE $(date -Is) ==="
+echo "MERGED_DIR=$MERGED_DIR"
+echo "Pointers:"
+ls -lah "$ROOT/field/_current" || true
+ls -lah "$ROOT/evals/_current" || true

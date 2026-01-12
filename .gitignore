@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.tar.gz
+
+# large data/workspace dirs (do not version)
+corpora/
+archive/
+archive_old_datasets/
+exports/
+results/
+sc_fractal_field/
+seed_corpus/
+uploads/
+models/

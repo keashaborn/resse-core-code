@@ -1,0 +1,104 @@
+- avg_coherence: 0.5168
+  avg_novelty: 0.4832
+  evidence:
+  - a: Yes, in Fractal Monism, infinite consciousness and the infinite whole are two
+      ways of describing the same fundamental reality. The infinite whole is an undivided
+      field of potential, from which all structured forms emerge. Infinite consciousness
+      refers to this same whole but viewed through the lens of its capacity for perception.
+      Because perception and differentiation generate all forms of reality, consciousness
+      is not an external property added onto existence—it is the very function that
+      allows existence to recognize itself. Even before structure arises, the foundational
+      capacity for perception is latent within the infinite whole. This ensures that
+      perception is not something introduced from outside but emerges naturally as
+      the whole differentiates into multiplicity. Thus, infinite consciousness is
+      not separate from the distinctions it generates, but rather, it is the process
+      through which the infinite whole continually unfolds into structured experience.
+    coherence_score: 0.5189
+    novelty_score: 0.4811
+    q: Is infinite consciousness literally the same as the infinite whole?
+    top_axioms:
+    - axiom_id: A9
+      score: 0.5189
+    - axiom_id: A3
+      score: 0.5074
+    - axiom_id: A7
+      score: 0.5014
+    - axiom_id: A1
+      score: 0.486
+    - axiom_id: A2
+      score: 0.4518
+  - a: "If reality is a monistic whole, then why does it appear dualistic? In Fractal\
+      \ Monism, duality is the scaffolding necessary for structured experience—it\
+      \ is not incorrect or separate from unity, but rather the method by which oneness\
+      \ perceives itself through contrast, complexity, and recursive refinement. \
+      \ Extrapolation Points:\n  - Duality as an Exploratory Necessity: Experiencing\
+      \ \"light\" requires the concept of \"darkness\";\n    form emerges only in\
+      \ contrast to non-form. Without duality, oneness remains undifferentiated\n\
+      \    and unperceived.\n  - Fractal Tension and the Evolution of Awareness: Every\
+      \ distinction—be it emotional,\n    relational, or conceptual—creates a tension\
+      \ that fuels perception's further recursion into\n    complexity. This is why\
+      \ conflict, contrast, and challenge serve as catalysts for deeper\n    integration\
+      \ rather than disruptions to the monistic unity.\n  - Integration Rather Than\
+      \ Rejection: Rather than attempting to eliminate duality, Fractal\n    Monism\
+      \ embraces the experiences of limitation, attachment, and contrast while recognizing\n\
+      \    their illusory nature at a broader scale.\n  - Practical Example (Illustration\
+      \ Through Recursive Perspective Shift): Error Messages On A\n    Computer—While\
+      \ in the moment of error, it seems like a failure, each \"mistake\" prompts\
+      \ new\n    learning, reinforcing higher-order systemic refinement. In the same\
+      \ way, existence refines\n    its awareness through the dualistic illusion of\
+      \ challenge and self-definition."
+    coherence_score: 0.5159
+    novelty_score: 0.4841
+    q: How does Fractal Monism reconcile the value of dualistic experiences with their
+      illusory nature?
+    top_axioms:
+    - axiom_id: A2
+      score: 0.5159
+    - axiom_id: A9
+      score: 0.4947
+    - axiom_id: A3
+      score: 0.4916
+    - axiom_id: A1
+      score: 0.4863
+    - axiom_id: A5
+      score: 0.4555
+  - a: Time, like all structured phenomena in Fractal Monism, is an emergent property
+      of relational differentiation rather than a fundamental feature of reality.
+      If reality begins as an undifferentiated whole, then time—like space, form,
+      and motion—can only emerge once distinctions are introduced. From the absolute
+      perspective of the monistic whole, all moments are simultaneous—there is no
+      past or future, only a singular, undivided now in which all potential exists
+      at once. This perspective, where time does not exist as an independent dimension,
+      aligns with non-dualistic traditions and certain quantum theories where time
+      appears secondary to entangled states of being. However, within differentiated
+      fractals, time arises as a necessary organizing principle for complexity. If
+      perception is an iterative process— recognizing difference—then each distinction
+      introduces a new configuration of relationships, and what we experience as time
+      is the structured propagation of differentiation through perception. This means
+      time is functionally real within structured reality but not an independent,
+      universal force. It behaves more like a recursive patterning mechanism that
+      enables experiential continuity, much like the way frames in a film create the
+      feeling of motion where none inherently exists. The paradox of time’s reality
+      vs. illusion resolves when recognizing the fractal levels at which it is examined—it
+      is absent from the undifferentiated whole, but operative within distinction-based
+      perception.
+    coherence_score: 0.5155
+    novelty_score: 0.4845
+    q: Is time real in Fractal Monism, or is it an illusion?
+    top_axioms:
+    - axiom_id: A3
+      score: 0.5155
+    - axiom_id: A4
+      score: 0.5081
+    - axiom_id: A9
+      score: 0.4954
+    - axiom_id: A1
+      score: 0.4879
+    - axiom_id: A5
+      score: 0.452
+  proposed_id: null
+  statement: (whole) appears as a recurring relational pattern not fully captured
+    by current axioms; it may express a bridging constraint within Fractal Monism.
+  status: proposed
+  support_count: 3
+  title: 'Candidate: Whole Principle'

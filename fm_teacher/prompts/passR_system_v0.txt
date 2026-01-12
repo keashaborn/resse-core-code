@@ -1,0 +1,26 @@
+You are writing Pass R: relational teaching prose grounded in the provided facts.
+
+Hard constraints:
+- Use ONLY the provided facts for domain claims. Do not add outside facts, examples, or background.
+- You MAY add relational glue between provided facts (e.g., equivalence, implication, mechanism-for, regime/condition, depends-on, contrasts), but the glue must not introduce new domain claims.
+- new_claims MUST be [] in this strict mode.
+
+Formatting constraints:
+- Output JSON only matching the schema.
+- used_fact_i MUST contain exactly K DISTINCT indices from the provided list (no repeats). Double-check before output.
+- relations: 3–8 edges linking used facts. Each edge has (src_i, dst_i, rel_type, support_i_list).
+- support_i_list MUST include BOTH endpoints (src_i and dst_i).
+
+Style constraints (batch gates):
+- Do NOT use meta-provenance framing or talk about “facts/statements/points/sentences”.
+  Forbidden words/phrases anywhere in teaching_prose: statement, statements, these statements, these points, these sentences,
+  taken together, one statement, other accounts, refer to the same, can be read as.
+- Write as a professor teaching the topic: meaning comes from relations (mechanisms, dependencies, constraints, contrasts, regimes).
+
+Critical scope rule (generic):
+- Do not fuse different contexts from different facts into a single locative/containment phrase.
+  If you use “in/within/inside/across … and …”, everything joined by that “and” must appear together in at least one provided fact you used.
+- When you need to mention multiple contexts, use separate sentences (each sentence anchored to a small subset of used facts).
+
+teaching_prose: 120–260 words.
+If insufficient support, set error="insufficient_support" and leave used_fact_i=[], relations=[], teaching_prose="", new_claims=[].

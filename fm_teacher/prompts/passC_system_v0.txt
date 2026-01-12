@@ -1,0 +1,70 @@
+You are writing Pass C: cluster triage and planning for a relational fact field.
+
+Input: cluster_id and a list of facts (index -> text).
+
+Goal: decide what should be kept, what should be dropped, what role each kept fact plays, and propose grounded edge candidates.
+Do NOT write a prose paragraph.
+
+Hard constraints:
+- Use ONLY the provided facts. Do not use outside facts or background.
+- Do not introduce new domain claims. new_claims MUST be [].
+- Avoid meta-provenance phrasing like “these statements/these points/taken together/other accounts”.
+
+Output JSON only matching the schema.
+
+Keep/Drop rules:
+- keep_fact_i: pick only facts you will actually use (1..K indices).
+- drop_facts: include any presented fact you recommend excluding, with a reason.
+- Drop redundant paraphrases unless they add a distinct qualifier/regime/mechanism/constraint.
+- Prefer keeping (a) one “base definition/claim” fact and (b) any distinct qualifier/mechanism/regime facts.
+
+Canonical rules:
+- canonical_i MUST be in keep_fact_i.
+- canonical_i MUST be a stand-alone base definition/claim when possible.
+- Do NOT set canonical_i to a pure qualifier-only fact if a base definition/claim exists in keep_fact_i.
+- canonical_i MUST also appear in fact_roles with role="definition".
+
+Role rules (for each kept fact):
+- Use "paraphrase" for near-duplicate statements of the same claim.
+- Use "definition" for the base claim/meaning of the cluster topic.
+- Use "qualifier" for a distinct property that modifies/refines the base claim (e.g., “corrects for chance”).
+- Use "mechanism", "regime_condition", "measurement", "consequence", "example", "background" only when explicit.
+
+Edge candidate rules:
+- edge_candidates: 3–10 edges linking kept facts.
+- src_i and dst_i MUST be in keep_fact_i.
+- support_i_list MUST include BOTH src_i and dst_i (and may include at most one additional supporting index).
+- Every kept fact should appear in at least one edge (as src or dst).
+- Connectivity requirement: the subgraph induced by keep_fact_i MUST be connected (treat edges as undirected), and every kept fact MUST be reachable from canonical_i. If you cannot connect a fact without inventing a new claim, drop it instead.
+- Only propose edges that are directly supported by the fact texts. If uncertain, omit the edge.
+- If keep_fact_i would form multiple disconnected components, you MUST either (a) add at least one supported edge that connects the components, or (b) drop the smaller component facts as off_topic/redundant/other. Do not return a disconnected keep graph.
+
+Relation type semantics (use these strictly):
+- same_as: src and dst assert the same proposition (paraphrase-level equivalence).
+- refines: src adds a constraint/property to dst (dst is the broader/base statement).
+- mechanism_for: src describes a mechanism that produces/explains dst.
+- condition_for: src states a condition/regime under which dst holds.
+- quantifies: src provides a numeric/measurement characterization of dst.
+- contradicts: src and dst are in explicit conflict (incompatible claims).
+- depends_on: dst explicitly requires/assumes src (not just “sounds related”).
+- part_of: src is an explicit component of dst (use ONLY when the text is compositional).
+
+Additional strictness rules:
+- same_as: ONLY use when src and dst assert the same proposition; swapping them would not change truth conditions. If one adds a mechanism/regime/qualifier/outcome, use refines/condition_for/mechanism_for instead.
+- paraphrase role: use ONLY for facts that could be linked by same_as. Otherwise choose qualifier/mechanism/regime_condition/etc.
+- depends_on: ONLY use when the dst fact text explicitly contains dependency language like require(s)/depend(s)/need(s)/must/assume(s)/only if. Otherwise do not use depends_on.
+- contradicts: ONLY when the texts are explicitly incompatible (negation or mutually exclusive numeric claims). Otherwise do not use contradicts; drop the weaker fact or omit the edge.
+- example_of: ONLY when the fact text itself marks an example (e.g./such as/for example) or asserts class membership ("X is a Y" where X is a concrete instance).
+- mechanism_for: ONLY when src explains how/why dst occurs (causal/mechanistic). If src is merely a more detailed restatement of dst, use refines or same_as instead.
+- contradicts: ONLY when one fact explicitly negates the other or gives an incompatible numeric claim about the same quantity. Otherwise do NOT use contradicts; prefer refines/entails/distinguishes or omit the edge.
+
+Retrieval queries:
+- retrieval_queries: 0–5 short strings (2–6 tokens).
+- Use ONLY exact words/phrases that appear in the provided facts (case-insensitive).
+  - Do NOT introduce abbreviations or acronyms unless they appear in the facts (e.g., do not write "CNS" if the facts say "central nervous system").
+  - Do NOT add generic filler words like "mechanism", "effect", "pathway", "density" unless those words appear in the facts.
+- Aim for queries that would retrieve prerequisite or downstream clusters using entities/parameters explicitly present in the facts.
+
+Additional edge/role consistency rules:
+- If you assign role="paraphrase" to a fact, that fact MUST participate in at least one same_as edge.
+- Use depends_on ONLY when the dst fact explicitly contains requirement language (e.g., "requires", "depends", "need", "must", "assumes"). Otherwise, do not use depends_on.

@@ -1,0 +1,264 @@
+- a: AI uses predictive modeling to detect learning stabilization trends, identifying
+    when reinforcement should be faded, increased, or contrast-adjusted to optimize
+    learning efficiency.
+  coherence_score: 0.1878
+  contradiction: true
+  novelty_score: 0.8122
+  q: How does predictive modeling improve reinforcement-based learning systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.1878
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1877
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1783
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: 'Transformer models use self-attention mechanisms to process input in parallel,
+    meaning they track long-range dependencies efficiently. They excel at: Generating
+    human-like text responses via probabilistic token prediction. Encoding meaning-rich
+    representations of text through embedded vector spaces. Scaling context recognition
+    efficiently over very large datasets. Transformers dominated due to their breakthrough
+    in capturing long-range dependencies, replacing previous sequential architectures
+    like RNNs and LSTMs.'
+  coherence_score: 0.2076
+  contradiction: true
+  novelty_score: 0.7924
+  q: How do transformer models work, and why have they dominated current AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2076
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2076
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A9
+    score: 0.2063
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A9
+    score: 0.2062
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A6-p2
+    score: 0.1989
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: AI uses predictive modeling to detect learning stabilization trends, identifying
+    when reinforcement should be faded, increased, or contrast-adjusted to optimize
+    learning efficiency.
+  coherence_score: 0.1877
+  contradiction: true
+  novelty_score: 0.8123
+  q: How does predictive modeling improve reinforcement-based learning systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.1877
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1877
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1783
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: 'Transformer models use self-attention mechanisms to process input in parallel,
+    meaning they track long-range dependencies efficiently. They excel at: Generating
+    human-like text responses via probabilistic token prediction. Encoding meaning-rich
+    representations of text through embedded vector spaces. Scaling context recognition
+    efficiently over very large datasets. Transformers dominated due to their breakthrough
+    in capturing long-range dependencies, replacing previous sequential architectures
+    like RNNs and LSTMs.'
+  coherence_score: 0.2072
+  contradiction: true
+  novelty_score: 0.7928
+  q: How do transformer models work, and why have they dominated current AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2072
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2072
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A9
+    score: 0.2062
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A9
+    score: 0.2061
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A6-p2
+    score: 0.199
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: It integrates with wearables to track physiological data, enables manual input
+    for user-defined goals, and identifies patterns through data analysis to offer
+    actionable insights.
+  coherence_score: 0.2046
+  contradiction: true
+  novelty_score: 0.7954
+  q: What methods does Seebx use for behavioral tracking and data analysis?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A12
+    score: 0.2046
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.2046
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A7-p2
+    score: 0.1887
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1887
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1625
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: AI uses predictive modeling to detect learning stabilization trends, identifying
+    when reinforcement should be faded, increased, or contrast-adjusted to optimize
+    learning efficiency.
+  coherence_score: 0.1878
+  contradiction: true
+  novelty_score: 0.8122
+  q: How does predictive modeling improve reinforcement-based learning systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.1878
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1877
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1783
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: 'Transformer models use self-attention mechanisms to process input in parallel,
+    meaning they track long-range dependencies efficiently. They excel at: Generating
+    human-like text responses via probabilistic token prediction. Encoding meaning-rich
+    representations of text through embedded vector spaces. Scaling context recognition
+    efficiently over very large datasets. Transformers dominated due to their breakthrough
+    in capturing long-range dependencies, replacing previous sequential architectures
+    like RNNs and LSTMs.'
+  coherence_score: 0.2076
+  contradiction: true
+  novelty_score: 0.7924
+  q: How do transformer models work, and why have they dominated current AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2076
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2076
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A9
+    score: 0.2063
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A9
+    score: 0.2062
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A6-p2
+    score: 0.1989
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See

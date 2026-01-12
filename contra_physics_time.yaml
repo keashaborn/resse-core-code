@@ -1,0 +1,508 @@
+- a: The cerebellum is responsible for refining motor skills, coordination, and balance.
+    It processes sensory feedback—such as inner ear input for balance or muscle signals
+    for movement—and compares it to the intended motor command. If the motion needs
+    adjustment, the cerebellum issues micro-corrections, gradually refining execution.
+    Over time, repeated exposure to this feedback loop results in procedural memory,
+    where actions like typing or walking become automatic. The cerebellum is critical
+    for both learning and executing smooth, coordinated movement patterns.
+  coherence_score: 0.2096
+  contradiction: true
+  novelty_score: 0.7904
+  q: What is the cerebellum’s main function from a standard neuroscience perspective?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2096
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2096
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1877
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1877
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p2
+    score: 0.184
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: The data pipeline will automate the collection, processing, and real-time storage
+    of interaction data, enabling seamless analysis and refinement.
+  coherence_score: 0.2023
+  contradiction: true
+  novelty_score: 0.7977
+  q: What is the role of a data pipeline in Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A12
+    score: 0.2023
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.2023
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A6-p1
+    score: 0.1829
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1829
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A13
+    score: 0.1778
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: Seebx leverages natural language processing to maintain dynamic interactions
+    with users, adjusting content and feedback in real-time based on linguistic cues
+    and user input.
+  coherence_score: 0.1909
+  contradiction: true
+  novelty_score: 0.8091
+  q: How does Seebx utilize natural language processing in its platform?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1909
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1906
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1898
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1898
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.1713
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: Branes are multi-dimensional objects that can wrap around collapsing spheres
+    in higher-dimensional space, preventing catastrophic consequences and stabilizing
+    the geometry of spacetime.
+  coherence_score: 0.2199
+  contradiction: true
+  novelty_score: 0.7801
+  q: What role do branes play in string theory’s understanding of black holes?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A8
+    score: 0.2199
+    statement: Nothing exists by itself. Every “thing” is a temporary knot in a web
+      of relationships.
+    title: Phenomena Are Relational
+  - axiom_id: ax-A8
+    score: 0.2199
+    statement: Nothing exists by itself. Every “thing” is a temporary knot in a web
+      of relationships.
+    title: Phenomena Are Relational
+  - axiom_id: ax-A15
+    score: 0.2183
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A2
+    score: 0.2152
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+  - axiom_id: ax-A2
+    score: 0.2152
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+- a: When biases influence hiring, it distorts the meritocratic process. By favoring
+    less-qualified candidates based on personal prejudices or preferences, the business
+    owner reduces the overall quality of their team. This results in missed opportunities
+    for innovation, lower productivity, and decreased competitiveness. Over time,
+    such practices can erode the business’s reputation and performance.
+  coherence_score: 0.1874
+  contradiction: true
+  novelty_score: 0.8126
+  q: What happens if a business owner allows personal biases to influence hiring decisions?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p2
+    score: 0.1874
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.1874
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A13-p2
+    score: 0.187
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.187
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A11-p2
+    score: 0.1757
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: Prejudice narrows the talent pool by excluding highly qualified candidates, leaving
+    the business with less capable hires. This weakens team performance, limits innovation,
+    and damages the company’s reputation. Over time, competitors who hire based on
+    merit will outperform businesses that allow bias to guide their decisions.
+  coherence_score: 0.2015
+  contradiction: true
+  novelty_score: 0.7985
+  q: How does prejudice undermine a business’s ability to succeed?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.2015
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.201
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A13-p2
+    score: 0.1873
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.1873
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A6-p1
+    score: 0.1792
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Tracking annotation versions ensures accuracy, reliability, and quality control,
+    allowing refinements and auditing of annotation consistency over time.
+  coherence_score: 0.207
+  contradiction: true
+  novelty_score: 0.793
+  q: Why is version control important for annotations?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.207
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2069
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.196
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.196
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A4-p1
+    score: 0.1947
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+- a: The cerebellum is responsible for refining motor skills, coordination, and balance.
+    It processes sensory feedback—such as inner ear input for balance or muscle signals
+    for movement—and compares it to the intended motor command. If the motion needs
+    adjustment, the cerebellum issues micro-corrections, gradually refining execution.
+    Over time, repeated exposure to this feedback loop results in procedural memory,
+    where actions like typing or walking become automatic. The cerebellum is critical
+    for both learning and executing smooth, coordinated movement patterns.
+  coherence_score: 0.2106
+  contradiction: true
+  novelty_score: 0.7894
+  q: What is the cerebellum’s main function from a standard neuroscience perspective?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2106
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2106
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1888
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1888
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p2
+    score: 0.1852
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: When biases influence hiring, it distorts the meritocratic process. By favoring
+    less-qualified candidates based on personal prejudices or preferences, the business
+    owner reduces the overall quality of their team. This results in missed opportunities
+    for innovation, lower productivity, and decreased competitiveness. Over time,
+    such practices can erode the business’s reputation and performance.
+  coherence_score: 0.1873
+  contradiction: true
+  novelty_score: 0.8127
+  q: What happens if a business owner allows personal biases to influence hiring decisions?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p2
+    score: 0.1873
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.1873
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A13-p2
+    score: 0.187
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.187
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A11-p2
+    score: 0.1759
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: Prejudice narrows the talent pool by excluding highly qualified candidates, leaving
+    the business with less capable hires. This weakens team performance, limits innovation,
+    and damages the company’s reputation. Over time, competitors who hire based on
+    merit will outperform businesses that allow bias to guide their decisions.
+  coherence_score: 0.2016
+  contradiction: true
+  novelty_score: 0.7984
+  q: How does prejudice undermine a business’s ability to succeed?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.2016
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.2011
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A13-p2
+    score: 0.1874
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.1874
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A6-p1
+    score: 0.1792
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Absolutely. Businesses that hire based on merit attract the best talent, fostering
+    innovation and efficiency. A company that allows biases to influence hiring decisions
+    risks falling behind competitors who prioritize skill and potential. Over time,
+    this competitive disadvantage can lead to lost market share and diminished profitability.
+  coherence_score: 0.2055
+  contradiction: true
+  novelty_score: 0.7945
+  q: Can biased hiring practices create a competitive disadvantage?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.2055
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.2053
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A10
+    score: 0.1526
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A10
+    score: 0.1525
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A6-p2
+    score: 0.1464
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: JavaScript facilitates real-time updates, ensuring users receive personalized
+    and context-aware content that adjusts based on input and behavior.
+  coherence_score: 0.2197
+  contradiction: true
+  novelty_score: 0.7803
+  q: How does Seebx handle dynamic content generation on the frontend?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A4-p2
+    score: 0.2197
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A4-p2
+    score: 0.2196
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A6-p1
+    score: 0.2118
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.2118
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p2
+    score: 0.2044
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: The cerebellum is responsible for refining motor skills, coordination, and balance.
+    It processes sensory feedback—such as inner ear input for balance or muscle signals
+    for movement—and compares it to the intended motor command. If the motion needs
+    adjustment, the cerebellum issues micro-corrections, gradually refining execution.
+    Over time, repeated exposure to this feedback loop results in procedural memory,
+    where actions like typing or walking become automatic. The cerebellum is critical
+    for both learning and executing smooth, coordinated movement patterns.
+  coherence_score: 0.2096
+  contradiction: true
+  novelty_score: 0.7904
+  q: What is the cerebellum’s main function from a standard neuroscience perspective?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2096
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2096
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1877
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1877
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p2
+    score: 0.184
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Absolutely. Businesses that hire based on merit attract the best talent, fostering
+    innovation and efficiency. A company that allows biases to influence hiring decisions
+    risks falling behind competitors who prioritize skill and potential. Over time,
+    this competitive disadvantage can lead to lost market share and diminished profitability.
+  coherence_score: 0.2054
+  contradiction: true
+  novelty_score: 0.7946
+  q: Can biased hiring practices create a competitive disadvantage?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.2054
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.2052
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A10
+    score: 0.1524
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A10
+    score: 0.1523
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A6-p2
+    score: 0.1462
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See

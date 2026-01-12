@@ -1,0 +1,108 @@
+{
+  "name": "passC_output_v0",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "cluster_id",
+      "pass",
+      "error",
+      "keep_fact_i",
+      "drop_facts",
+      "canonical_i",
+      "fact_roles",
+      "edge_candidates",
+      "retrieval_queries",
+      "new_claims"
+    ],
+    "properties": {
+      "cluster_id": { "type": "string" },
+      "pass": { "type": "string", "enum": ["C"] },
+      "error": { "type": "string", "enum": ["", "insufficient_support"] },
+
+      "keep_fact_i": {
+        "type": "array",
+        "items": { "type": "integer" },
+        "minItems": 0,
+        "maxItems": 6
+      },
+
+      "drop_facts": {
+        "type": "array",
+        "minItems": 0,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["i", "reason"],
+          "properties": {
+            "i": { "type": "integer" },
+            "reason": {
+              "type": "string",
+              "enum": ["redundant", "off_topic", "too_vague", "multi_claim", "malformed", "contradiction", "other"]
+            }
+          }
+        }
+      },
+
+      "canonical_i": { "type": "integer" },
+
+      "fact_roles": {
+        "type": "array",
+        "minItems": 0,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["i", "role"],
+          "properties": {
+            "i": { "type": "integer" },
+            "role": {
+              "type": "string",
+              "enum": ["definition", "mechanism", "regime_condition", "measurement", "consequence", "background", "example", "paraphrase", "qualifier"]
+            }
+          }
+        }
+      },
+
+      "edge_candidates": {
+        "type": "array",
+        "minItems": 0,
+        "maxItems": 12,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["src_i", "dst_i", "rel_type", "support_i_list"],
+          "properties": {
+            "src_i": { "type": "integer" },
+            "dst_i": { "type": "integer" },
+            "rel_type": {
+              "type": "string",
+              "enum": ["same_as", "entails", "contradicts", "refines", "mechanism_for", "condition_for", "example_of", "quantifies", "distinguishes", "depends_on", "causes", "part_of"]
+            },
+            "support_i_list": {
+              "type": "array",
+              "items": { "type": "integer" },
+              "minItems": 1,
+              "maxItems": 3
+            }
+          }
+        }
+      },
+
+      "retrieval_queries": {
+        "type": "array",
+        "minItems": 0,
+        "maxItems": 5,
+        "items": { "type": "string" }
+      },
+
+      "new_claims": {
+        "type": "array",
+        "minItems": 0,
+        "maxItems": 0,
+        "items": { "type": "string" }
+      }
+    }
+  }
+}

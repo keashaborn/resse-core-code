@@ -1,0 +1,42 @@
+RESSE TRAINING PLAN NOTES (Server)
+----------------------------------
+Location: /home/ubuntu/resse-core/
+
+Datasets live in:
+  /home/ubuntu/resse-core/datasets/
+
+Tier 0 – Foundational:
+  datasets/foundational/train_foundational_train.jsonl
+  datasets/foundational/train_foundational_dev.jsonl
+
+Tier 1 – Core Metaphysics:
+  datasets/core_metaphy/train_core_metaphy_train.jsonl
+  datasets/core_metaphy/train_core_metaphy_dev.jsonl
+
+Tier 1 – Core Psychology:
+  datasets/core_psych/train_core_psych_train.jsonl
+  datasets/core_psych/train_core_psych_dev.jsonl
+
+Tier 1b – Core AI:
+  datasets/core_ai/train_core_ai_train.jsonl
+  datasets/core_ai/train_core_ai_dev.jsonl
+
+Tier 1b – Core Science:
+  datasets/core_science/train_core_science_train.jsonl
+  datasets/core_science/train_core_science_dev.jsonl
+
+Training directories:
+  training/configs/      -> model + data configs (to be created)
+  training/scripts/      -> train.py, eval scripts (to be created)
+  training/checkpoints/  -> saved model weights
+  training/logs/         -> training logs (loss, metrics)
+
+Tokenizer reminder:
+  vocab_size     = 36000
+  tokenizer_path = /home/ubuntu/resse-core/tokenizer/resse-bpe-36k-v0b.json
+  context_length = 2048
+
+First training focus:
+  - Tier 0 + Tier 1 + Tier 1b train splits.
+  - Use dev splits for eval.
+  - Start with simple SFT-style training: map input -> output.

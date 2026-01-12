@@ -1,0 +1,200 @@
+"""
+train_tiny_transformer.py
+
+Tiny training loop for a small transformer on a subset of the foundational dataset.
+This is a practice run to understand shapes, loss, and training dynamics.
+It does NOT train the real 150M model.
+"""
+
+import json
+import math
+import random
+from pathlib import Path
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from tokenizers import Tokenizer
+
+from sequence_builder import build_qa_sequence
+
+ROOT = Path(__file__).resolve().parents[2]  # /home/ubuntu/resse-core
+DATASETS = ROOT / "datasets"
+DEVICE = torch.device("cpu")  # later we can switch to cuda if available
+
+# ----------- Tiny Transformer Model -----------
+
+class TinyTransformer(nn.Module):
+    def __init__(self, vocab_size=36000, d_model=256, n_heads=4, n_layers=2, max_len=128):
+        super().__init__()
+        self.vocab_size = vocab_size
+        self.d_model = d_model
+        self.max_len = max_len
+
+        self.embed = nn.Embedding(vocab_size, d_model)
+        self.pos_embed = nn.Embedding(max_len, d_model)
+
+        encoder_layer = nn.TransformerEncoderLayer(
+            d_model=d_model,
+            nhead=n_heads,
+            dim_feedforward=d_model * 4,
+            dropout=0.1,
+            batch_first=True
+        )
+        self.encoder = nn.TransformerEncoder(encoder_layer, num_layers=n_layers)
+        self.lm_head = nn.Linear(d_model, vocab_size)
+
+    def forward(self, input_ids, attention_mask):
+        """
+        input_ids: [B, L]
+        attention_mask: [B, L] with 1=real tokens, 0=pad
+        """
+        B, L = input_ids.shape
+
+        # token + positional embeddings
+        x = self.embed(input_ids)  # [B, L, d_model]
+        positions = torch.arange(0, L, device=input_ids.device).unsqueeze(0)
+        x = x + self.pos_embed(positions)  # [B, L, d_model]
+
+        # Transformer expects True for positions to ignore
+        src_key_padding_mask = (attention_mask == 0)  # [B, L], bool
+
+        x = self.encoder(x, src_key_padding_mask=src_key_padding_mask)  # [B, L, d_model]
+
+        logits = self.lm_head(x)  # [B, L, vocab_size]
+        return logits
+
+# ----------- Data Helpers -----------
+
+def iter_jsonl(jsonl_path: Path):
+    with open(jsonl_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            yield json.loads(line)
+
+def load_foundational_sequences(n_max: int = 512):
+    """
+    Load up to n_max Q/A sequences from foundational/train split.
+    """
+    src = DATASETS / "foundational" / "train_foundational_train.jsonl"
+    seqs = []
+    for obj in iter_jsonl(src):
+        q = obj.get("input", "")
+        a = obj.get("output", "")
+        seqs.append(build_qa_sequence(q, a))
+        if len(seqs) >= n_max:
+            break
+    return seqs
+
+def encode_batch(tokenizer, sequences, max_len=128, pad_id=0):
+    """
+    sequences: list of strings
+    Returns:
+      input_ids: LongTensor [B, L]
+      attention_mask: LongTensor [B, L]
+    """
+    all_ids = [tokenizer.encode(s).ids for s in sequences]
+    # Truncate long ones and find max length
+    true_max = max(len(ids) for ids in all_ids) if all_ids else 0
+    max_len = min(max_len, true_max if true_max > 0 else max_len)
+
+    padded = []
+    masks = []
+    for ids in all_ids:
+        ids = ids[:max_len]
+        attn = [1] * len(ids)
+        while len(ids) < max_len:
+            ids.append(pad_id)
+            attn.append(0)
+        padded.append(ids)
+        masks.append(attn)
+
+    input_ids = torch.tensor(padded, dtype=torch.long, device=DEVICE)
+    attention_mask = torch.tensor(masks, dtype=torch.long, device=DEVICE)
+    return input_ids, attention_mask
+
+# ----------- Loss Function (language modeling) -----------
+
+def compute_lm_loss(logits, input_ids, attention_mask):
+    """
+    Standard language modeling loss:
+      - shift logits and targets by one
+      - ignore padding positions
+    logits: [B, L, V]
+    input_ids: [B, L]
+    attention_mask: [B, L]
+    """
+    B, L, V = logits.shape
+
+    # Shift: predict token t+1 from position t
+    # logits_shifted: positions [0..L-2] -> predict tokens [1..L-1]
+    logits_shifted = logits[:, :-1, :].contiguous()
+    targets = input_ids[:, 1:].contiguous()
+    mask = attention_mask[:, 1:].contiguous()  # ignore predictions on padding
+
+    # Flatten
+    logits_flat = logits_shifted.view(-1, V)
+    targets_flat = targets.view(-1)
+    mask_flat = mask.view(-1).bool()
+
+    # Only compute loss on non-pad positions
+    logits_sel = logits_flat[mask_flat]
+    targets_sel = targets_flat[mask_flat]
+
+    loss = F.cross_entropy(logits_sel, targets_sel)
+    return loss
+
+# ----------- Training Loop -----------
+
+def main():
+    # Load tokenizer
+    tok_path = "/home/ubuntu/resse-core/tokenizer/resse-bpe-36k-v0b.json"
+    tokenizer = Tokenizer.from_file(tok_path)
+
+    print("Loading sequences...")
+    sequences = load_foundational_sequences(n_max=512)
+    print(f"Loaded {len(sequences)} sequences from foundational.")
+
+    if not sequences:
+        print("No sequences found. Aborting.")
+        return
+
+    # Encode all sequences once
+    input_ids, attention_mask = encode_batch(tokenizer, sequences, max_len=128, pad_id=0)
+    print("Encoded batch shape:", input_ids.shape)
+
+    # Initialize tiny model
+    model = TinyTransformer(vocab_size=tokenizer.get_vocab_size()).to(DEVICE)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3)
+
+    # Training hyperparams for the toy run
+    n_steps = 50
+    batch_size = 8
+
+    num_examples = input_ids.size(0)
+    indices = list(range(num_examples))
+
+    print("Starting tiny training loop...")
+
+    model.train()
+    for step in range(1, n_steps + 1):
+        # sample a random mini-batch
+        batch_idx = random.sample(indices, k=min(batch_size, num_examples))
+        batch_input = input_ids[batch_idx]
+        batch_mask = attention_mask[batch_idx]
+
+        optimizer.zero_grad()
+        logits = model(batch_input, batch_mask)
+        loss = compute_lm_loss(logits, batch_input, batch_mask)
+        loss.backward()
+        optimizer.step()
+
+        if step % 5 == 0 or step == 1:
+            print(f"Step {step:03d} - loss: {loss.item():.4f}")
+
+    print("Tiny training run complete.")
+
+if __name__ == "__main__":
+    main()

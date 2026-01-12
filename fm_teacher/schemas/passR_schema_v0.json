@@ -1,0 +1,61 @@
+{
+  "name": "passR_output_v0",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["cluster_id", "pass", "error", "used_fact_i", "relations", "teaching_prose", "new_claims"],
+    "properties": {
+      "cluster_id": { "type": "string" },
+      "pass": { "type": "string", "enum": ["R"] },
+      "error": { "type": "string", "enum": ["", "insufficient_support"] },
+      "used_fact_i": {
+        "type": "array",
+        "items": { "type": "integer" },
+        "minItems": 6,
+        "maxItems": 6
+      },
+      "relations": {
+        "type": "array",
+        "minItems": 0,
+        "maxItems": 12,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["src_i", "dst_i", "rel_type", "support_i_list"],
+          "properties": {
+            "src_i": { "type": "integer" },
+            "dst_i": { "type": "integer" },
+            "rel_type": {
+              "type": "string",
+              "enum": [
+                "same_as",
+                "generalizes",
+                "specializes",
+                "implies",
+                "mechanism_for",
+                "causes",
+                "constrains",
+                "depends_on",
+                "contrasts",
+                "regime_condition",
+                "exemplifies"
+              ]
+            },
+            "support_i_list": {
+              "type": "array",
+              "items": { "type": "integer" },
+              "minItems": 1,
+              "maxItems": 3
+            }
+          }
+        }
+      },
+      "teaching_prose": { "type": "string" },
+      "new_claims": {
+        "type": "array",
+        "items": { "type": "string" },
+        "maxItems": 0
+      }
+    }
+  }
+}

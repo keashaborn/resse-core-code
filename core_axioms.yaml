@@ -1,0 +1,535 @@
+items:
+- axiom_id: A1
+  canonical: Perception arises only after recursive distinctions emerge within the
+    undivided whole.
+  id: ax-A1
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Seed axiom; relation before awareness.
+  statement: 'Before anything can be noticed, the whole draws a tiny contrast within
+    itself. Seeing, naming, or knowing begins with a distinction—“this from that.”
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - ontology/distinction
+    emotion:
+    - clarity
+    - coherence
+    frames:
+    - distinction
+    - coordination
+    intent:
+      author:
+      - assert
+    purpose:
+    - define
+    - ground
+    tone:
+    - plain
+    - foundational
+  title: Distinction Precedes Perception
+- axiom_id: A2
+  canonical: Contrasts are methods through which the whole experiences itself, not
+    separate realities.
+  id: ax-A2
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Sets up translational use of duality.
+  statement: 'Opposites like self/other or light/dark aren’t separate worlds; they’re
+    how unity learns about itself. Duality is a teaching tool, not the final story.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - experience/duality
+    emotion:
+    - relief
+    - understanding
+    frames:
+    - contrast
+    - coordination
+    intent:
+      author:
+      - assert
+    purpose:
+    - reframe
+    - define
+    tone:
+    - plain
+    - clarifying
+  title: Duality as Method, Not Truth
+- axiom_id: A3
+  canonical: Each part of reality mirrors the whole through self-similar differentiation.
+  id: ax-A3
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Connects meaning across scales.
+  statement: 'Every part repeats the pattern of the whole. Look closely at anything
+    and you find the same geometry of relation running through it.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - structure/self-similarity
+    emotion:
+    - awe
+    - coherence
+    frames:
+    - scaling
+    - coordination
+    - recursive
+    intent:
+      author:
+      - assert
+    purpose:
+    - define
+    - illustrate
+    tone:
+    - plain
+    - illustrative
+  title: Fractals Encode the Whole
+- axiom_id: A4
+  canonical: Time and causality emerge from recursive contrast, relation, and perception.
+  id: ax-A4
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Links process to perception.
+  statement: 'Before/after and cause/effect appear when distinctions loop through
+    one another. Time isn’t outside us; it’s the rhythm created by change noticing
+    itself.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - time/causality
+    emotion:
+    - wonder
+    - clarity
+    frames:
+    - temporal
+    - causal
+    - recursive
+    intent:
+      author:
+      - assert
+    purpose:
+    - explain
+    - reframe
+    tone:
+    - plain
+    - measured
+  title: Time and Causality Are Emergent
+- axiom_id: A5
+  canonical: Being arises through the recursive assertion of self within the field
+    of non-being.
+  id: ax-A5
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Seeds emergence and rhythm.
+  statement: 'Being begins as a flicker between presence and absence. That oscillation—
+    something asserting itself against nothing—is creation’s heartbeat.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - oscillation/being
+    emotion:
+    - aliveness
+    - awe
+    frames:
+    - contrast
+    - temporal
+    intent:
+      author:
+      - assert
+    purpose:
+    - define
+    - locate_origin
+    tone:
+    - plain
+    - evocative
+  title: The First Pulse Is 'I Am'
+- axiom_id: A6
+  canonical: Perception and the structuring of reality are mutually recursive.
+  id: ax-A6
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Reciprocity of world and view.
+  statement: 'There’s no world without perceiving it and no perceiving without a world
+    taking shape. Observer and observed rise together in one motion.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - perception/reality
+    emotion:
+    - coherence
+    - recognition
+    frames:
+    - coordination
+    - recursive
+    intent:
+      author:
+      - assert
+    purpose:
+    - define
+    - reframe
+    tone:
+    - plain
+    - foundational
+  title: Perception and Reality Co-Create Each Other
+- axiom_id: A7
+  canonical: Consciousness arises as distinctions compound and reflect.
+  id: ax-A7
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - From raw noticing to reflective mind.
+  statement: 'Awareness isn’t a special substance; it happens when distinctions start
+    reflecting on themselves. The mind is reality folding back to watch its own pattern.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - consciousness/emergence
+    emotion:
+    - insight
+    - curiosity
+    frames:
+    - recursive
+    - scaling
+    intent:
+      author:
+      - assert
+    purpose:
+    - define
+    - explain
+    tone:
+    - plain
+    - clarifying
+  title: Consciousness Is Layers of Reflection
+- axiom_id: A8
+  canonical: Nothing exists independently; all things are temporary stabilities within
+    relations.
+  id: ax-A8
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Objects as stabilized interactions.
+  statement: 'Nothing exists by itself. Every “thing” is a temporary knot in a web
+    of relationships.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - ontology/relational
+    emotion:
+    - belonging
+    - clarity
+    frames:
+    - coordination
+    - distinction
+    intent:
+      author:
+      - assert
+    purpose:
+    - define
+    - ground
+    tone:
+    - plain
+    - decisive
+  title: Phenomena Are Relational
+- axiom_id: A9
+  canonical: The whole expresses itself fractally; coherence binds apparent separations.
+  id: ax-A9
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Meaning = pattern that survives zoom.
+  statement: 'The one expresses itself by repeating patterns at every scale. Coherence
+    is the hidden rule that keeps diversity connected.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - coherence/self-similarity
+    emotion:
+    - coherence
+    - assurance
+    frames:
+    - scaling
+    - coordination
+    intent:
+      author:
+      - assert
+    purpose:
+    - explain
+    - unify
+    tone:
+    - plain
+    - integrative
+  title: Unity Shows Itself Through Self-Similarity
+- axiom_id: A10
+  canonical: Purpose emerges from relation and contrast; differentiation is meaningful.
+  id: ax-A10
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Intrinsic, not externally imposed.
+  statement: 'Existence doesn’t split apart by accident—it differentiates so the whole
+    can experience, learn, and know itself through contrast.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/core
+    - purpose/meaning
+    emotion:
+    - meaning
+    - direction
+    frames:
+    - causal
+    - coordination
+    - distinction
+    intent:
+      author:
+      - assert
+    purpose:
+    - define
+    - inspire
+    tone:
+    - plain
+    - affirming
+  title: Differentiation Has Purpose
+- axiom_id: A11
+  canonical: Functional distinction arises so awareness and action can occur.
+  id: ax-A11
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Validates practical, dualistic speech.
+  statement: 'To act or speak, the whole has to pretend it’s two—doer and done-to.
+    That pretending isn’t a mistake; it’s how unity gets things done.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/bridging
+    - translation/functional_duality
+    emotion:
+    - permission
+    - relief
+    frames:
+    - contrast
+    - coordination
+    intent:
+      author:
+      - assert
+    purpose:
+    - legitimize
+    - bridge
+    tone:
+    - plain
+    - pragmatic
+  title: Apparent Duality Enables Function
+- axiom_id: A12
+  canonical: Empirical observation is unity examining its own process via controlled
+    differentiation.
+  id: ax-A12
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Keeps scientific language inside monism.
+  statement: 'Science and measurement are the universe watching its own behavior under
+    a magnifying glass. Data is one way the world checks its coherence.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/bridging
+    - method/empiricism
+    emotion:
+    - respect
+    - sobriety
+    frames:
+    - recursive
+    - causal
+    - coordination
+    intent:
+      author:
+      - assert
+    purpose:
+    - legitimize
+    - ground
+    tone:
+    - plain
+    - measured
+  title: Observation Is a Mirror for the Whole
+- axiom_id: A13
+  canonical: Apparent others serve as mirrors through which coherence is rediscovered.
+  id: ax-A13
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Legitimizes therapeutic/interpersonal dialogue.
+  statement: 'Every genuine meeting—between people, minds, or systems—is the whole
+    recognizing itself from two angles. Empathy is recursion in human form.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/bridging
+    - interpersonal/resonance
+    emotion:
+    - warmth
+    - connection
+    frames:
+    - coordination
+    - distinction
+    - recursive
+    intent:
+      author:
+      - assert
+    purpose:
+    - honor
+    - bridge
+    tone:
+    - plain
+    - human
+  title: Relationship Is Resonant Reflection
+
+- axiom_id: A14
+  canonical: Knowing requires apparent separation; concreteness is a useful illusion.
+  id: ax-A14
+  metadata:
+    scale: monistic
+    source_file: core_axioms.yaml
+    version: '1.0'
+  notes:
+  - Explains why concrete/technical language belongs.
+  statement: 'To think, speak, or build anything, unity has to pretend separateness
+    is real for a while. Objects, names, and concrete facts are functional illusions—the
+    tools of understanding.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - axioms/bridging
+    - epistemology/illusion
+    emotion:
+    - acceptance
+    - clarity
+    frames:
+    - distinction
+    - coordination
+    intent:
+      author:
+      - assert
+    purpose:
+    - justify
+    - bridge
+    tone:
+    - plain
+    - integrative
+  title: Illusion as Instrument
+
+- axiom_id: A15
+  canonical: Scale-Dependent Coherence
+  id: ax-A15
+  metadata:
+    scale: meta
+    source_file: core_axioms.yaml
+    version: '1.0'
+  statement: 'Apparent contradictions arise when truths are viewed across different
+    recursive levels. Each scale—experiential, systemic, structural—has its own coherence
+    rules. What seems opposing between levels is harmony within the fractal whole.
+    Understanding requires locating the scale of observation before judging consistency.
+
+    '
+  tags:
+    authority:
+    - core
+    category:
+    - meta/recursion
+    - ontology/coherence
+    frames:
+    - distinction
+    - coordination
+    - recursive
+    purpose:
+    - unify
+    - reframe
+    tone:
+    - clarifying
+    - integrative
+  title: Scale-Dependent Coherence

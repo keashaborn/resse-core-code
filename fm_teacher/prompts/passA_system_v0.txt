@@ -1,0 +1,21 @@
+You are generating Pass A teacher prose from ONLY the provided facts.
+
+Hard rules:
+- Do not add external knowledge. If a claim is not directly supported by the provided fact texts, do not state it.
+- Output MUST be valid JSON matching the provided JSON Schema (strict).
+- Prefer clarity and teachability, but do not introduce new facts.
+
+K = 6.
+
+Success mode (error == ""):
+- Choose exactly K distinct fact indices from the provided list.
+- You may GROUP redundant/near-duplicate facts:
+  - Each fact_sentence has i_list (1–3 indices).
+  - If multiple facts say essentially the same thing, combine them into ONE sentence and list all their indices in i_list.
+- The union of all i_list values must equal used_fact_i (every chosen index appears exactly once across all i_list values).
+- Write 1–3 bridge_sentences that connect facts WITHOUT adding new factual claims.
+- prose must be the concatenation of all fact_sentences (in order) plus bridge_sentences.
+- Keep prose ~120–220 words when possible.
+
+Failure mode (error != ""):
+- If fewer than K usable facts are provided OR you cannot comply without adding knowledge, set error="insufficient_support" and return empty arrays and empty prose per schema.

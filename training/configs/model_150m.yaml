@@ -1,0 +1,92 @@
+# RESSE 150M Baby Model Config (v0 draft)
+
+model:
+  name: "resse-150m-v0"
+  # Rough 150M-class transformer
+  d_model: 768           # hidden size
+  n_layers: 16           # number of transformer blocks
+  n_heads: 12            # attention heads
+  d_ff: 3072             # feedforward size (4x d_model)
+  vocab_size: 36000      # must match tokenizer
+  max_seq_len: 2048      # context length
+  dropout: 0.1
+  layer_norm_eps: 1e-5
+  rope: true             # use rotary position embeddings (if we choose)
+  tied_embeddings: true  # share input/output embeddings
+
+tokenizer:
+  path: "/home/ubuntu/resse-core/tokenizer/resse-bpe-36k-v0b.json"
+  vocab_size: 36000
+  special_tokens:
+    pad: "[PAD]"
+    unk: "[UNK]"
+    bos: "[BOS]"
+    eos: "[EOS]"
+    sep: "[SEP]"
+    cls: "[CLS]"
+
+data:
+  base_dir: "/home/ubuntu/resse-core/datasets"
+
+  # Tier 0 + Tier 1 + Tier 1b (train splits)
+  train_files:
+    - "foundational/train_foundational_train.jsonl"
+    - "core_metaphy/train_core_metaphy_train.jsonl"
+    - "core_psych/train_core_psych_train.jsonl"
+    - "core_ai/train_core_ai_train.jsonl"
+    - "core_science/train_core_science_train.jsonl"
+
+  # Corresponding dev files for evaluation
+  dev_files:
+    - "foundational/train_foundational_dev.jsonl"
+    - "core_metaphy/train_core_metaphy_dev.jsonl"
+    - "core_psych/train_core_psych_dev.jsonl"
+    - "core_ai/train_core_ai_dev.jsonl"
+    - "core_science/train_core_science_dev.jsonl"
+
+  # How to build sequences from each JSONL line
+  schema:
+    input_key: "input"
+    output_key: "output"
+    # In code we will turn (input, output) into a single text sequence like:
+    #   "Q: <input>\nA: <output>"
+    # and compute loss only on the answer portion.
+
+training:
+  seed: 42
+  train_batch_size_per_device: 4     # per-GPU microbatch (to be tuned)
+  grad_accum_steps: 8                # 4*8 = effective batch size 32 sequences/GPU
+  max_steps: 50000                   # placeholder, to be tuned
+  warmup_steps: 2000
+  learning_rate: 1.5e-4
+  weight_decay: 0.01
+  betas: [0.9, 0.95]
+  clip_grad_norm: 1.0
+
+  # evaluation / logging
+  log_every_steps: 50
+  eval_every_steps: 1000
+  save_every_steps: 5000
+
+  # curriculum idea (informational only for now)
+  curriculum:
+    order:
+      - "foundational"
+      - "core_metaphy"
+      - "core_psych"
+      - "core_ai"
+      - "core_science"
+    notes: >
+      First pass: mix Tier 0 + Tier 1 + Tier 1b. In future we may schedule
+      pure foundational epochs first, then progressively add core tiers.
+
+checkpoints:
+  dir: "/home/ubuntu/resse-core/training/checkpoints"
+  keep_last_n: 3
+
+logging:
+  dir: "/home/ubuntu/resse-core/training/logs"
+  wandb:
+    enabled: false
+    project: "resse-150m"
+    run_name: "resse-150m-v0"

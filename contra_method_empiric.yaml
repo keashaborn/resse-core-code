@@ -1,0 +1,974 @@
+- a: Users can modify account details, adjust preferences, connect to social media
+    platforms, change passwords, and download their stored data.
+  coherence_score: 0.1074
+  contradiction: true
+  novelty_score: 0.8926
+  q: What key settings are available in Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.1074
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1074
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A4-p2
+    score: 0.0978
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A4-p2
+    score: 0.0977
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A13-p2
+    score: 0.0937
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+- a: A robust database system will store interaction logs and metadata in a structured
+    format like JSON, ensuring flexibility and efficient retrieval.
+  coherence_score: 0.1896
+  contradiction: true
+  novelty_score: 0.8104
+  q: How will Seebx handle logging and storage of interaction data?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1896
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1894
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A12
+    score: 0.1845
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1845
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A7-p1
+    score: 0.1799
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: A robust backend will manage user sessions and securely store annotated data
+    using PostgreSQL or MongoDB for efficiency and scalability.
+  coherence_score: 0.1805
+  contradiction: true
+  novelty_score: 0.8195
+  q: What infrastructure will support Seebx’s data collection and storage?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1805
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1805
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.1356
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1356
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A6-p1
+    score: 0.1348
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Seebx aims to introduce advanced community engagement, expanded wearable integration,
+    enhanced data analysis, virtual interactions, and deeper wellness support.
+  coherence_score: 0.1859
+  contradiction: true
+  novelty_score: 0.8141
+  q: What features are planned for future expansion in Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1859
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1859
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.1738
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1738
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A6-p2
+    score: 0.1701
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Seebx can utilize APIs from platforms like Twitter, Facebook, and Reddit to extract
+    conversational data while adhering to data usage policies.
+  coherence_score: 0.1559
+  contradiction: true
+  novelty_score: 0.8441
+  q: What APIs can be used for large-scale conversational data access?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1559
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1558
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1323
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1321
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A12
+    score: 0.1277
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+- a: The interface will be intuitive, offering clear labeling options and a streamlined
+    workflow to facilitate efficient annotation of conversation data.
+  coherence_score: 0.1812
+  contradiction: true
+  novelty_score: 0.8188
+  q: What features will the annotation interface include?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1812
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1812
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1703
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1701
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1642
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Cloud-based solutions like AWS S3, Azure Data Lake Storage, or Google Cloud Storage
+    handle structured and unstructured data, ensuring long-term scalability.
+  coherence_score: 0.1626
+  contradiction: true
+  novelty_score: 0.8374
+  q: How does Seebx utilize data lakes for scalable storage?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A15
+    score: 0.1626
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A7-p1
+    score: 0.1604
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1604
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.1581
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1581
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+- a: Regular statistical evaluations, such as interrater reliability measures like
+    Cohen’s Kappa, will help identify discrepancies and refine the annotation process.
+  coherence_score: 0.217
+  contradiction: true
+  novelty_score: 0.783
+  q: How will statistical analysis improve annotation reliability?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.217
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.217
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.2081
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.2081
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A7-p2
+    score: 0.1916
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: Seebx can leverage crowdsourcing platforms like Amazon Mechanical Turk or Prolific
+    to gather user-generated conversations on specific topics.
+  coherence_score: 0.1582
+  contradiction: true
+  novelty_score: 0.8418
+  q: How can Seebx collect custom dialog data for training?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.1582
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1582
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A13
+    score: 0.1579
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1577
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A11-p2
+    score: 0.1564
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: Vector embeddings are indexed in a vector database with attached metadata, including
+    source, timestamp, and annotation details for organized querying.
+  coherence_score: 0.1751
+  contradiction: true
+  novelty_score: 0.8249
+  q: How does Seebx categorize and store processed data?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1751
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1751
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.1724
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1724
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A6-p1
+    score: 0.1513
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Developing web scrapers enables Seebx to collect dialog content from forums and
+    social media, ensuring compliance with terms of service and privacy guidelines.
+  coherence_score: 0.1661
+  contradiction: true
+  novelty_score: 0.8339
+  q: How can web scraping assist in dialog data collection?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.1661
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1661
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A12
+    score: 0.1641
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1641
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A13
+    score: 0.1617
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: PostgreSQL and MongoDB will provide structured and efficient data storage, preserving
+    annotation history and user activity.
+  coherence_score: 0.1766
+  contradiction: true
+  novelty_score: 0.8234
+  q: How will annotated data be stored securely?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1766
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1765
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.1381
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1381
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A6-p1
+    score: 0.1379
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: The platform requires structured website development, a user-friendly annotation
+    interface, comprehensive training resources, and a robust data validation system
+    to ensure accuracy and consistency.
+  coherence_score: 0.1755
+  contradiction: true
+  novelty_score: 0.8245
+  q: What are the key steps in developing the annotation platform for Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1755
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1755
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.151
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.151
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p2
+    score: 0.1342
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: Initial integration includes Fitbit, Oura, Apple Watch, and WHOOP via open API
+    variants.
+  coherence_score: 0.1588
+  contradiction: true
+  novelty_score: 0.8412
+  q: Which wearable devices are supported in SeeBx’s foundational phase?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A5
+    score: 0.1588
+    statement: Being begins as a flicker between presence and absence. That oscillation—
+      something asserting itself against nothing—is creation’s heartbeat.
+    title: The First Pulse Is 'I Am'
+  - axiom_id: ax-A5
+    score: 0.1588
+    statement: Being begins as a flicker between presence and absence. That oscillation—
+      something asserting itself against nothing—is creation’s heartbeat.
+    title: The First Pulse Is 'I Am'
+  - axiom_id: ax-A7-p1
+    score: 0.1465
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1464
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1366
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Seebx must ensure anonymization of data, obtain user consent where required,
+    and comply with GDPR and CCPA regulations to uphold privacy standards.
+  coherence_score: 0.1822
+  contradiction: true
+  novelty_score: 0.8178
+  q: What ethical guidelines must be followed in dialog data collection?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1822
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1822
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A12
+    score: 0.167
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.167
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.155
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+- a: Seebx will leverage PostgreSQL or MongoDB to store annotated data securely, ensuring
+    efficient retrieval and integrity of user inputs.
+  coherence_score: 0.1295
+  contradiction: true
+  novelty_score: 0.8705
+  q: What database solutions will ensure secure data storage?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1295
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1294
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.1066
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1066
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A6-p1
+    score: 0.0886
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Server-side logic will be implemented using Node.js, Django, or Flask to handle
+    authentication, data storage, and annotation management.
+  coherence_score: 0.1474
+  contradiction: true
+  novelty_score: 0.8526
+  q: How will Seebx manage backend processes?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.1474
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.1471
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A7-p1
+    score: 0.1369
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1369
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1196
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Raw conversation data, interaction logs, and annotations are collected, stored
+    in a data lake, and processed into vector embeddings for structured analysis.
+  coherence_score: 0.1972
+  contradiction: true
+  novelty_score: 0.8028
+  q: What is the workflow for data ingestion in Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.1972
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1972
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.1864
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1864
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1854
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: Seebx will implement Node.js with Express or Django to handle authentication,
+    workflow management, and secure annotation data processing.
+  coherence_score: 0.1345
+  contradiction: true
+  novelty_score: 0.8655
+  q: How will the backend manage user sessions and data storage?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.1345
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.1341
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A7-p1
+    score: 0.1327
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1327
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1254
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Seebx will need research platform integration, secure health data protocols,
+    and modular publication frameworks for meta-analytic insights.
+  coherence_score: 0.2093
+  contradiction: true
+  novelty_score: 0.7907
+  q: What technical requirements are essential for Phase 4?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2093
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2093
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A15
+    score: 0.2075
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A12
+    score: 0.1943
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1943
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+- a: The platform will use Node.js (Express), Django, or Flask for server-side logic,
+    handling authentication, data storage, and annotation workflows.
+  coherence_score: 0.1397
+  contradiction: true
+  novelty_score: 0.8603
+  q: Which backend frameworks will support Seebx’s annotation processing?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1397
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1397
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A11-p2
+    score: 0.13
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.1295
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A6-p1
+    score: 0.1221
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Removing personal identifiers ensures that collected dialog data remains confidential,
+    preventing unauthorized use or exposure of private user information.
+  coherence_score: 0.1661
+  contradiction: true
+  novelty_score: 0.8339
+  q: How does anonymization protect user privacy in data collection?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11
+    score: 0.1661
+    statement: To act or speak, the whole has to pretend it’s two—doer and done-to.
+      That pretending isn’t a mistake; it’s how unity gets things done.
+    title: Apparent Duality Enables Function
+  - axiom_id: ax-A11
+    score: 0.166
+    statement: To act or speak, the whole has to pretend it’s two—doer and done-to.
+      That pretending isn’t a mistake; it’s how unity gets things done.
+    title: Apparent Duality Enables Function
+  - axiom_id: ax-A12
+    score: 0.1617
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1617
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A13
+    score: 0.1291
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: AWS supports scalable data storage and processing, ensuring efficient performance
+    and secure management of user interactions and system-wide operations.
+  coherence_score: 0.1748
+  contradiction: true
+  novelty_score: 0.8252
+  q: How does AWS integration enhance Seebx’s data management?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1748
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1748
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.1394
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1393
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A9-p2
+    score: 0.1368
+    statement: Life looks divided—people, moments, things—but everything depends on
+      everything else. Cooperation isn’t optional; it’s how reality keeps itself running.
+    title: Everything Works Together
+- a: Seebx stores vector embeddings in a dedicated vector database, attaching metadata
+    to facilitate efficient querying and categorization.
+  coherence_score: 0.1495
+  contradiction: true
+  novelty_score: 0.8505
+  q: How does Seebx manage storage and indexing for vector embeddings?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1495
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1495
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1105
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1105
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A13
+    score: 0.1019
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: PostgreSQL or MongoDB will be used to manage annotations and user interactions,
+    ensuring structured, efficient, and scalable data organization.
+  coherence_score: 0.1455
+  contradiction: true
+  novelty_score: 0.8545
+  q: What database solutions will store Seebx’s annotated data?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1455
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1454
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.1113
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1113
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A6-p1
+    score: 0.1104
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: The platform will implement robust databases like PostgreSQL or MongoDB to efficiently
+    store, retrieve, and manage annotated conversations and interaction logs.
+  coherence_score: 0.1983
+  contradiction: true
+  novelty_score: 0.8017
+  q: How will Seebx manage and store large volumes of dialog data?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1983
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1983
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1549
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1548
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1374
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: A robust backend will manage user sessions, annotation workflows, and store data
+    on annotations, user interactions, and feedback for continuous improvement.
+  coherence_score: 0.1932
+  contradiction: true
+  novelty_score: 0.8068
+  q: How will Seebx's backend and database be structured?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1932
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1931
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1917
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1917
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A11-p2
+    score: 0.1632
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: The database stores user preferences, session history, and behavioral tracking
+    data, allowing for persistent personalization and adaptive feedback.
+  coherence_score: 0.19
+  contradiction: true
+  novelty_score: 0.81
+  q: What role does the database play in Seebx’s functionality?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A12
+    score: 0.19
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.19
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A7-p1
+    score: 0.1892
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1892
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A11-p2
+    score: 0.1883
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: The system utilizes AWS S3, Pinecone, BERT, Apache Spark, and Power BI to manage,
+    process, and analyze stored conversational data effectively.
+  coherence_score: 0.182
+  contradiction: true
+  novelty_score: 0.818
+  q: What tools and technologies support Seebx’s data infrastructure?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.182
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.182
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1495
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1492
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A12
+    score: 0.1469
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole

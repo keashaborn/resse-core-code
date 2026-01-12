@@ -1,0 +1,165 @@
+- a: 'The temporal lobe manages several essential cognitive functions: Auditory Processing
+    – Decoding sound waves, distinguishing speech from noise, and identifying rhythms.
+    Semantic Memory – Storing the meanings of words, objects, and concepts (e.g.,
+    recognizing a dog by its bark or remembering the name of a song). Language Comprehension
+    – Particularly near Wernicke’s area, which processes spoken language into meaningful
+    phrases. Medial Temporal Structures (e.g., hippocampus) – Creating new memories,
+    linking sights and sounds to events, and integrating conceptual associations.
+    These functions allow individuals to distinguish a friend’s voice from a stranger’s,
+    recall familiar words, and experience memory-associated emotions with music or
+    sounds.'
+  coherence_score: 0.2075
+  contradiction: true
+  novelty_score: 0.7925
+  q: What are the everyday neurological functions of the temporal lobe?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.2075
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.2075
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A4-p2
+    score: 0.1908
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A4-p2
+    score: 0.1908
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A7-p1
+    score: 0.1815
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: 'The temporal lobe manages several essential cognitive functions: Auditory Processing
+    – Decoding sound waves, distinguishing speech from noise, and identifying rhythms.
+    Semantic Memory – Storing the meanings of words, objects, and concepts (e.g.,
+    recognizing a dog by its bark or remembering the name of a song). Language Comprehension
+    – Particularly near Wernicke’s area, which processes spoken language into meaningful
+    phrases. Medial Temporal Structures (e.g., hippocampus) – Creating new memories,
+    linking sights and sounds to events, and integrating conceptual associations.
+    These functions allow individuals to distinguish a friend’s voice from a stranger’s,
+    recall familiar words, and experience memory-associated emotions with music or
+    sounds.'
+  coherence_score: 0.2083
+  contradiction: true
+  novelty_score: 0.7917
+  q: What are the everyday neurological functions of the temporal lobe?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.2083
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.2083
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A4-p2
+    score: 0.1911
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A4-p2
+    score: 0.1911
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A7-p1
+    score: 0.1819
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: Seebx will expand compatibility with a wider range of wearable devices to provide
+    users with more comprehensive physiological tracking.
+  coherence_score: 0.1711
+  contradiction: true
+  novelty_score: 0.8289
+  q: What improvements are planned for wearable integration?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1711
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1711
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.1504
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1504
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A6-p2
+    score: 0.1224
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: 'The temporal lobe manages several essential cognitive functions: Auditory Processing
+    – Decoding sound waves, distinguishing speech from noise, and identifying rhythms.
+    Semantic Memory – Storing the meanings of words, objects, and concepts (e.g.,
+    recognizing a dog by its bark or remembering the name of a song). Language Comprehension
+    – Particularly near Wernicke’s area, which processes spoken language into meaningful
+    phrases. Medial Temporal Structures (e.g., hippocampus) – Creating new memories,
+    linking sights and sounds to events, and integrating conceptual associations.
+    These functions allow individuals to distinguish a friend’s voice from a stranger’s,
+    recall familiar words, and experience memory-associated emotions with music or
+    sounds.'
+  coherence_score: 0.2077
+  contradiction: true
+  novelty_score: 0.7923
+  q: What are the everyday neurological functions of the temporal lobe?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.2077
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.2077
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A4-p2
+    score: 0.1908
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A4-p2
+    score: 0.1908
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A7-p1
+    score: 0.1818
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion

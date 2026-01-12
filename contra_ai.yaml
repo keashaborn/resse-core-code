@@ -1,0 +1,2699 @@
+- a: Online learning systems continuously update their models as new data becomes
+    available. For instance, recommendation algorithms like those used in streaming
+    services adjust their suggestions based on user feedback in real-time, self-correcting
+    poor recommendations to better match user preferences.
+  coherence_score: 0.2051
+  contradiction: true
+  novelty_score: 0.7949
+  q: How do online learning systems use self-correction in real-time?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.2051
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.205
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A13
+    score: 0.1983
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1982
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A12
+    score: 0.198
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+- a: Graduated reinforcement fading ensures stable learning structures before external
+    reinforcement is withdrawn, reducing the risk of knowledge regression.
+  coherence_score: 0.2188
+  contradiction: true
+  novelty_score: 0.7812
+  q: What prevents premature reinforcement removal in learning models?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2188
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2188
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.2127
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.2126
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A15
+    score: 0.2077
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+- a: It provides structured movie dialogues that can help train the AI in understanding
+    conversational tone, turn-taking, and character-driven responses.
+  coherence_score: 0.1912
+  contradiction: true
+  novelty_score: 0.8088
+  q: What advantages does the Cornell Movie Dialogs Corpus offer for Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1912
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.191
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.1792
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1792
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A11
+    score: 0.1766
+    statement: To act or speak, the whole has to pretend it’s two—doer and done-to.
+      That pretending isn’t a mistake; it’s how unity gets things done.
+    title: Apparent Duality Enables Function
+- a: Libraries like spaCy or NLTK will parse interaction content, extracting meaningful
+    insights to refine AI-driven behavioral annotation.
+  coherence_score: 0.2193
+  contradiction: true
+  novelty_score: 0.7807
+  q: How will NLP and text analysis enhance Seebx’s analytical capabilities?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2193
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2192
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.2026
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.2026
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p2
+    score: 0.1909
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: It assesses the stability confidence of potential refinements, preventing high-risk
+    intelligence shifts from being implemented without additional validation.
+  coherence_score: 0.1822
+  contradiction: true
+  novelty_score: 0.8178
+  q: What is probabilistic risk modeling, and how does it mitigate undesired AI modifications?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A15
+    score: 0.1822
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A7-p1
+    score: 0.1801
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1801
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.165
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.165
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: BCBA feedback ensures that the AI’s questions remain clear, effective, and aligned
+    with best practices in behavioral annotation.
+  coherence_score: 0.2148
+  contradiction: true
+  novelty_score: 0.7852
+  q: Why is user feedback essential in Seebx’s data collection strategy?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2148
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2148
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A12
+    score: 0.2146
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.2146
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A13
+    score: 0.2138
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: AI uses predictive modeling to detect learning stabilization trends, identifying
+    when reinforcement should be faded, increased, or contrast-adjusted to optimize
+    learning efficiency.
+  coherence_score: 0.1878
+  contradiction: true
+  novelty_score: 0.8122
+  q: How does predictive modeling improve reinforcement-based learning systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.1878
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1877
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1783
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Seebx will leverage TensorFlow and PyTorch to train models capable of understanding,
+    categorizing, and refining verbal behavior classifications.
+  coherence_score: 0.1972
+  contradiction: true
+  novelty_score: 0.8028
+  q: Which machine learning frameworks will support AI training for Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1972
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1972
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1461
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1461
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A13
+    score: 0.1294
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: Statistical models and machine learning techniques will identify patterns in
+    user behavior, tracking annotation trends and improving AI guidance.
+  coherence_score: 0.2112
+  contradiction: true
+  novelty_score: 0.7888
+  q: What behavioral analytics tools will Seebx implement?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2112
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2111
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1949
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.1949
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A12
+    score: 0.1943
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+- a: Seebx will use NLP techniques to parse conversations, highlight key segments,
+    and train machine learning models on existing annotations to enhance AI guidance.
+  coherence_score: 0.2078
+  contradiction: true
+  novelty_score: 0.7922
+  q: How will Seebx leverage NLP and machine learning for annotation?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2078
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2077
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1774
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1774
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p2
+    score: 0.1771
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: Similarity searches in the vector database find related data points, while clustering
+    algorithms group similar text chunks to identify common themes.
+  coherence_score: 0.1917
+  contradiction: true
+  novelty_score: 0.8083
+  q: What techniques does Seebx use for contextual analysis?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A9
+    score: 0.1917
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A9
+    score: 0.1916
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A15
+    score: 0.1823
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A6-p1
+    score: 0.1774
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1774
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: 'Frontend: React + Tailwind CSS  , Backend: Python (FastAPI) + PostgreSQL, AI
+    Engine: OpenAI GPT-4 API + LangChain, Vector DB: Pinecone or Weaviate, Wearable
+    API: Oura, Fitbit, Apple HealthKit.'
+  coherence_score: 0.178
+  contradiction: true
+  novelty_score: 0.822
+  q: What technology stack powers SeeBx’s AI and behavioral tracking system?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p2
+    score: 0.178
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.178
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p1
+    score: 0.1768
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1768
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.1669
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: The AI asks, “Did any speaker make a request or ask for something in this segment?
+    If so, what did they request?” to pinpoint mands.
+  coherence_score: 0.1843
+  contradiction: true
+  novelty_score: 0.8157
+  q: How does Seebx identify mands in a conversation?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1843
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1841
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1796
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1796
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A11
+    score: 0.1711
+    statement: To act or speak, the whole has to pretend it’s two—doer and done-to.
+      That pretending isn’t a mistake; it’s how unity gets things done.
+    title: Apparent Duality Enables Function
+- a: 'In RAG (Retrieval-Augmented Generation), a multi-step process enhances transformer
+    generations by retrieving external, fact-grounded information via vector indexing
+    before model output is finalized. Three ways RAG pipelines use vector databases:
+    Pre-processing: Search a vector-indexed knowledge base for potential source material
+    before query processing. Inference-time injection: Augment prompts with realm-sensitive
+    embeddings by injecting retrieved vector references into the context window. Post-processing
+    verification: Verify generative drift by retrieving vector-similar answers and
+    comparing probabilistic certainty scores against comparable sourced texts. This
+    enhanced retrieval mechanism significantly improves factual grounding, reduces
+    hallucinations, and allows open-domain LLMs to operate over more expansive dynamic
+    corpora rather than relying solely on static training data.'
+  coherence_score: 0.1742
+  contradiction: true
+  novelty_score: 0.8258
+  q: How do RAG pipelines incorporate vector databases into AI workflows?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1742
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1742
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1741
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1741
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A15
+    score: 0.15
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+- a: Online learning systems continuously update their models as new data becomes
+    available. For instance, recommendation algorithms like those used in streaming
+    services adjust their suggestions based on user feedback in real-time, self-correcting
+    poor recommendations to better match user preferences.
+  coherence_score: 0.2051
+  contradiction: true
+  novelty_score: 0.7949
+  q: How do online learning systems use self-correction in real-time?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.2051
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.205
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A13
+    score: 0.1983
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1982
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A12
+    score: 0.198
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+- a: 'Transformer models generate vectorized meanings from input text, creating dense
+    embeddings (numerical feature representations of entities and relationships).
+    Vector databases amplify transformer efficiency by providing: Efficient long-context
+    data access, extending AI beyond token limitations. Granular semantic similarity
+    retrieval, ensuring document knowledge retrieval aligns with reasoning. Rapid
+    cross-modal verification, retrieving near-analogous node representations across
+    multiple forms (text, video, or even images together). Transformers on their own
+    generate relevant continuations, while vector databases amplify probability-grounded
+    accuracy by retrieving complementary meaning structures before synthesis.'
+  coherence_score: 0.214
+  contradiction: true
+  novelty_score: 0.786
+  q: How do vector databases integrate with transformer models?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.214
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.214
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.2096
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2096
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1983
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: In reinforcement learning, AI agents learn by interacting with an environment
+    and receiving feedback in the form of rewards or penalties. The agents self-correct
+    by refining their decision-making to maximize rewards, continuously adjusting
+    behavior based on the feedback from their actions.
+  coherence_score: 0.214
+  contradiction: true
+  novelty_score: 0.786
+  q: What role does reinforcement learning play in self-correction for AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.214
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.214
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1941
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1941
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1941
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: The primary risk of allowing AI to autonomously modify its own code lies in the
+    potential for unintended behavior or errors. If an AI changes its programming
+    in unpredictable ways, it could lead to malfunctioning systems, security vulnerabilities,
+    or behaviors that deviate from the intended purpose. This is why most current
+    AI systems are designed to suggest changes rather than implement them autonomously
+    without human oversight.
+  coherence_score: 0.2006
+  contradiction: true
+  novelty_score: 0.7994
+  q: What are the risks associated with AI modifying its own code?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2006
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2006
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A4-p1
+    score: 0.1724
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A4-p1
+    score: 0.1723
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A6-p1
+    score: 0.1692
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: In reinforcement learning, AI agents learn by interacting with an environment
+    and receiving feedback in the form of rewards or penalties. The agents self-correct
+    by refining their decision-making to maximize rewards, continuously adjusting
+    behavior based on the feedback from their actions.
+  coherence_score: 0.2141
+  contradiction: true
+  novelty_score: 0.7859
+  q: What role does reinforcement learning play in self-correction for AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.2141
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.2141
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1942
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1942
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1941
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: The primary risk of allowing AI to autonomously modify its own code lies in the
+    potential for unintended behavior or errors. If an AI changes its programming
+    in unpredictable ways, it could lead to malfunctioning systems, security vulnerabilities,
+    or behaviors that deviate from the intended purpose. This is why most current
+    AI systems are designed to suggest changes rather than implement them autonomously
+    without human oversight.
+  coherence_score: 0.2006
+  contradiction: true
+  novelty_score: 0.7994
+  q: What are the risks associated with AI modifying its own code?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2006
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2006
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A4-p1
+    score: 0.1724
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A4-p1
+    score: 0.1723
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A6-p1
+    score: 0.1692
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: 'Retrieval-Augmented Generation (RAG) enhances transformer-based models by integrating
+    external information retrieval systems with generative output. Instead of relying
+    purely on a fixed dataset, RAG: Queries external knowledge bases (such as databases,
+    vector stores, or web documents) based on a given prompt. Retrieves relevant documents
+    or data snippets before contextualizing their information. Feeds this retrieved
+    data into a transformer model, which then generates a response grounded in retrieved
+    knowledge. This process blends retrieval-based reasoning with generative AI, reducing
+    hallucinations by anchoring responses to factual sources.'
+  coherence_score: 0.1984
+  contradiction: true
+  novelty_score: 0.8016
+  q: What is a RAG pipeline, and how does it work in conventional AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1984
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1983
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1979
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1979
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.1829
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: Graduated reinforcement fading ensures stable learning structures before external
+    reinforcement is withdrawn, reducing the risk of knowledge regression.
+  coherence_score: 0.2182
+  contradiction: true
+  novelty_score: 0.7818
+  q: What prevents premature reinforcement removal in learning models?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2182
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2182
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.2127
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.2127
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A15
+    score: 0.2077
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+- a: AI that can simulate various decision outcomes can anticipate where bias might
+    arise. By testing different pathways in advance, the system can intervene before
+    bias affects real-world applications.
+  coherence_score: 0.2016
+  contradiction: true
+  novelty_score: 0.7984
+  q: Why is predictive scenario modeling useful for bias prevention?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.2016
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.2016
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A12
+    score: 0.1829
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A12
+    score: 0.1829
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+  - axiom_id: ax-A4
+    score: 0.1818
+    statement: Before/after and cause/effect appear when distinctions loop through
+      one another. Time isn’t outside us; it’s the rhythm created by change noticing
+      itself.
+    title: Time and Causality Are Emergent
+- a: 'Transformer models generate vectorized meanings from input text, creating dense
+    embeddings (numerical feature representations of entities and relationships).
+    Vector databases amplify transformer efficiency by providing: Efficient long-context
+    data access, extending AI beyond token limitations. Granular semantic similarity
+    retrieval, ensuring document knowledge retrieval aligns with reasoning. Rapid
+    cross-modal verification, retrieving near-analogous node representations across
+    multiple forms (text, video, or even images together). Transformers on their own
+    generate relevant continuations, while vector databases amplify probability-grounded
+    accuracy by retrieving complementary meaning structures before synthesis.'
+  coherence_score: 0.2144
+  contradiction: true
+  novelty_score: 0.7856
+  q: How do vector databases integrate with transformer models?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2144
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2144
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.2097
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2097
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1986
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: 'Transformer models use self-attention mechanisms to process input in parallel,
+    meaning they track long-range dependencies efficiently. They excel at: Generating
+    human-like text responses via probabilistic token prediction. Encoding meaning-rich
+    representations of text through embedded vector spaces. Scaling context recognition
+    efficiently over very large datasets. Transformers dominated due to their breakthrough
+    in capturing long-range dependencies, replacing previous sequential architectures
+    like RNNs and LSTMs.'
+  coherence_score: 0.2076
+  contradiction: true
+  novelty_score: 0.7924
+  q: How do transformer models work, and why have they dominated current AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2076
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2076
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A9
+    score: 0.2063
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A9
+    score: 0.2062
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A6-p2
+    score: 0.1989
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Google Cloud Speech-to-Text or Amazon Transcribe will convert spoken responses
+    into text, while Amazon Polly or Google Text-to-Speech will enable AI-driven verbal
+    interaction.
+  coherence_score: 0.177
+  contradiction: true
+  novelty_score: 0.823
+  q: What role do speech-to-text and text-to-speech technologies play in Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.177
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.177
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A13
+    score: 0.1675
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1673
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A11
+    score: 0.1608
+    statement: To act or speak, the whole has to pretend it’s two—doer and done-to.
+      That pretending isn’t a mistake; it’s how unity gets things done.
+    title: Apparent Duality Enables Function
+- a: Brute-force algorithms attempt every possibility without prioritization, consuming
+    time and resources indiscriminately. In contrast, adaptive AI refines its strategy
+    by learning from previous attempts, gradually narrowing its focus to the most
+    promising options. This intelligent exploration dramatically improves efficiency,
+    allowing the system to avoid unnecessary steps and arrive at solutions more effectively.
+  coherence_score: 0.2171
+  contradiction: true
+  novelty_score: 0.7829
+  q: How does adaptive learning compare to brute-force algorithms?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2171
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2171
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A10
+    score: 0.2059
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A10
+    score: 0.2057
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A2
+    score: 0.1861
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+- a: Targeted campaigns will highlight the benefits of participation, emphasizing
+    professional development opportunities, recognition, and contributions to AI-driven
+    behavioral analysis.
+  coherence_score: 0.1674
+  contradiction: true
+  novelty_score: 0.8326
+  q: What marketing strategies will Seebx use to attract BCBAs?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1674
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1674
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.1588
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1587
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A6-p2
+    score: 0.1512
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: 'A vector database is an optimized storage and retrieval system that indexes
+    high-dimensional vectors rather than structured tabular data. AI models—especially
+    transformers and multimodal deep learning systems—convert data (text, images,
+    sound) into vector representations that preserve contextual similarity relations.
+    Vector databases enable AI to: Store dense semantic embeddings, allowing rapid
+    similarity searches. Efficiently retrieve meaning-based rather than merely keyword-matched
+    data. Facilitate context-aware prompt retrieval, retrieval-augmented generation
+    (RAG), multimodal reasoning, and large-scale unstructured knowledge retrieval.
+    Examples: FAISS, Weaviate, Milvus, Pinecone—each offering extensive indexing and
+    similarity querying capabilities integrated with LLMs.'
+  coherence_score: 0.1493
+  contradiction: true
+  novelty_score: 0.8507
+  q: What is a vector database, and why is it important in AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1493
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1493
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.1488
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1488
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A2
+    score: 0.1383
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+- a: Publicly available Reddit dialogs provide real-world conversational interactions,
+    helping the AI learn informal language patterns, variations, and nuanced human
+    interactions.
+  coherence_score: 0.2079
+  contradiction: true
+  novelty_score: 0.7921
+  q: How can Seebx utilize Reddit datasets for annotation refinement?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.2079
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2076
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.1927
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1927
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.1721
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: Seebx focuses on AI-driven interaction, behavioral tracking, reinforcement learning,
+    community engagement, lifestyle integration, and wellness support, ensuring a
+    comprehensive behavioral change platform.
+  coherence_score: 0.206
+  contradiction: true
+  novelty_score: 0.794
+  q: What are the core features of Seebx's initial development?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.206
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.206
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.2001
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1999
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p2
+    score: 0.1916
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: 'The ethics of self-correcting AI are addressed in works such as Moral Machines:
+    Teaching Robots Right from Wrong by Wendell Wallach and Colin Allen. AI ethics
+    conferences, such as those hosted by the MIT Media Lab or Oxford''s Institute
+    for Ethics in AI, regularly discuss the risks of autonomous systems and self-correction
+    in AI, focusing on trustworthiness and responsibility.'
+  coherence_score: 0.2196
+  contradiction: true
+  novelty_score: 0.7804
+  q: What are the ethical implications of self-correcting AI systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.2196
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2196
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.2161
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2161
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.181
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: 'A vector database is an optimized storage and retrieval system that indexes
+    high-dimensional vectors rather than structured tabular data. AI models—especially
+    transformers and multimodal deep learning systems—convert data (text, images,
+    sound) into vector representations that preserve contextual similarity relations.
+    Vector databases enable AI to: Store dense semantic embeddings, allowing rapid
+    similarity searches. Efficiently retrieve meaning-based rather than merely keyword-matched
+    data. Facilitate context-aware prompt retrieval, retrieval-augmented generation
+    (RAG), multimodal reasoning, and large-scale unstructured knowledge retrieval.
+    Examples: FAISS, Weaviate, Milvus, Pinecone—each offering extensive indexing and
+    similarity querying capabilities integrated with LLMs.'
+  coherence_score: 0.1496
+  contradiction: true
+  novelty_score: 0.8504
+  q: What is a vector database, and why is it important in AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1496
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1496
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.149
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.149
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A2
+    score: 0.1386
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+- a: Vectorization converts text chunks into vector embeddings using pretrained NLP
+    models, capturing semantic meaning for efficient analysis.
+  coherence_score: 0.1477
+  contradiction: true
+  novelty_score: 0.8523
+  q: What is the role of vectorization in Seebx’s data processing?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.1477
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1477
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.1467
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1466
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A10
+    score: 0.146
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+- a: 'Frontend: React + Tailwind CSS,  Backend: Python (FastAPI) + PostgreSQL,  AI:
+    OpenAI GPT-4 + LangChain , Vector Database: Pinecone / Weaviate,  Wearable Integration:
+    Fitbit, Oura, Apple HealthKit APIs.'
+  coherence_score: 0.1725
+  contradiction: true
+  novelty_score: 0.8275
+  q: What technologies make up the Seebx Phase 1 tech stack?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1725
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1725
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1633
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1633
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A5
+    score: 0.1572
+    statement: Being begins as a flicker between presence and absence. That oscillation—
+      something asserting itself against nothing—is creation’s heartbeat.
+    title: The First Pulse Is 'I Am'
+- a: 'The ethics of self-correcting AI are addressed in works such as Moral Machines:
+    Teaching Robots Right from Wrong by Wendell Wallach and Colin Allen. AI ethics
+    conferences, such as those hosted by the MIT Media Lab or Oxford''s Institute
+    for Ethics in AI, regularly discuss the risks of autonomous systems and self-correction
+    in AI, focusing on trustworthiness and responsibility.'
+  coherence_score: 0.2197
+  contradiction: true
+  novelty_score: 0.7803
+  q: What are the ethical implications of self-correcting AI systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.2197
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2197
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.2162
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2162
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.181
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: Speech-to-text and text-to-speech integration will provide a more natural and
+    accessible annotation experience, allowing verbal interactions with the AI.
+  coherence_score: 0.1959
+  contradiction: true
+  novelty_score: 0.8041
+  q: How will STT and TTS technologies enhance the annotation process?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.1959
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1959
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.1959
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1959
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1711
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Self-reprogramming AI is not yet widely used, as the technology is still in its
+    experimental phase. While there are AI systems that can evaluate and suggest changes
+    to their own code, the ability to fully rewrite and autonomously improve their
+    programming is limited and tightly controlled. Developers remain cautious about
+    the widespread deployment of such systems due to the potential risks.
+  coherence_score: 0.2079
+  contradiction: true
+  novelty_score: 0.7921
+  q: Is self-reprogramming AI widely used today?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2079
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2079
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1577
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1576
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A2
+    score: 0.1474
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+- a: 'In RAG (Retrieval-Augmented Generation), a multi-step process enhances transformer
+    generations by retrieving external, fact-grounded information via vector indexing
+    before model output is finalized. Three ways RAG pipelines use vector databases:
+    Pre-processing: Search a vector-indexed knowledge base for potential source material
+    before query processing. Inference-time injection: Augment prompts with realm-sensitive
+    embeddings by injecting retrieved vector references into the context window. Post-processing
+    verification: Verify generative drift by retrieving vector-similar answers and
+    comparing probabilistic certainty scores against comparable sourced texts. This
+    enhanced retrieval mechanism significantly improves factual grounding, reduces
+    hallucinations, and allows open-domain LLMs to operate over more expansive dynamic
+    corpora rather than relying solely on static training data.'
+  coherence_score: 0.1742
+  contradiction: true
+  novelty_score: 0.8258
+  q: How do RAG pipelines incorporate vector databases into AI workflows?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1742
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1742
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1741
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1741
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A15
+    score: 0.15
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+- a: While experimental AI systems are being developed with the ability to autonomously
+    modify their own code, most current implementations include strict limitations
+    and human oversight. Typically, AI can suggest changes or optimizations, but developers
+    must approve these changes. Fully autonomous code modification is still rare and
+    risky due to concerns about unintended consequences and the complexity of safely
+    allowing such self-reprogramming.
+  coherence_score: 0.2171
+  contradiction: true
+  novelty_score: 0.7829
+  q: Can AI modify its own code autonomously?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2171
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2171
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A4-p1
+    score: 0.1684
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A4-p1
+    score: 0.1683
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A6-p1
+    score: 0.1673
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Seebx utilizes backend processing through Python/Node.js and the OpenAI API,
+    enabling intelligent interactions and content adaptation.
+  coherence_score: 0.1762
+  contradiction: true
+  novelty_score: 0.8238
+  q: What technologies support Seebx’s AI integration?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1762
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1762
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1654
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1652
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A11-p2
+    score: 0.1521
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: By employing positive reinforcement learning algorithms and adjusting reinforcement
+    schedules based on user data, Seebx ensures adaptive motivation strategies.
+  coherence_score: 0.2053
+  contradiction: true
+  novelty_score: 0.7947
+  q: How does Seebx implement reinforcement protocols?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2053
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2053
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1769
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1769
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p2
+    score: 0.1723
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: The AI greets the user, presents a conversation segment, and prompts guided questions
+    to help BCBAs identify verbal operants step by step.
+  coherence_score: 0.2061
+  contradiction: true
+  novelty_score: 0.7939
+  q: What is the workflow for annotating a conversation with Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.2061
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2059
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.2029
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.2029
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.1882
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: 'Transformer models generate vectorized meanings from input text, creating dense
+    embeddings (numerical feature representations of entities and relationships).
+    Vector databases amplify transformer efficiency by providing: Efficient long-context
+    data access, extending AI beyond token limitations. Granular semantic similarity
+    retrieval, ensuring document knowledge retrieval aligns with reasoning. Rapid
+    cross-modal verification, retrieving near-analogous node representations across
+    multiple forms (text, video, or even images together). Transformers on their own
+    generate relevant continuations, while vector databases amplify probability-grounded
+    accuracy by retrieving complementary meaning structures before synthesis.'
+  coherence_score: 0.2145
+  contradiction: true
+  novelty_score: 0.7855
+  q: How do vector databases integrate with transformer models?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2145
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2145
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.2096
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2095
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1984
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: In reinforcement learning, AI agents learn by interacting with an environment
+    and receiving feedback in the form of rewards or penalties. The agents self-correct
+    by refining their decision-making to maximize rewards, continuously adjusting
+    behavior based on the feedback from their actions.
+  coherence_score: 0.214
+  contradiction: true
+  novelty_score: 0.786
+  q: What role does reinforcement learning play in self-correction for AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.214
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.214
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1941
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1941
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1941
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: AI uses predictive modeling to detect learning stabilization trends, identifying
+    when reinforcement should be faded, increased, or contrast-adjusted to optimize
+    learning efficiency.
+  coherence_score: 0.1877
+  contradiction: true
+  novelty_score: 0.8123
+  q: How does predictive modeling improve reinforcement-based learning systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.1877
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1877
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1783
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Partnering with universities and research labs provides access to curated dialog
+    datasets, supporting the refinement and expansion of AI training materials.
+  coherence_score: 0.2191
+  contradiction: true
+  novelty_score: 0.7809
+  q: Why are academic collaborations valuable for Seebx?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.2191
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2188
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.1907
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1907
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A11-p2
+    score: 0.1802
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: Vector databases like Pinecone, Weaviate, or Milvus store and query high-dimensional
+    embeddings, improving AI’s ability to understand conversational context.
+  coherence_score: 0.2109
+  contradiction: true
+  novelty_score: 0.7891
+  q: What role do vector databases play in Seebx’s architecture?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2109
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2109
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1922
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1922
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A13
+    score: 0.1777
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: The primary risk of allowing AI to autonomously modify its own code lies in the
+    potential for unintended behavior or errors. If an AI changes its programming
+    in unpredictable ways, it could lead to malfunctioning systems, security vulnerabilities,
+    or behaviors that deviate from the intended purpose. This is why most current
+    AI systems are designed to suggest changes rather than implement them autonomously
+    without human oversight.
+  coherence_score: 0.2019
+  contradiction: true
+  novelty_score: 0.7981
+  q: What are the risks associated with AI modifying its own code?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2019
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2018
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A4-p1
+    score: 0.173
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A4-p1
+    score: 0.1729
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A6-p1
+    score: 0.1705
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Surveys and feedback forms will be integrated into the platform to allow users
+    to share insights on AI clarity, workflow efficiency, and usability.
+  coherence_score: 0.2114
+  contradiction: true
+  novelty_score: 0.7886
+  q: How will Seebx collect qualitative feedback from BCBAs?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2114
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2114
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.2074
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.2073
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A6-p1
+    score: 0.1958
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: In this approach, AI creates and tests predictions about how to improve. It evaluates
+    outcomes, adjusts its strategies, and uses those insights to form more refined
+    models going forward. This process helps the system move beyond trial and error,
+    enabling it to generate smarter solutions based on evolving patterns in the data.
+  coherence_score: 0.1894
+  contradiction: true
+  novelty_score: 0.8106
+  q: What is hypothesis-driven optimization in AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1894
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1894
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A10
+    score: 0.1889
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A10
+    score: 0.1887
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A6-p1
+    score: 0.1801
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Online learning systems continuously update their models as new data becomes
+    available. For instance, recommendation algorithms like those used in streaming
+    services adjust their suggestions based on user feedback in real-time, self-correcting
+    poor recommendations to better match user preferences.
+  coherence_score: 0.205
+  contradiction: true
+  novelty_score: 0.795
+  q: How do online learning systems use self-correction in real-time?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.205
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.205
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A13
+    score: 0.1983
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1982
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A12
+    score: 0.198
+    statement: Science and measurement are the universe watching its own behavior
+      under a magnifying glass. Data is one way the world checks its coherence.
+    title: Observation Is a Mirror for the Whole
+- a: 'A vector database is an optimized storage and retrieval system that indexes
+    high-dimensional vectors rather than structured tabular data. AI models—especially
+    transformers and multimodal deep learning systems—convert data (text, images,
+    sound) into vector representations that preserve contextual similarity relations.
+    Vector databases enable AI to: Store dense semantic embeddings, allowing rapid
+    similarity searches. Efficiently retrieve meaning-based rather than merely keyword-matched
+    data. Facilitate context-aware prompt retrieval, retrieval-augmented generation
+    (RAG), multimodal reasoning, and large-scale unstructured knowledge retrieval.
+    Examples: FAISS, Weaviate, Milvus, Pinecone—each offering extensive indexing and
+    similarity querying capabilities integrated with LLMs.'
+  coherence_score: 0.1493
+  contradiction: true
+  novelty_score: 0.8507
+  q: What is a vector database, and why is it important in AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1493
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1493
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.1488
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1488
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A2
+    score: 0.1383
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+- a: Graduated reinforcement fading ensures stable learning structures before external
+    reinforcement is withdrawn, reducing the risk of knowledge regression.
+  coherence_score: 0.2188
+  contradiction: true
+  novelty_score: 0.7812
+  q: What prevents premature reinforcement removal in learning models?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2188
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2188
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.2127
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.2126
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A15
+    score: 0.2077
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+- a: While experimental AI systems are being developed with the ability to autonomously
+    modify their own code, most current implementations include strict limitations
+    and human oversight. Typically, AI can suggest changes or optimizations, but developers
+    must approve these changes. Fully autonomous code modification is still rare and
+    risky due to concerns about unintended consequences and the complexity of safely
+    allowing such self-reprogramming.
+  coherence_score: 0.2171
+  contradiction: true
+  novelty_score: 0.7829
+  q: Can AI modify its own code autonomously?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2171
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2171
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A4-p1
+    score: 0.1684
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A4-p1
+    score: 0.1684
+    statement: Time isn’t a container we move through; it appears when differences
+      cascade. Cause/effect is change noticing itself. (Paraphrase of A4)
+    title: Time Emerges From Change
+  - axiom_id: ax-A6-p1
+    score: 0.1673
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: By using high-dimensional embeddings, vector databases enable Seebx to contextualize
+    behavior dynamically, making AI-generated insights more precise and personalized.
+  coherence_score: 0.2177
+  contradiction: true
+  novelty_score: 0.7823
+  q: How do vector databases contribute to adaptive behavioral analysis?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2177
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2177
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.2078
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2076
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p2
+    score: 0.2006
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Seebx will utilize NLP libraries such as spaCy, NLTK, and Hugging Face Transformers
+    to process conversational data and refine AI-driven annotations.
+  coherence_score: 0.1569
+  contradiction: true
+  novelty_score: 0.8431
+  q: What NLP libraries will Seebx use for text processing and analysis?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1569
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1569
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1184
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1184
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A13
+    score: 0.1179
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: 'Retrieval-Augmented Generation (RAG) enhances transformer-based models by integrating
+    external information retrieval systems with generative output. Instead of relying
+    purely on a fixed dataset, RAG: Queries external knowledge bases (such as databases,
+    vector stores, or web documents) based on a given prompt. Retrieves relevant documents
+    or data snippets before contextualizing their information. Feeds this retrieved
+    data into a transformer model, which then generates a response grounded in retrieved
+    knowledge. This process blends retrieval-based reasoning with generative AI, reducing
+    hallucinations by anchoring responses to factual sources.'
+  coherence_score: 0.1985
+  contradiction: true
+  novelty_score: 0.8015
+  q: What is a RAG pipeline, and how does it work in conventional AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1985
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1984
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.198
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.198
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.183
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: The index page acts as a dashboard summarizing key information, tracking progress,
+    displaying single subject graphs, recent conversations, and allowing customization
+    through AI interaction or drop-down menus.
+  coherence_score: 0.1934
+  contradiction: true
+  novelty_score: 0.8066
+  q: What functionality does the index page provide?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1934
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1934
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A9
+    score: 0.189
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A9
+    score: 0.1889
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A6-p1
+    score: 0.1883
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: The interactive text chat interface provides smooth communication with the AI,
+    maintaining a consistent design with the navigation sidebar and theme toggle.
+  coherence_score: 0.1871
+  contradiction: true
+  novelty_score: 0.8129
+  q: How does Seebx's chat interface enhance user-AI interaction?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.1871
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1869
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A6-p1
+    score: 0.1787
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1787
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A11-p2
+    score: 0.1714
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: Feasibility is currently at 50% due to infrastructure constraints, but within
+    3–5 years, available ML models and wearable tech advancements will make it highly
+    achievable.
+  coherence_score: 0.1824
+  contradiction: true
+  novelty_score: 0.8176
+  q: How feasible is Phase 3 in the short and long term?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1824
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1824
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A4-p2
+    score: 0.1594
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A4-p2
+    score: 0.1594
+    statement: In daily life, time feels like something we move through—minutes passing,
+      days turning. But what we actually feel moving is change itself. Each new experience
+      is the world redrawing itself, one distinction at a time.
+    title: Time Feels Like Motion
+  - axiom_id: ax-A6-p1
+    score: 0.1562
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+- a: Self-reprogramming AI is not yet widely used, as the technology is still in its
+    experimental phase. While there are AI systems that can evaluate and suggest changes
+    to their own code, the ability to fully rewrite and autonomously improve their
+    programming is limited and tightly controlled. Developers remain cautious about
+    the widespread deployment of such systems due to the potential risks.
+  coherence_score: 0.2083
+  contradiction: true
+  novelty_score: 0.7917
+  q: Is self-reprogramming AI widely used today?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2083
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2083
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1579
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1578
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A2
+    score: 0.1474
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+- a: 'In RAG (Retrieval-Augmented Generation), a multi-step process enhances transformer
+    generations by retrieving external, fact-grounded information via vector indexing
+    before model output is finalized. Three ways RAG pipelines use vector databases:
+    Pre-processing: Search a vector-indexed knowledge base for potential source material
+    before query processing. Inference-time injection: Augment prompts with realm-sensitive
+    embeddings by injecting retrieved vector references into the context window. Post-processing
+    verification: Verify generative drift by retrieving vector-similar answers and
+    comparing probabilistic certainty scores against comparable sourced texts. This
+    enhanced retrieval mechanism significantly improves factual grounding, reduces
+    hallucinations, and allows open-domain LLMs to operate over more expansive dynamic
+    corpora rather than relying solely on static training data.'
+  coherence_score: 0.1741
+  contradiction: true
+  novelty_score: 0.8259
+  q: How do RAG pipelines incorporate vector databases into AI workflows?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1741
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1741
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p1
+    score: 0.1741
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1741
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A15
+    score: 0.1499
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+- a: 'The ethics of self-correcting AI are addressed in works such as Moral Machines:
+    Teaching Robots Right from Wrong by Wendell Wallach and Colin Allen. AI ethics
+    conferences, such as those hosted by the MIT Media Lab or Oxford''s Institute
+    for Ethics in AI, regularly discuss the risks of autonomous systems and self-correction
+    in AI, focusing on trustworthiness and responsibility.'
+  coherence_score: 0.2197
+  contradiction: true
+  novelty_score: 0.7803
+  q: What are the ethical implications of self-correcting AI systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13
+    score: 0.2197
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.2196
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.2162
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2162
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.181
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: AI that can simulate multiple potential futures and update those scenarios in
+    response to new information offers a major advantage. Instead of relying on fixed
+    outcomes, adaptive models evolve as conditions shift, making planning more resilient
+    and responsive.
+  coherence_score: 0.198
+  contradiction: true
+  novelty_score: 0.802
+  q: Why is adaptive modeling important for long-term strategic planning?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p2
+    score: 0.198
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.1979
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A10
+    score: 0.1962
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A10
+    score: 0.1962
+    statement: Existence doesn’t split apart by accident—it differentiates so the
+      whole can experience, learn, and know itself through contrast.
+    title: Differentiation Has Purpose
+  - axiom_id: ax-A4
+    score: 0.1942
+    statement: Before/after and cause/effect appear when distinctions loop through
+      one another. Time isn’t outside us; it’s the rhythm created by change noticing
+      itself.
+    title: Time and Causality Are Emergent
+- a: Seebx can utilize datasets such as the Cornell Movie Dialogs Corpus, Reddit datasets
+    from Pushshift.io, and OpenSubtitles for diverse conversational samples.
+  coherence_score: 0.1573
+  contradiction: true
+  novelty_score: 0.8427
+  q: What publicly available datasets can be used to train Seebx’s conversational
+    AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1573
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1573
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.128
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1277
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A11-p2
+    score: 0.1142
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: 'Transformer models use self-attention mechanisms to process input in parallel,
+    meaning they track long-range dependencies efficiently. They excel at: Generating
+    human-like text responses via probabilistic token prediction. Encoding meaning-rich
+    representations of text through embedded vector spaces. Scaling context recognition
+    efficiently over very large datasets. Transformers dominated due to their breakthrough
+    in capturing long-range dependencies, replacing previous sequential architectures
+    like RNNs and LSTMs.'
+  coherence_score: 0.2072
+  contradiction: true
+  novelty_score: 0.7928
+  q: How do transformer models work, and why have they dominated current AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2072
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2072
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A9
+    score: 0.2062
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A9
+    score: 0.2061
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A6-p2
+    score: 0.199
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: AI uses predictive modeling to detect learning stabilization trends, identifying
+    when reinforcement should be faded, increased, or contrast-adjusted to optimize
+    learning efficiency.
+  coherence_score: 0.1878
+  contradiction: true
+  novelty_score: 0.8122
+  q: How does predictive modeling improve reinforcement-based learning systems?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p2
+    score: 0.1878
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1877
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1802
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A6-p2
+    score: 0.1783
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: NLP models such as BERT or GPT create embeddings that capture semantic meaning,
+    improving the AI’s interpretation and categorization of verbal interactions.
+  coherence_score: 0.1667
+  contradiction: true
+  novelty_score: 0.8333
+  q: How does Seebx generate vector embeddings for textual data?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.1667
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1667
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A7-p1
+    score: 0.1638
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1637
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1604
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+- a: BCBAs can earn continuing education credits (CEUs), receive public recognition,
+    gain free access to SeeBx AI tools, and engage in a supportive professional community.
+  coherence_score: 0.1586
+  contradiction: true
+  novelty_score: 0.8414
+  q: What incentives will Seebx offer BCBAs for participation?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.1586
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1586
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p2
+    score: 0.145
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1449
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A6-p2
+    score: 0.1356
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+- a: Resources such as Persona-Chat and OpenSubtitles offer large, publicly available
+    dialog datasets, allowing Seebx to train its AI on diverse conversational structures.
+  coherence_score: 0.2089
+  contradiction: true
+  novelty_score: 0.7911
+  q: What role do open-source initiatives play in AI training?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2089
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2089
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A11-p2
+    score: 0.188
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.1878
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11
+    score: 0.1823
+    statement: To act or speak, the whole has to pretend it’s two—doer and done-to.
+      That pretending isn’t a mistake; it’s how unity gets things done.
+    title: Apparent Duality Enables Function
+- a: 'Retrieval-Augmented Generation (RAG) enhances transformer-based models by integrating
+    external information retrieval systems with generative output. Instead of relying
+    purely on a fixed dataset, RAG: Queries external knowledge bases (such as databases,
+    vector stores, or web documents) based on a given prompt. Retrieves relevant documents
+    or data snippets before contextualizing their information. Feeds this retrieved
+    data into a transformer model, which then generates a response grounded in retrieved
+    knowledge. This process blends retrieval-based reasoning with generative AI, reducing
+    hallucinations by anchoring responses to factual sources.'
+  coherence_score: 0.1997
+  contradiction: true
+  novelty_score: 0.8003
+  q: What is a RAG pipeline, and how does it work in conventional AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p1
+    score: 0.1997
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A6-p1
+    score: 0.1997
+    statement: 'What we can perceive and what is “there” form each other in a loop:
+      perception shapes the pattern it then encounters. (Paraphrase of A6)'
+    title: Perception and Structure Co-create
+  - axiom_id: ax-A13
+    score: 0.1988
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1987
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A7-p1
+    score: 0.1839
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: Self-reprogramming AI is not yet widely used, as the technology is still in its
+    experimental phase. While there are AI systems that can evaluate and suggest changes
+    to their own code, the ability to fully rewrite and autonomously improve their
+    programming is limited and tightly controlled. Developers remain cautious about
+    the widespread deployment of such systems due to the potential risks.
+  coherence_score: 0.2083
+  contradiction: true
+  novelty_score: 0.7917
+  q: Is self-reprogramming AI widely used today?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2083
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2083
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A13
+    score: 0.1579
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1578
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A2
+    score: 0.1474
+    statement: Opposites like self/other or light/dark aren’t separate worlds; they’re
+      how unity learns about itself. Duality is a teaching tool, not the final story.
+    title: Duality as Method, Not Truth
+- a: 'Transformer models use self-attention mechanisms to process input in parallel,
+    meaning they track long-range dependencies efficiently. They excel at: Generating
+    human-like text responses via probabilistic token prediction. Encoding meaning-rich
+    representations of text through embedded vector spaces. Scaling context recognition
+    efficiently over very large datasets. Transformers dominated due to their breakthrough
+    in capturing long-range dependencies, replacing previous sequential architectures
+    like RNNs and LSTMs.'
+  coherence_score: 0.2076
+  contradiction: true
+  novelty_score: 0.7924
+  q: How do transformer models work, and why have they dominated current AI?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.2076
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.2076
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A9
+    score: 0.2063
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A9
+    score: 0.2062
+    statement: The one expresses itself by repeating patterns at every scale. Coherence
+      is the hidden rule that keeps diversity connected.
+    title: Unity Shows Itself Through Self-Similarity
+  - axiom_id: ax-A6-p2
+    score: 0.1989
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See

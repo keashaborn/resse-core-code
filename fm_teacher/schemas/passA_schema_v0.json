@@ -1,0 +1,49 @@
+{
+  "name": "passA_v0",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["cluster_id","pass","error","used_fact_i","fact_sentences","bridge_sentences","prose"],
+    "properties": {
+      "cluster_id": { "type": "string" },
+      "pass": { "type": "string", "enum": ["A"] },
+      "error": { "type": "string", "enum": ["", "insufficient_support"] },
+
+      "used_fact_i": {
+        "type": "array",
+        "items": { "type": "integer", "minimum": 0 },
+        "minItems": 0,
+        "maxItems": 6
+      },
+
+      "fact_sentences": {
+        "type": "array",
+        "minItems": 0,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["i_list","sentence"],
+          "properties": {
+            "i_list": {
+              "type": "array",
+              "items": { "type": "integer", "minimum": 0 },
+              "minItems": 1,
+              "maxItems": 3
+            },
+            "sentence": { "type": "string", "minLength": 5 }
+          }
+        }
+      },
+
+      "bridge_sentences": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 5 },
+        "minItems": 0,
+        "maxItems": 3
+      },
+
+      "prose": { "type": "string" }
+    }
+  }
+}

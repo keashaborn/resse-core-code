@@ -1,0 +1,476 @@
+- a: Without opposites, all perspectives would merge into one undifferentiated experience,
+    and we’d lose the unique flavor of each moment. It would be like living in a world
+    with no color—without differences to mark boundaries, our individual identities
+    and distinct experiences would vanish, leaving us with a bland, uniform existence.
+  coherence_score: 0.4556
+  contradiction: false
+  novelty_score: 0.5444
+  q: How would our view change if everything were the same?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A2
+    score: 0.4556
+  - axiom_id: A1
+    score: 0.4507
+  - axiom_id: A10
+    score: 0.3926
+  - axiom_id: A3
+    score: 0.3876
+  - axiom_id: A8
+    score: 0.356
+- a: Our awareness begins as a simple, almost instinctive sense of being. Over time,
+    as we start noticing differences—like changes in our surroundings or shifts in
+    our feelings—this basic awareness becomes richer and more detailed, much like
+    adding layers to a painting. Even things that seem static, like a rock, interact
+    with their environment in subtle ways. Gradually, these small observations build
+    up into a more organized and nuanced form of awareness that helps us understand
+    the world around us.
+  coherence_score: 0.4956
+  contradiction: false
+  novelty_score: 0.5044
+  q: How does our perception evolve?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4956
+  - axiom_id: A6
+    score: 0.4752
+  - axiom_id: A10
+    score: 0.4363
+  - axiom_id: A7
+    score: 0.4359
+  - axiom_id: A4
+    score: 0.393
+- a: No, without differences there would be nothing to notice. Just like you can’t
+    appreciate a melody if every note sounds the same, our experiences rely on contrasts—such
+    as the difference between sound and silence or brightness and shadow. These distinctions
+    give structure and depth to our lives. Without them, everything would blend together,
+    leaving us with a flat, unremarkable experience.
+  coherence_score: 0.4518
+  contradiction: false
+  novelty_score: 0.5482
+  q: Would life be meaningful without differences to set things apart?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A10
+    score: 0.4518
+  - axiom_id: A1
+    score: 0.415
+  - axiom_id: A2
+    score: 0.4148
+  - axiom_id: A3
+    score: 0.3066
+  - axiom_id: A7
+    score: 0.306
+- a: Saying “I am” doesn’t require a fully developed mind; it’s simply the most basic
+    form of acknowledging one’s own presence. At that very first moment, there isn’t
+    any deep thought, memory, or analysis—just an immediate awareness that something
+    is there. This small flicker of recognition naturally arises from the way existence
+    begins to reveal differences. As more distinctions accumulate over time, this
+    initial awareness gradually evolves into a richer, more organized form of consciousness
+    that gives shape and meaning to our experience.
+  coherence_score: 0.4897
+  contradiction: false
+  novelty_score: 0.5103
+  q: How can the simple act of “I am” exist before full consciousness develops?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A5
+    score: 0.4897
+  - axiom_id: A7
+    score: 0.489
+  - axiom_id: A1
+    score: 0.4243
+  - axiom_id: A2
+    score: 0.4233
+  - axiom_id: A10
+    score: 0.4133
+- a: Yes—in a sense, the spark of awareness lays the groundwork for everything else.
+    Think of it as the foundation of a building; before you see the walls and the
+    roof, there’s a sense of space and possibility. Our ability to perceive and distinguish
+    gives rise to the structure of the world around us.
+  coherence_score: 0.4735
+  contradiction: false
+  novelty_score: 0.5265
+  q: Does our awareness come before physical form?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4735
+  - axiom_id: A7
+    score: 0.4605
+  - axiom_id: A5
+    score: 0.4446
+  - axiom_id: A6
+    score: 0.4421
+  - axiom_id: A10
+    score: 0.4337
+- a: No, life doesn’t come with a purpose handed down from outside. Instead, the meaning
+    of life emerges naturally from the way we live and interact. Every moment—every
+    decision, every experience—is like a brushstroke in an ever-evolving painting.
+    There isn’t a fixed destination; purpose grows from how we perceive, respond to,
+    and shape our world.
+  coherence_score: 0.4806
+  contradiction: false
+  novelty_score: 0.5194
+  q: Does life have an external, preset purpose?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A10
+    score: 0.4806
+  - axiom_id: A8
+    score: 0.3151
+  - axiom_id: A4
+    score: 0.3137
+  - axiom_id: A5
+    score: 0.3034
+  - axiom_id: A6
+    score: 0.271
+- a: 'The essence of life is that everything we experience arises from one unified
+    source. Although the world seems full of different people, events, and objects,
+    these differences come from the way we perceive them rather than from any inherent
+    separateness. Think of it like an ocean: each wave may have its own shape and
+    energy, but every wave originates from the same vast, interconnected body of water.
+    In this way, the diversity of life is simply a range of expressions from a single,
+    underlying whole.'
+  coherence_score: 0.4927
+  contradiction: false
+  novelty_score: 0.5073
+  q: What is the essence of life?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A10
+    score: 0.4927
+  - axiom_id: A3
+    score: 0.4354
+  - axiom_id: A2
+    score: 0.422
+  - axiom_id: A9
+    score: 0.4218
+  - axiom_id: A7
+    score: 0.4183
+- a: Fractals are important because they show us that simple, repeating rules can
+    give rise to incredibly complex and beautiful forms. They remind us that what
+    might seem chaotic at first can actually be deeply organized. Whether it’s the
+    branching of trees, the spiral of a galaxy, or the pattern of a coastline, fractals
+    reveal that there’s an underlying unity in all these diverse forms. This insight
+    helps us see that every part of nature, no matter how small, is connected to the
+    whole, offering a powerful reminder of life’s interconnected beauty.
+  coherence_score: 0.4993
+  contradiction: false
+  novelty_score: 0.5007
+  q: Why are fractals important?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A9
+    score: 0.4993
+  - axiom_id: A3
+    score: 0.373
+  - axiom_id: A10
+    score: 0.3236
+  - axiom_id: A4
+    score: 0.2665
+  - axiom_id: A5
+    score: 0.2634
+- a: Reality comes to life when it’s experienced. Without an observer—someone to see,
+    feel, or interpret it—everything would remain just a potential, unshaped possibility.
+    In other words, it’s our act of noticing and understanding that turns abstract
+    potential into the real world we live in.
+  coherence_score: 0.4659
+  contradiction: false
+  novelty_score: 0.5341
+  q: Can reality exist without someone to notice it?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A6
+    score: 0.4659
+  - axiom_id: A2
+    score: 0.4532
+  - axiom_id: A10
+    score: 0.4292
+  - axiom_id: A1
+    score: 0.4192
+  - axiom_id: A3
+    score: 0.3799
+- a: At first glance, certain ideas might appear to contradict one another because
+    we’re only looking at a small part of the whole picture. When we step back and
+    consider a broader perspective, these seeming conflicts often resolve themselves,
+    revealing that different viewpoints are simply different ways of looking at the
+    same underlying truth.
+  coherence_score: 0.4063
+  contradiction: false
+  novelty_score: 0.5937
+  q: Why do some ideas seem to conflict with each other?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A3
+    score: 0.4063
+  - axiom_id: A2
+    score: 0.3933
+  - axiom_id: A9
+    score: 0.3809
+  - axiom_id: A4
+    score: 0.3374
+  - axiom_id: A1
+    score: 0.3212
+- a: 'Think of rules as the guidelines that help nature and our daily lives organize
+    themselves. They’re like a recipe: not fixed instructions, but flexible steps
+    that guide how things unfold. Whether it’s the way plants grow or how our communities
+    function, these underlying patterns help create order from chaos and allow complex
+    structures to emerge over time.'
+  coherence_score: 0.4639
+  contradiction: false
+  novelty_score: 0.5361
+  q: How do rules shape the patterns in life?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A9
+    score: 0.4639
+  - axiom_id: A10
+    score: 0.4021
+  - axiom_id: A4
+    score: 0.3242
+  - axiom_id: A5
+    score: 0.3093
+  - axiom_id: A3
+    score: 0.3048
+- a: When we ask about the forces behind an object or event, we dig into the processes
+    that create change. This approach moves us beyond simple labels and encourages
+    us to understand the deeper connections and interactions at work. By focusing
+    on the “rules” behind things, we can better grasp how life continuously evolves
+    and how everything fits together in a larger, ever-changing picture.
+  coherence_score: 0.3995
+  contradiction: false
+  novelty_score: 0.6005
+  q: Why should we ask, "What rules are shaping this interaction?" instead of simply
+    asking, "What is this thing?"
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A9
+    score: 0.3995
+  - axiom_id: A10
+    score: 0.3496
+  - axiom_id: A8
+    score: 0.3387
+  - axiom_id: A4
+    score: 0.3347
+  - axiom_id: A6
+    score: 0.3158
+- a: Rather than having a purpose handed down from outside, meaning emerges naturally
+    from living and interacting with the world. Life isn’t about reaching a final
+    destination; it’s more like a tree that continually grows and branches out. Every
+    experience adds a new layer to our journey, showing that our purpose is self-generated
+    and ever-evolving.
+  coherence_score: 0.4562
+  contradiction: false
+  novelty_score: 0.5438
+  q: What is the ultimate purpose or goal of life?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A10
+    score: 0.4562
+  - axiom_id: A5
+    score: 0.3423
+  - axiom_id: A8
+    score: 0.3102
+  - axiom_id: A3
+    score: 0.3093
+  - axiom_id: A4
+    score: 0.3089
+- a: Time isn’t a tangible object—it’s more like a tool we use to organize our experiences.
+    Rather than being an independent force, time emerges from the way we notice and
+    measure changes. It’s the method our minds use to give order to the continuous
+    flow of life, rather than a fixed, separate entity.
+  coherence_score: 0.456
+  contradiction: false
+  novelty_score: 0.544
+  q: Is time something that exists on its own, or is it just a way of understanding
+    change?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A4
+    score: 0.456
+  - axiom_id: A8
+    score: 0.406
+  - axiom_id: A7
+    score: 0.3836
+  - axiom_id: A2
+    score: 0.376
+  - axiom_id: A10
+    score: 0.3555
+- a: Focusing on the underlying processes and rules gives us a deeper insight into
+    how everything is constantly changing and interacting. Instead of merely cataloging
+    objects, we start to see the bigger picture—the dynamic forces that drive growth,
+    change, and adaptation. It’s like appreciating not just individual trees in a
+    forest, but also understanding how the entire ecosystem works together.
+  coherence_score: 0.4289
+  contradiction: false
+  novelty_score: 0.5711
+  q: Why is it important to look at life as a process governed by rules rather than
+    as a collection of fixed things?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A9
+    score: 0.4289
+  - axiom_id: A8
+    score: 0.3898
+  - axiom_id: A10
+    score: 0.3801
+  - axiom_id: A3
+    score: 0.3617
+  - axiom_id: A4
+    score: 0.3435
+- a: This initial state is called timeless and infinite because, without any differences
+    to mark change, there’s no way to tell time or place. In this unbroken expanse,
+    everything exists as pure, boundless potential—there is no past or future, only
+    an eternal present. It’s only when we begin to notice contrasts—when we see the
+    difference between what is and what isn’t—that a rhythm of change emerges. In
+    other words, what we experience as time comes into being through the very process
+    of noticing and creating differences, rather than being a fixed, independent element
+    of reality.
+  coherence_score: 0.4668
+  contradiction: false
+  novelty_score: 0.5332
+  q: Why is this starting state described as timeless and infinite?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A4
+    score: 0.4668
+  - axiom_id: A1
+    score: 0.4481
+  - axiom_id: A5
+    score: 0.4347
+  - axiom_id: A2
+    score: 0.4271
+  - axiom_id: A8
+    score: 0.4083
+- a: Yes, in this perspective, the idea is that the capacity to notice differences
+    lays the groundwork for everything we see. Before objects take on a defined shape
+    or form, there’s a raw potential that becomes organized through simple awareness.
+    In other words, the world as we experience it gets its structure because something—whether
+    a living organism or a basic natural process—starts to pick out and organize the
+    inherent potential into what we call matter.
+  coherence_score: 0.4983
+  contradiction: false
+  novelty_score: 0.5017
+  q: Does awareness come before physical form, and if so, why?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4983
+  - axiom_id: A10
+    score: 0.4685
+  - axiom_id: A7
+    score: 0.459
+  - axiom_id: A6
+    score: 0.4312
+  - axiom_id: A5
+    score: 0.4226
+- a: A perceiver is any part of existence that can notice differences, no matter how
+    basic. It doesn’t have to be a human mind; even a simple system that registers
+    a change counts as a perceiver. Think of every perceiver as a small window into
+    the bigger picture, contributing its unique view to the overall experience of
+    reality. Instead of being isolated, each perceiver is an integral part of the
+    ongoing process through which the entire universe expresses itself.
+  coherence_score: 0.4964
+  contradiction: false
+  novelty_score: 0.5036
+  q: What is a perceiver?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4964
+  - axiom_id: A6
+    score: 0.489
+  - axiom_id: A10
+    score: 0.4575
+  - axiom_id: A3
+    score: 0.429
+  - axiom_id: A2
+    score: 0.3826
+- a: If everything is part of one interconnected whole, then our minds aren’t isolated
+    islands but pieces of a larger, shared awareness. This means our thoughts, memories,
+    and even our gut feelings might be echoes of a deeper collective process. We’re
+    all part of the same tapestry, with each individual insight contributing to the
+    overall picture.
+  coherence_score: 0.4995
+  contradiction: false
+  novelty_score: 0.5005
+  q: What are the implications of oneness for our minds?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A3
+    score: 0.4995
+  - axiom_id: A9
+    score: 0.4771
+  - axiom_id: A7
+    score: 0.4439
+  - axiom_id: A2
+    score: 0.4342
+  - axiom_id: A1
+    score: 0.4057
+- a: 'Differentiation is the process of recognizing and establishing differences in
+    what might otherwise be a uniform whole. It’s how a formless field of potential
+    turns into the diverse, structured reality we live in. Think of it like this:
+    by noticing contrasts—such as light versus dark or soft versus hard—we begin to
+    see individual objects and experiences. This ongoing process is what gives rise
+    to the rich variety of life and forms in our everyday world.'
+  coherence_score: 0.4639
+  contradiction: false
+  novelty_score: 0.5361
+  q: What is differentiation?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4639
+  - axiom_id: A10
+    score: 0.4574
+  - axiom_id: A3
+    score: 0.3874
+  - axiom_id: A5
+    score: 0.3345
+  - axiom_id: A2
+    score: 0.327
+- a: Seeing everything as one helps us understand that even though we experience many
+    different parts of life, they all come from the same source. It’s like realizing
+    that every individual drop of water is part of the same ocean. This perspective
+    shows us that our differences are just varied expressions of a single, interconnected
+    reality, and it encourages us to look beyond the surface and appreciate the deep
+    unity that ties everything together.
+  coherence_score: 0.4998
+  contradiction: false
+  novelty_score: 0.5002
+  q: How does the idea that everything is one change how we see existence?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A3
+    score: 0.4998
+  - axiom_id: A9
+    score: 0.4611
+  - axiom_id: A10
+    score: 0.4412
+  - axiom_id: A2
+    score: 0.4325
+  - axiom_id: A8
+    score: 0.4123

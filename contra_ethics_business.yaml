@@ -1,0 +1,472 @@
+- a: 'For employees: Meritocracy creates an environment where performance and contribution
+    are rewarded, fostering motivation and trust. Employees feel valued for their
+    work, not their background. For employers: Meritocracy ensures every hire contributes
+    to the company’s success, maximizing productivity and minimizing inefficiencies
+    caused by bias or suboptimal hiring decisions.'
+  coherence_score: 0.1982
+  contradiction: true
+  novelty_score: 0.8018
+  q: How does meritocracy benefit both employees and employers?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.1982
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.198
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A13
+    score: 0.1768
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1768
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A9-p2
+    score: 0.1717
+    statement: Life looks divided—people, moments, things—but everything depends on
+      everything else. Cooperation isn’t optional; it’s how reality keeps itself running.
+    title: Everything Works Together
+- a: Straying from meritocracy undermines trust and performance within a team. If
+    employees believe demographic traits are prioritized over ability, it can lead
+    to resentment, decreased morale, and doubts about leadership decisions. Additionally,
+    it risks compromising the quality of work, as less-qualified individuals may be
+    chosen over more capable candidates.
+  coherence_score: 0.1923
+  contradiction: true
+  novelty_score: 0.8077
+  q: What is the risk of straying from pure meritocracy?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A15
+    score: 0.1923
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A13-p2
+    score: 0.181
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.181
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A7-p1
+    score: 0.1714
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1714
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: 'To align hiring practices with meritocracy, business owners can: Acknowledge
+    biases: Reflect on personal preferences that may unconsciously influence decisions.
+    Standardize evaluation: Use objective criteria, such as skill assessments or structured
+    interviews, to evaluate candidates fairly. Seek diverse perspectives: Include
+    other decision-makers in the hiring process to counterbalance potential biases.
+    Focus on the mission: Remember that the goal is to build the best team possible
+    for the business’s success.'
+  coherence_score: 0.2035
+  contradiction: true
+  novelty_score: 0.7965
+  q: How can business owners recognize and overcome their own biases?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.2035
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.2031
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A15
+    score: 0.1987
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A7-p2
+    score: 0.1947
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1946
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: Meritocracy ensures that every hire is made based on ability, qualifications,
+    and potential. By assembling a workforce of the best people for each role, businesses
+    maximize efficiency, innovation, and adaptability. A purely merit-based approach
+    avoids biases that could limit an organization’s potential, creating a team where
+    talent and performance drive success.
+  coherence_score: 0.212
+  contradiction: true
+  novelty_score: 0.788
+  q: How does meritocracy create the foundation for business success?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.212
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.212
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A10-p2
+    score: 0.208
+    statement: We don’t have to find some hidden meaning for life. Meaning appears
+      when we act, connect, and respond. Purpose is built into the act of showing
+      up and participating.
+    title: Purpose Is in the Doing
+  - axiom_id: ax-A10-p2
+    score: 0.208
+    statement: We don’t have to find some hidden meaning for life. Meaning appears
+      when we act, connect, and respond. Purpose is built into the act of showing
+      up and participating.
+    title: Purpose Is in the Doing
+  - axiom_id: ax-A9-p2
+    score: 0.2075
+    statement: Life looks divided—people, moments, things—but everything depends on
+      everything else. Cooperation isn’t optional; it’s how reality keeps itself running.
+    title: Everything Works Together
+- a: Morality is a system of principles and values that guide behavior by distinguishing
+    between right and wrong, promoting well-being, fairness, and harmony within a
+    society. It reflects cultural norms, philosophical ideas, and societal expectations.
+  coherence_score: 0.2077
+  contradiction: true
+  novelty_score: 0.7923
+  q: What is the typical definition of morality?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13-p2
+    score: 0.2077
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.2077
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A10-p2
+    score: 0.1809
+    statement: We don’t have to find some hidden meaning for life. Meaning appears
+      when we act, connect, and respond. Purpose is built into the act of showing
+      up and participating.
+    title: Purpose Is in the Doing
+  - axiom_id: ax-A10-p2
+    score: 0.1809
+    statement: We don’t have to find some hidden meaning for life. Meaning appears
+      when we act, connect, and respond. Purpose is built into the act of showing
+      up and participating.
+    title: Purpose Is in the Doing
+  - axiom_id: ax-A15
+    score: 0.177
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+- a: 'For employees: Meritocracy creates an environment where performance and contribution
+    are rewarded, fostering motivation and trust. Employees feel valued for their
+    work, not their background. For employers: Meritocracy ensures every hire contributes
+    to the company’s success, maximizing productivity and minimizing inefficiencies
+    caused by bias or suboptimal hiring decisions.'
+  coherence_score: 0.1982
+  contradiction: true
+  novelty_score: 0.8018
+  q: How does meritocracy benefit both employees and employers?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.1982
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.1979
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A13
+    score: 0.1768
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A13
+    score: 0.1768
+    statement: Every genuine meeting—between people, minds, or systems—is the whole
+      recognizing itself from two angles. Empathy is recursion in human form.
+    title: Relationship Is Resonant Reflection
+  - axiom_id: ax-A9-p2
+    score: 0.1717
+    statement: Life looks divided—people, moments, things—but everything depends on
+      everything else. Cooperation isn’t optional; it’s how reality keeps itself running.
+    title: Everything Works Together
+- a: 'In the short term, hiring based on personal preferences may feel easier or more
+    comfortable for a biased business owner. However, the long-term cost includes:
+    Lower team quality: A less-skilled workforce reduces overall performance. Missed
+    opportunities: Overlooking talented candidates limits innovation and growth. Damaged
+    reputation: Customers and employees may perceive the business as unfair, unprofessional,
+    or outdated. Ultimately, a failure to prioritize merit jeopardizes the business’s
+    success and longevity.'
+  coherence_score: 0.1575
+  contradiction: true
+  novelty_score: 0.8425
+  q: What is the long-term cost of hiring based on personal preferences rather than
+    merit?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p2
+    score: 0.1575
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.1575
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A7-p1
+    score: 0.1415
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1415
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A11-p2
+    score: 0.1409
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: Morality is a system of principles and values that guide behavior by distinguishing
+    between right and wrong, promoting well-being, fairness, and harmony within a
+    society. It reflects cultural norms, philosophical ideas, and societal expectations.
+  coherence_score: 0.2078
+  contradiction: true
+  novelty_score: 0.7922
+  q: What is the typical definition of morality?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A13-p2
+    score: 0.2078
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.2078
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A10-p2
+    score: 0.1808
+    statement: We don’t have to find some hidden meaning for life. Meaning appears
+      when we act, connect, and respond. Purpose is built into the act of showing
+      up and participating.
+    title: Purpose Is in the Doing
+  - axiom_id: ax-A10-p2
+    score: 0.1808
+    statement: We don’t have to find some hidden meaning for life. Meaning appears
+      when we act, connect, and respond. Purpose is built into the act of showing
+      up and participating.
+    title: Purpose Is in the Doing
+  - axiom_id: ax-A15
+    score: 0.177
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+- a: 'In the short term, hiring based on personal preferences may feel easier or more
+    comfortable for a biased business owner. However, the long-term cost includes:
+    Lower team quality: A less-skilled workforce reduces overall performance. Missed
+    opportunities: Overlooking talented candidates limits innovation and growth. Damaged
+    reputation: Customers and employees may perceive the business as unfair, unprofessional,
+    or outdated. Ultimately, a failure to prioritize merit jeopardizes the business’s
+    success and longevity.'
+  coherence_score: 0.1575
+  contradiction: true
+  novelty_score: 0.8425
+  q: What is the long-term cost of hiring based on personal preferences rather than
+    merit?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A6-p2
+    score: 0.1575
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A6-p2
+    score: 0.1575
+    statement: What we pay attention to grows clearer, and what we ignore fades away.
+      Reality and perception shape each other like partners in a dance—each step creating
+      the next.
+    title: Seeing Shapes What We See
+  - axiom_id: ax-A7-p1
+    score: 0.1415
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1415
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A11-p2
+    score: 0.1408
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+- a: 'To align hiring practices with meritocracy, business owners can: Acknowledge
+    biases: Reflect on personal preferences that may unconsciously influence decisions.
+    Standardize evaluation: Use objective criteria, such as skill assessments or structured
+    interviews, to evaluate candidates fairly. Seek diverse perspectives: Include
+    other decision-makers in the hiring process to counterbalance potential biases.
+    Focus on the mission: Remember that the goal is to build the best team possible
+    for the business’s success.'
+  coherence_score: 0.2035
+  contradiction: true
+  novelty_score: 0.7965
+  q: How can business owners recognize and overcome their own biases?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A11-p2
+    score: 0.2035
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A11-p2
+    score: 0.2031
+    statement: 'It takes difference to make anything work: inhale/exhale, question/answer,
+      push/pull. Opposites aren’t enemies—they keep the process alive.'
+    title: Two Sides Make Function
+  - axiom_id: ax-A15
+    score: 0.1989
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A7-p2
+    score: 0.1948
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+  - axiom_id: ax-A7-p2
+    score: 0.1948
+    statement: Every time we notice what we’re doing or feeling, awareness expands.
+      Reflection builds on reflection—the mind learning to see itself more clearly,
+      like mirrors facing one another.
+    title: Awareness Grows by Noticing
+- a: Straying from meritocracy undermines trust and performance within a team. If
+    employees believe demographic traits are prioritized over ability, it can lead
+    to resentment, decreased morale, and doubts about leadership decisions. Additionally,
+    it risks compromising the quality of work, as less-qualified individuals may be
+    chosen over more capable candidates.
+  coherence_score: 0.1923
+  contradiction: true
+  novelty_score: 0.8077
+  q: What is the risk of straying from pure meritocracy?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A15
+    score: 0.1923
+    statement: Apparent contradictions arise when truths are viewed across different
+      recursive levels. Each scale—experiential, systemic, structural—has its own
+      coherence rules. What seems opposing between levels is harmony within the fractal
+      whole. Understanding requires locating the scale of observation before judging
+      consistency.
+    title: Scale-Dependent Coherence
+  - axiom_id: ax-A13-p2
+    score: 0.1811
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A13-p2
+    score: 0.181
+    statement: The way we treat each other shows how the world fits together. Every
+      exchange—kind or cruel—echoes through the same network that holds us all.
+    title: Relationships Mirror the Whole
+  - axiom_id: ax-A7-p1
+    score: 0.1714
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.1714
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+- a: Meritocracy ensures that every hire is made based on ability, qualifications,
+    and potential. By assembling a workforce of the best people for each role, businesses
+    maximize efficiency, innovation, and adaptability. A purely merit-based approach
+    avoids biases that could limit an organization’s potential, creating a team where
+    talent and performance drive success.
+  coherence_score: 0.212
+  contradiction: true
+  novelty_score: 0.788
+  q: How does meritocracy create the foundation for business success?
+  stance: potential_contradiction
+  top_axioms:
+  - axiom_id: ax-A7-p1
+    score: 0.212
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A7-p1
+    score: 0.212
+    statement: As distinctions accumulate and reflect upon themselves, awareness deepens—
+      regardless of substrate. (Paraphrase of A7)
+    title: Consciousness Scales With Recursion
+  - axiom_id: ax-A10-p2
+    score: 0.2082
+    statement: We don’t have to find some hidden meaning for life. Meaning appears
+      when we act, connect, and respond. Purpose is built into the act of showing
+      up and participating.
+    title: Purpose Is in the Doing
+  - axiom_id: ax-A10-p2
+    score: 0.2082
+    statement: We don’t have to find some hidden meaning for life. Meaning appears
+      when we act, connect, and respond. Purpose is built into the act of showing
+      up and participating.
+    title: Purpose Is in the Doing
+  - axiom_id: ax-A9-p2
+    score: 0.2076
+    statement: Life looks divided—people, moments, things—but everything depends on
+      everything else. Cooperation isn’t optional; it’s how reality keeps itself running.
+    title: Everything Works Together

@@ -1,0 +1,986 @@
+- a: Without opposites, all perspectives would merge into one undifferentiated experience,
+    and we’d lose the unique flavor of each moment. It would be like living in a world
+    with no color—without differences to mark boundaries, our individual identities
+    and distinct experiences would vanish, leaving us with a bland, uniform existence.
+  coherence_score: 0.4556
+  contradiction: false
+  novelty_score: 0.5444
+  q: How would our view change if everything were the same?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A2
+    score: 0.4556
+  - axiom_id: A1
+    score: 0.4507
+  - axiom_id: A10
+    score: 0.3926
+  - axiom_id: A3
+    score: 0.3876
+  - axiom_id: A8
+    score: 0.356
+- a: Our awareness begins as a simple, almost instinctive sense of being. Over time,
+    as we start noticing differences—like changes in our surroundings or shifts in
+    our feelings—this basic awareness becomes richer and more detailed, much like
+    adding layers to a painting. Even things that seem static, like a rock, interact
+    with their environment in subtle ways. Gradually, these small observations build
+    up into a more organized and nuanced form of awareness that helps us understand
+    the world around us.
+  coherence_score: 0.4956
+  contradiction: false
+  novelty_score: 0.5044
+  q: How does our perception evolve?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4956
+  - axiom_id: A6
+    score: 0.4752
+  - axiom_id: A10
+    score: 0.4363
+  - axiom_id: A7
+    score: 0.4359
+  - axiom_id: A4
+    score: 0.393
+- a: Being a part of the whole means that every little piece of our existence reflects
+    the larger picture. Think of a single drop of water in the ocean; even though
+    it’s a tiny part, it carries the essence of the entire ocean within it. This idea
+    shows that our individuality doesn’t stand apart from the rest of the world—instead,
+    we are all unique expressions of one vast, interconnected reality.
+  coherence_score: 0.5565
+  contradiction: false
+  novelty_score: 0.4435
+  q: What does it mean to be a “part of the whole” in everyday life?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A3
+    score: 0.5565
+  - axiom_id: A9
+    score: 0.5115
+  - axiom_id: A2
+    score: 0.424
+  - axiom_id: A8
+    score: 0.3778
+  - axiom_id: A10
+    score: 0.3738
+- a: No, without differences there would be nothing to notice. Just like you can’t
+    appreciate a melody if every note sounds the same, our experiences rely on contrasts—such
+    as the difference between sound and silence or brightness and shadow. These distinctions
+    give structure and depth to our lives. Without them, everything would blend together,
+    leaving us with a flat, unremarkable experience.
+  coherence_score: 0.4518
+  contradiction: false
+  novelty_score: 0.5482
+  q: Would life be meaningful without differences to set things apart?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A10
+    score: 0.4518
+  - axiom_id: A1
+    score: 0.415
+  - axiom_id: A2
+    score: 0.4148
+  - axiom_id: A3
+    score: 0.3066
+  - axiom_id: A7
+    score: 0.306
+- a: Saying “I am” doesn’t require a fully developed mind; it’s simply the most basic
+    form of acknowledging one’s own presence. At that very first moment, there isn’t
+    any deep thought, memory, or analysis—just an immediate awareness that something
+    is there. This small flicker of recognition naturally arises from the way existence
+    begins to reveal differences. As more distinctions accumulate over time, this
+    initial awareness gradually evolves into a richer, more organized form of consciousness
+    that gives shape and meaning to our experience.
+  coherence_score: 0.4897
+  contradiction: false
+  novelty_score: 0.5103
+  q: How can the simple act of “I am” exist before full consciousness develops?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A5
+    score: 0.4897
+  - axiom_id: A7
+    score: 0.489
+  - axiom_id: A1
+    score: 0.4243
+  - axiom_id: A2
+    score: 0.4233
+  - axiom_id: A10
+    score: 0.4133
+- a: Yes—in a sense, the spark of awareness lays the groundwork for everything else.
+    Think of it as the foundation of a building; before you see the walls and the
+    roof, there’s a sense of space and possibility. Our ability to perceive and distinguish
+    gives rise to the structure of the world around us.
+  coherence_score: 0.4735
+  contradiction: false
+  novelty_score: 0.5265
+  q: Does our awareness come before physical form?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4735
+  - axiom_id: A7
+    score: 0.4605
+  - axiom_id: A5
+    score: 0.4446
+  - axiom_id: A6
+    score: 0.4421
+  - axiom_id: A10
+    score: 0.4337
+- a: Opposites like light and dark, joy and sorrow, or self and other, are essential
+    because they create the contrast that helps us notice and appreciate differences.
+    Without these contrasts, our experiences would blend into a single, featureless
+    whole. Just as the rhythm of day and night defines the passage of time, these
+    opposing forces allow us to see and shape the world around us.
+  coherence_score: 0.5286
+  contradiction: false
+  novelty_score: 0.4714
+  q: How do opposites give our experience meaning?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A2
+    score: 0.5286
+  - axiom_id: A10
+    score: 0.3969
+  - axiom_id: A4
+    score: 0.3585
+  - axiom_id: A5
+    score: 0.3404
+  - axiom_id: A1
+    score: 0.34
+- a: No, life doesn’t come with a purpose handed down from outside. Instead, the meaning
+    of life emerges naturally from the way we live and interact. Every moment—every
+    decision, every experience—is like a brushstroke in an ever-evolving painting.
+    There isn’t a fixed destination; purpose grows from how we perceive, respond to,
+    and shape our world.
+  coherence_score: 0.4806
+  contradiction: false
+  novelty_score: 0.5194
+  q: Does life have an external, preset purpose?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A10
+    score: 0.4806
+  - axiom_id: A8
+    score: 0.3151
+  - axiom_id: A4
+    score: 0.3137
+  - axiom_id: A5
+    score: 0.3034
+  - axiom_id: A6
+    score: 0.271
+- a: Perception actively shapes what we experience as reality. The simple act of declaring
+    “I am” creates a boundary—defining what exists and, by contrast, what does not.
+    This process of noticing differences transforms a formless potential into a structured
+    reality filled with tangible forms and experiences. In short, perception doesn’t
+    merely observe the world; it plays a crucial role in forming the distinctions
+    that allow both existence and nonexistence to be understood.
+  coherence_score: 0.594
+  contradiction: false
+  novelty_score: 0.406
+  q: What is the role of perception in creating existence and nonexistence?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A6
+    score: 0.594
+  - axiom_id: A1
+    score: 0.5505
+  - axiom_id: A10
+    score: 0.5301
+  - axiom_id: A2
+    score: 0.5115
+  - axiom_id: A5
+    score: 0.5004
+- a: 'The essence of life is that everything we experience arises from one unified
+    source. Although the world seems full of different people, events, and objects,
+    these differences come from the way we perceive them rather than from any inherent
+    separateness. Think of it like an ocean: each wave may have its own shape and
+    energy, but every wave originates from the same vast, interconnected body of water.
+    In this way, the diversity of life is simply a range of expressions from a single,
+    underlying whole.'
+  coherence_score: 0.4927
+  contradiction: false
+  novelty_score: 0.5073
+  q: What is the essence of life?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A10
+    score: 0.4927
+  - axiom_id: A3
+    score: 0.4354
+  - axiom_id: A2
+    score: 0.422
+  - axiom_id: A9
+    score: 0.4218
+  - axiom_id: A7
+    score: 0.4183
+- a: Saying that "nothing truly exists" means that what we see as solid or permanent
+    is really a temporary outcome of how we perceive things. It’s like a dream that
+    feels real while you’re in it, but that dream is constantly shifting. Our experiences
+    and the forms we recognize are the result of our ongoing interactions with a dynamic,
+    ever-changing reality—where meaning is continuously created, rather than something
+    that is set in stone.
+  coherence_score: 0.5934
+  contradiction: false
+  novelty_score: 0.4066
+  q: What does it mean when we say "nothing truly exists" in a fixed way?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A8
+    score: 0.5934
+  - axiom_id: A6
+    score: 0.4294
+  - axiom_id: A4
+    score: 0.4149
+  - axiom_id: A2
+    score: 0.4144
+  - axiom_id: A5
+    score: 0.4098
+- a: The contrasts we experience—joy and sorrow, success and failure—aren’t signs
+    of a divided world; they’re the very tools that help us see and appreciate the
+    full picture of life. Much like contrasting colors in a painting enhance its beauty,
+    these opposites give depth and meaning to our experiences, allowing us to understand
+    that even though things appear different, they’re all part of one greater reality.
+  coherence_score: 0.5168
+  contradiction: false
+  novelty_score: 0.4832
+  q: How can the experience of opposites, like light and dark, be important for our
+    understanding of life?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A2
+    score: 0.5168
+  - axiom_id: A10
+    score: 0.397
+  - axiom_id: A3
+    score: 0.3564
+  - axiom_id: A1
+    score: 0.3232
+  - axiom_id: A6
+    score: 0.3188
+- a: 'When we say “nothing truly exists,” we’re suggesting that what we see as solid,
+    unchanging objects are really just patterns that come together and break apart
+    over time. Creation and destruction aren’t about things popping into or out of
+    existence in a fixed way—they’re part of an endless cycle of transformation. Imagine
+    a sculpture carved from marble: the sculpture appears distinct, but it’s still
+    part of the original block. Everything is continuously evolving, and nothing is
+    ever truly lost or created out of nothing.'
+  coherence_score: 0.5753
+  contradiction: false
+  novelty_score: 0.4247
+  q: What does it mean to say “nothing truly exists” when it comes to creation and
+    change?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A8
+    score: 0.5753
+  - axiom_id: A5
+    score: 0.4541
+  - axiom_id: A4
+    score: 0.4341
+  - axiom_id: A2
+    score: 0.3917
+  - axiom_id: A10
+    score: 0.3912
+- a: 'Think of opposites—like light and dark or self and other—as the natural way
+    our mind sorts out what we experience. They’re not ultimate, permanent truths
+    but rather temporary tools that help us make sense of the world. It’s a bit like
+    scaffolding for a building: the scaffolding isn’t the building itself, but it
+    lets the building take shape. By using these contrasts, we can appreciate life
+    more fully, even if, at a deeper level, everything is part of one interconnected
+    whole.'
+  coherence_score: 0.5672
+  contradiction: false
+  novelty_score: 0.4328
+  q: How does the idea of opposites add value even if they’re not the final truth?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A2
+    score: 0.5672
+  - axiom_id: A8
+    score: 0.4219
+  - axiom_id: A3
+    score: 0.4178
+  - axiom_id: A10
+    score: 0.4005
+  - axiom_id: A4
+    score: 0.3971
+- a: Fractals are important because they show us that simple, repeating rules can
+    give rise to incredibly complex and beautiful forms. They remind us that what
+    might seem chaotic at first can actually be deeply organized. Whether it’s the
+    branching of trees, the spiral of a galaxy, or the pattern of a coastline, fractals
+    reveal that there’s an underlying unity in all these diverse forms. This insight
+    helps us see that every part of nature, no matter how small, is connected to the
+    whole, offering a powerful reminder of life’s interconnected beauty.
+  coherence_score: 0.4993
+  contradiction: false
+  novelty_score: 0.5007
+  q: Why are fractals important?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A9
+    score: 0.4993
+  - axiom_id: A3
+    score: 0.373
+  - axiom_id: A10
+    score: 0.3236
+  - axiom_id: A4
+    score: 0.2665
+  - axiom_id: A5
+    score: 0.2634
+- a: Reality comes to life when it’s experienced. Without an observer—someone to see,
+    feel, or interpret it—everything would remain just a potential, unshaped possibility.
+    In other words, it’s our act of noticing and understanding that turns abstract
+    potential into the real world we live in.
+  coherence_score: 0.4659
+  contradiction: false
+  novelty_score: 0.5341
+  q: Can reality exist without someone to notice it?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A6
+    score: 0.4659
+  - axiom_id: A2
+    score: 0.4532
+  - axiom_id: A10
+    score: 0.4292
+  - axiom_id: A1
+    score: 0.4192
+  - axiom_id: A3
+    score: 0.3799
+- a: At first glance, certain ideas might appear to contradict one another because
+    we’re only looking at a small part of the whole picture. When we step back and
+    consider a broader perspective, these seeming conflicts often resolve themselves,
+    revealing that different viewpoints are simply different ways of looking at the
+    same underlying truth.
+  coherence_score: 0.4063
+  contradiction: false
+  novelty_score: 0.5937
+  q: Why do some ideas seem to conflict with each other?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A3
+    score: 0.4063
+  - axiom_id: A2
+    score: 0.3933
+  - axiom_id: A9
+    score: 0.3809
+  - axiom_id: A4
+    score: 0.3374
+  - axiom_id: A1
+    score: 0.3212
+- a: No, contrast exists only when there are differences to compare. Imagine listening
+    to a single, unchanging note—it wouldn’t form a melody. Similarly, without having
+    two distinct states or ideas, there’s nothing to set one apart from the other.
+    It’s the interplay of differences that allows us to recognize and value contrast.
+  coherence_score: 0.5205
+  contradiction: false
+  novelty_score: 0.4795
+  q: Can there be contrast without having opposites?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A2
+    score: 0.5205
+  - axiom_id: A1
+    score: 0.4085
+  - axiom_id: A4
+    score: 0.3921
+  - axiom_id: A10
+    score: 0.3757
+  - axiom_id: A7
+    score: 0.3365
+- a: When we see things as defined by their relationships rather than as isolated
+    objects, we recognize that nothing truly stands alone. Imagine each part of life
+    as a musical note in a symphony—each note contributes to the overall harmony.
+    This perspective tells us that every element, from the smallest detail to the
+    grandest structure, influences and is influenced by everything else, creating
+    a continuous, interconnected whole.
+  coherence_score: 0.5854
+  contradiction: false
+  novelty_score: 0.4146
+  q: How does viewing everything as a web of relationships show that all things are
+    interconnected?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A8
+    score: 0.5854
+  - axiom_id: A3
+    score: 0.4823
+  - axiom_id: A9
+    score: 0.4652
+  - axiom_id: A2
+    score: 0.3787
+  - axiom_id: A6
+    score: 0.3786
+- a: 'Think of rules as the guidelines that help nature and our daily lives organize
+    themselves. They’re like a recipe: not fixed instructions, but flexible steps
+    that guide how things unfold. Whether it’s the way plants grow or how our communities
+    function, these underlying patterns help create order from chaos and allow complex
+    structures to emerge over time.'
+  coherence_score: 0.4639
+  contradiction: false
+  novelty_score: 0.5361
+  q: How do rules shape the patterns in life?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A9
+    score: 0.4639
+  - axiom_id: A10
+    score: 0.4021
+  - axiom_id: A4
+    score: 0.3242
+  - axiom_id: A5
+    score: 0.3093
+  - axiom_id: A3
+    score: 0.3048
+- a: Not at all. The ability to notice differences doesn’t require the full, reflective
+    consciousness that humans have. Even simple systems—like plants responding to
+    sunlight or basic organisms reacting to their environment—can detect changes.
+    In this view, perception is a fundamental process that shapes our reality at all
+    levels, whether it’s in a human mind or in the most basic living system.
+  coherence_score: 0.5562
+  contradiction: false
+  novelty_score: 0.4438
+  q: Must perceivers be conscious in the human sense for perception to shape reality?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A6
+    score: 0.5562
+  - axiom_id: A1
+    score: 0.5276
+  - axiom_id: A10
+    score: 0.4801
+  - axiom_id: A7
+    score: 0.4732
+  - axiom_id: A3
+    score: 0.4478
+- a: When we ask about the forces behind an object or event, we dig into the processes
+    that create change. This approach moves us beyond simple labels and encourages
+    us to understand the deeper connections and interactions at work. By focusing
+    on the “rules” behind things, we can better grasp how life continuously evolves
+    and how everything fits together in a larger, ever-changing picture.
+  coherence_score: 0.3995
+  contradiction: false
+  novelty_score: 0.6005
+  q: Why should we ask, "What rules are shaping this interaction?" instead of simply
+    asking, "What is this thing?"
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A9
+    score: 0.3995
+  - axiom_id: A10
+    score: 0.3496
+  - axiom_id: A8
+    score: 0.3387
+  - axiom_id: A4
+    score: 0.3347
+  - axiom_id: A6
+    score: 0.3158
+- a: 'Before anything appears distinct, existence is like an unformed canvas—a limitless,
+    unified expanse filled with raw potential. In this original state, there are no
+    separate parts; there’s no “here” or “there,” no individual “I” or “other.” Yet
+    even in this undivided wholeness, a subtle tension exists—a push and pull between
+    being and nothingness—that gently nudges our awareness to start noticing differences.
+    Think of it like a vast block of uncarved marble: at first, it’s one continuous
+    mass brimming with possibilities. Then, as a sculptor begins to chip away, individual
+    forms and details slowly emerge from the same original material.'
+  coherence_score: 0.5221
+  contradiction: false
+  novelty_score: 0.4779
+  q: What is the starting point of existence?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A5
+    score: 0.5221
+  - axiom_id: A1
+    score: 0.4923
+  - axiom_id: A10
+    score: 0.484
+  - axiom_id: A2
+    score: 0.4391
+  - axiom_id: A7
+    score: 0.4379
+- a: At the very beginning, perception is very simple—a faint spark of awareness that
+    something exists. There isn’t any detailed sensory input or deep thinking; it’s
+    just a basic, almost instinctive sense of “I am.” As time goes on and more differences
+    start to appear (like noticing a difference between here and there), that simple
+    awareness begins to pick up patterns. Gradually, these small distinctions build
+    into a clearer and more organized experience, eventually evolving into what we
+    recognize as full consciousness.
+  coherence_score: 0.5204
+  contradiction: false
+  novelty_score: 0.4796
+  q: If the “I” doesn’t have consciousness at first, how does it “perceive” anything?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A1
+    score: 0.5204
+  - axiom_id: A7
+    score: 0.5032
+  - axiom_id: A6
+    score: 0.4224
+  - axiom_id: A10
+    score: 0.4215
+  - axiom_id: A5
+    score: 0.3852
+- a: Even without full consciousness, the act of noticing that something is present
+    creates a natural rhythm. That initial “I am” moment creates a contrast—what is
+    there versus what isn’t—which sparks a gentle back-and-forth, much like the first
+    beat in a song that sets a rhythm for everything else. This rhythmic movement,
+    or oscillation, starts simply from recognizing a difference and continues to shape
+    how changes and contrasts emerge over time.
+  coherence_score: 0.5479
+  contradiction: false
+  novelty_score: 0.4521
+  q: If consciousness isn’t there initially, how does perception set oscillation into
+    motion?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A5
+    score: 0.5479
+  - axiom_id: A7
+    score: 0.5247
+  - axiom_id: A1
+    score: 0.5011
+  - axiom_id: A6
+    score: 0.4874
+  - axiom_id: A10
+    score: 0.4722
+- a: Even though we notice distinct objects, people, and moments, each one reflects
+    the larger picture—much like the individual tiles in a mosaic that together form
+    a beautiful image. This means that while things may seem separate on the surface,
+    each piece carries a bit of the whole within it. In this way, our experience of
+    individuality and uniqueness doesn’t contradict the idea that everything is connected—it
+    actually highlights how every part contributes to one vast, unified reality.
+  coherence_score: 0.5474
+  contradiction: false
+  novelty_score: 0.4526
+  q: How can we see both unity and individuality at the same time?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A3
+    score: 0.5474
+  - axiom_id: A9
+    score: 0.5279
+  - axiom_id: A2
+    score: 0.4801
+  - axiom_id: A10
+    score: 0.4381
+  - axiom_id: A1
+    score: 0.423
+- a: Rather than having a purpose handed down from outside, meaning emerges naturally
+    from living and interacting with the world. Life isn’t about reaching a final
+    destination; it’s more like a tree that continually grows and branches out. Every
+    experience adds a new layer to our journey, showing that our purpose is self-generated
+    and ever-evolving.
+  coherence_score: 0.4562
+  contradiction: false
+  novelty_score: 0.5438
+  q: What is the ultimate purpose or goal of life?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A10
+    score: 0.4562
+  - axiom_id: A5
+    score: 0.3423
+  - axiom_id: A8
+    score: 0.3102
+  - axiom_id: A3
+    score: 0.3093
+  - axiom_id: A4
+    score: 0.3089
+- a: Oscillation can be thought of as the natural push and pull that keeps everything
+    in motion. It’s like the steady rhythm of the tides or the cycle of day turning
+    into night. This constant back-and-forth isn’t a fixed state but a dynamic process
+    where contrasting forces—such as being and non-being—interact continuously. It’s
+    this rhythm that makes the world dynamic, ensuring that things are always in a
+    state of gentle change.
+  coherence_score: 0.5282
+  contradiction: false
+  novelty_score: 0.4718
+  q: What is oscillation in Fractal Monism?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A5
+    score: 0.5282
+  - axiom_id: A9
+    score: 0.4157
+  - axiom_id: A8
+    score: 0.3462
+  - axiom_id: A4
+    score: 0.3383
+  - axiom_id: A2
+    score: 0.3288
+- a: Instead of seeing objects as fixed and isolated, this view suggests that what
+    we call “things” are actually temporary groupings of ongoing processes. For example,
+    a tree isn’t just a static object; it’s a living system that continuously interacts
+    with its environment—changing with the weather, growing, and even decaying. This
+    means that what appears solid and permanent is really part of an ever-changing,
+    connected process.
+  coherence_score: 0.5743
+  contradiction: false
+  novelty_score: 0.4257
+  q: How does this perspective challenge the idea that things are completely separate?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A8
+    score: 0.5743
+  - axiom_id: A9
+    score: 0.4567
+  - axiom_id: A3
+    score: 0.4512
+  - axiom_id: A6
+    score: 0.4396
+  - axiom_id: A2
+    score: 0.4357
+- a: 'We tend to view reality as a network because nothing exists in isolation. It’s
+    similar to how a city’s traffic flows: cars, pedestrians, signals, and roads all
+    interact to create a dynamic system. In life, everything is connected through
+    a series of interactions and influences, so what we see as individual objects
+    or events are really parts of a larger, interwoven tapestry.'
+  coherence_score: 0.5016
+  contradiction: false
+  novelty_score: 0.4984
+  q: Why do we see the world as a web of interconnected patterns?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A8
+    score: 0.5016
+  - axiom_id: A3
+    score: 0.4537
+  - axiom_id: A9
+    score: 0.4434
+  - axiom_id: A6
+    score: 0.4103
+  - axiom_id: A10
+    score: 0.4076
+- a: 'Fractals come into being through the ongoing dance between opposing forces.
+    Every time there’s a little shift—like the alternating beat of a drum—a new piece
+    of the repeating pattern is revealed. Think of it as ripples in a pond: each ripple
+    forms because of a disturbance and then interacts with others, creating a rich
+    tapestry of interconnected patterns. These patterns keep emerging and evolving,
+    showing how even small changes can build up the intricate complexity we see around
+    us.'
+  coherence_score: 0.5152
+  contradiction: false
+  novelty_score: 0.4848
+  q: How do fractals emerge from and participate in oscillation?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A9
+    score: 0.5152
+  - axiom_id: A5
+    score: 0.5054
+  - axiom_id: A3
+    score: 0.3828
+  - axiom_id: A4
+    score: 0.3616
+  - axiom_id: A6
+    score: 0.3418
+- a: Imagine breaking a picture into tiny pieces—each shard still shows a bit of the
+    entire scene. This idea means that every little aspect of life carries within
+    it a glimpse of the bigger picture. No matter how small or seemingly isolated,
+    each part reveals something of the overall reality.
+  coherence_score: 0.6483
+  contradiction: false
+  novelty_score: 0.3517
+  q: What does it mean that even the smallest part reflects the whole?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A3
+    score: 0.6483
+  - axiom_id: A9
+    score: 0.5651
+  - axiom_id: A2
+    score: 0.3834
+  - axiom_id: A8
+    score: 0.3451
+  - axiom_id: A1
+    score: 0.3405
+- a: Time isn’t a tangible object—it’s more like a tool we use to organize our experiences.
+    Rather than being an independent force, time emerges from the way we notice and
+    measure changes. It’s the method our minds use to give order to the continuous
+    flow of life, rather than a fixed, separate entity.
+  coherence_score: 0.456
+  contradiction: false
+  novelty_score: 0.544
+  q: Is time something that exists on its own, or is it just a way of understanding
+    change?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A4
+    score: 0.456
+  - axiom_id: A8
+    score: 0.406
+  - axiom_id: A7
+    score: 0.3836
+  - axiom_id: A2
+    score: 0.376
+  - axiom_id: A10
+    score: 0.3555
+- a: Focusing on the underlying processes and rules gives us a deeper insight into
+    how everything is constantly changing and interacting. Instead of merely cataloging
+    objects, we start to see the bigger picture—the dynamic forces that drive growth,
+    change, and adaptation. It’s like appreciating not just individual trees in a
+    forest, but also understanding how the entire ecosystem works together.
+  coherence_score: 0.4289
+  contradiction: false
+  novelty_score: 0.5711
+  q: Why is it important to look at life as a process governed by rules rather than
+    as a collection of fixed things?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A9
+    score: 0.4289
+  - axiom_id: A8
+    score: 0.3898
+  - axiom_id: A10
+    score: 0.3801
+  - axiom_id: A3
+    score: 0.3617
+  - axiom_id: A4
+    score: 0.3435
+- a: The journey from oneness to diversity starts the moment we simply acknowledge
+    our own presence. This basic “I am” isn’t a complex thought—it’s just a simple
+    recognition that something exists. When we become aware of ourselves, it naturally
+    creates a contrast, implying that there’s something different or even absent.
+    This act of noticing a difference sets off a chain reaction, where new layers
+    of diversity gradually emerge. It isn’t a single event, but rather an ongoing
+    process in which life continually refines itself by drawing new boundaries and
+    making fresh distinctions.
+  coherence_score: 0.5364
+  contradiction: false
+  novelty_score: 0.4636
+  q: How does the seamless oneness begin to show differences?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A1
+    score: 0.5364
+  - axiom_id: A10
+    score: 0.522
+  - axiom_id: A5
+    score: 0.4899
+  - axiom_id: A2
+    score: 0.4847
+  - axiom_id: A7
+    score: 0.4564
+- a: A fractal, in everyday terms, is a repeating pattern that shows up over and over
+    at different scales. Imagine how a tiny part of a fern leaf resembles the whole
+    plant, or how the shape of a snowflake mirrors the pattern of a larger snowflake.
+    In this view, every little piece of existence reflects the entire structure, suggesting
+    that the diversity we see is simply many different expressions of one underlying
+    design.
+  coherence_score: 0.5655
+  contradiction: false
+  novelty_score: 0.4345
+  q: What is a fractal in Fractal Monism?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A9
+    score: 0.5655
+  - axiom_id: A3
+    score: 0.4697
+  - axiom_id: A10
+    score: 0.3204
+  - axiom_id: A5
+    score: 0.3151
+  - axiom_id: A1
+    score: 0.3147
+- a: This initial state is called timeless and infinite because, without any differences
+    to mark change, there’s no way to tell time or place. In this unbroken expanse,
+    everything exists as pure, boundless potential—there is no past or future, only
+    an eternal present. It’s only when we begin to notice contrasts—when we see the
+    difference between what is and what isn’t—that a rhythm of change emerges. In
+    other words, what we experience as time comes into being through the very process
+    of noticing and creating differences, rather than being a fixed, independent element
+    of reality.
+  coherence_score: 0.4668
+  contradiction: false
+  novelty_score: 0.5332
+  q: Why is this starting state described as timeless and infinite?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A4
+    score: 0.4668
+  - axiom_id: A1
+    score: 0.4481
+  - axiom_id: A5
+    score: 0.4347
+  - axiom_id: A2
+    score: 0.4271
+  - axiom_id: A8
+    score: 0.4083
+- a: Yes, in this perspective, the idea is that the capacity to notice differences
+    lays the groundwork for everything we see. Before objects take on a defined shape
+    or form, there’s a raw potential that becomes organized through simple awareness.
+    In other words, the world as we experience it gets its structure because something—whether
+    a living organism or a basic natural process—starts to pick out and organize the
+    inherent potential into what we call matter.
+  coherence_score: 0.4983
+  contradiction: false
+  novelty_score: 0.5017
+  q: Does awareness come before physical form, and if so, why?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4983
+  - axiom_id: A10
+    score: 0.4685
+  - axiom_id: A7
+    score: 0.459
+  - axiom_id: A6
+    score: 0.4312
+  - axiom_id: A5
+    score: 0.4226
+- a: A perceiver is any part of existence that can notice differences, no matter how
+    basic. It doesn’t have to be a human mind; even a simple system that registers
+    a change counts as a perceiver. Think of every perceiver as a small window into
+    the bigger picture, contributing its unique view to the overall experience of
+    reality. Instead of being isolated, each perceiver is an integral part of the
+    ongoing process through which the entire universe expresses itself.
+  coherence_score: 0.4964
+  contradiction: false
+  novelty_score: 0.5036
+  q: What is a perceiver?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4964
+  - axiom_id: A6
+    score: 0.489
+  - axiom_id: A10
+    score: 0.4575
+  - axiom_id: A3
+    score: 0.429
+  - axiom_id: A2
+    score: 0.3826
+- a: If everything is part of one interconnected whole, then our minds aren’t isolated
+    islands but pieces of a larger, shared awareness. This means our thoughts, memories,
+    and even our gut feelings might be echoes of a deeper collective process. We’re
+    all part of the same tapestry, with each individual insight contributing to the
+    overall picture.
+  coherence_score: 0.4995
+  contradiction: false
+  novelty_score: 0.5005
+  q: What are the implications of oneness for our minds?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A3
+    score: 0.4995
+  - axiom_id: A9
+    score: 0.4771
+  - axiom_id: A7
+    score: 0.4439
+  - axiom_id: A2
+    score: 0.4342
+  - axiom_id: A1
+    score: 0.4057
+- a: 'Imagine looking at a tree: even the tiniest branch follows the same basic pattern
+    as the whole tree. What seems like overwhelming variety is really just the same
+    simple design repeated over and over. Whether you look at the branching of a river
+    delta or the network of veins in your body, each small part mirrors the larger
+    whole. This tells us that unity and diversity aren’t opposites—instead, every
+    little detail is connected to a single, underlying blueprint that shapes all of
+    nature’s complexity.'
+  coherence_score: 0.5198
+  contradiction: false
+  novelty_score: 0.4802
+  q: How do patterns in nature show that complexity comes from simple, repeated ideas?
+  source_collection: test_newformat_01
+  stance: related
+  top_axioms:
+  - axiom_id: A9
+    score: 0.5198
+  - axiom_id: A3
+    score: 0.4733
+  - axiom_id: A10
+    score: 0.4452
+  - axiom_id: A1
+    score: 0.3315
+  - axiom_id: A2
+    score: 0.3062
+- a: 'Differentiation is the process of recognizing and establishing differences in
+    what might otherwise be a uniform whole. It’s how a formless field of potential
+    turns into the diverse, structured reality we live in. Think of it like this:
+    by noticing contrasts—such as light versus dark or soft versus hard—we begin to
+    see individual objects and experiences. This ongoing process is what gives rise
+    to the rich variety of life and forms in our everyday world.'
+  coherence_score: 0.4639
+  contradiction: false
+  novelty_score: 0.5361
+  q: What is differentiation?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A1
+    score: 0.4639
+  - axiom_id: A10
+    score: 0.4574
+  - axiom_id: A3
+    score: 0.3874
+  - axiom_id: A5
+    score: 0.3345
+  - axiom_id: A2
+    score: 0.327
+- a: Seeing everything as one helps us understand that even though we experience many
+    different parts of life, they all come from the same source. It’s like realizing
+    that every individual drop of water is part of the same ocean. This perspective
+    shows us that our differences are just varied expressions of a single, interconnected
+    reality, and it encourages us to look beyond the surface and appreciate the deep
+    unity that ties everything together.
+  coherence_score: 0.4998
+  contradiction: false
+  novelty_score: 0.5002
+  q: How does the idea that everything is one change how we see existence?
+  source_collection: test_newformat_01
+  stance: uncertain
+  top_axioms:
+  - axiom_id: A3
+    score: 0.4998
+  - axiom_id: A9
+    score: 0.4611
+  - axiom_id: A10
+    score: 0.4412
+  - axiom_id: A2
+    score: 0.4325
+  - axiom_id: A8
+    score: 0.4123
